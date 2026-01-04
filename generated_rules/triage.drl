@@ -1,0 +1,6094 @@
+package generated_rules;
+
+import com.triage.model.Patient;
+import com.triage.model.Symptom;
+import com.triage.model.TriageResult;
+
+rule "Rule_1_abdominal Pain / isolated abdominal trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Airway compromise" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_2_abdominal Pain / isolated abdominal trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Respiratory failure / respiratory arrest" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_3_abdominal Pain / isolated abdominal trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Exsanguinating haemorrhage" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_4_abdominal Pain / isolated abdominal trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_5_abdominal Pain / isolated abdominal trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal  age-related  vital signs (Refer A 1.1)" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_6_abdominal Pain / isolated abdominal trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Penetrating / blunt abdominal / chest trauma with signs of shock" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_7_abdominal Pain / isolated abdominal trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_8_abdominal Pain / isolated abdominal trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Glasgow Coma Scale Score (GCS) 13-14" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_9_abdominal Pain / isolated abdominal trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Temperature ≥ 40.0°C or ≤ 35.5°C" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_10_abdominal Pain / isolated abdominal trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Severe pain (7 - 10/10)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_11_abdominal Pain / isolated abdominal trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "≥10% dehydration: Severe dehydration (Refer A1.2)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_12_abdominal Pain / isolated abdominal trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Acute haematemesis / melaena / red currant stools" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_13_abdominal Pain / isolated abdominal trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Signs of compensated shock" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_14_abdominal Pain / isolated abdominal trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Significant history / mechanism of injury (Refer A1.3)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_15_abdominal Pain / isolated abdominal trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Severe blood loss" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_16_abdominal Pain / isolated abdominal trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Penetrating / blunt abdominal / chest trauma" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_17_abdominal Pain / isolated abdominal trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Frank haematuria" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_18_abdominal Pain / isolated abdominal trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_19_abdominal Pain / isolated abdominal trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Moderate pain (4-6/10)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_20_abdominal Pain / isolated abdominal trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Moderate dehydration (Refer A1.2)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_21_abdominal Pain / isolated abdominal trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Inconsolable by parents" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_22_abdominal Pain / isolated abdominal trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History inconsistent with injury" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_23_abdominal Pain / isolated abdominal trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Persistent vomiting / persistent diarrhoea" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_24_abdominal Pain / isolated abdominal trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Retention of urine" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_25_abdominal Pain / isolated abdominal trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Jaundice" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_26_abdominal Pain / isolated abdominal trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Drawing up legs" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_27_abdominal Pain / isolated abdominal trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "‘Small’ blood on urinalysis" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_28_abdominal Pain / isolated abdominal trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Suspicion of pregnancy" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_29_abdominal Pain / isolated abdominal trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Mild pain (1-3/10)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_30_abdominal Pain / isolated abdominal trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Diarrhoea ± vomiting with no signs of dehydration" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_31_abdominal Pain / isolated abdominal trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Previous renal problem" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_32_abdominal Pain / isolated abdominal trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Recent problem (< 48 hours)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_33_abdominal Pain / isolated abdominal trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Problem > 48 hours with no acute symptoms" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_34_abdominal Pain / isolated abdominal trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of constipation – no pain" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_35_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Airway compromise" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_36_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Respiratory failure / respiratory arrest" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_37_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "SaO2 ≤ 90% in room air" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_38_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Marked stridor with severe respiratory distress (Refer A1.4)" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_39_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_40_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_41_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Silent Chest" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_42_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Drooling" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_43_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "‘Tripod’ positioning" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_44_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Uncontrollable haemoptysis" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_45_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_46_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Glasgow Coma Scale Score (GCS) 13-14" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_47_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "SaO2 < 92% in room air" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_48_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "PEFR < 40% of normal value" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_49_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Severe pain (7-10/10)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_50_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Severe respiratory distress (Refer A1.4)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_51_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Signs of compensated shock" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_52_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of floppiness with pallor / cyanosis" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_53_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of apnoea lasting ≥ 20 seconds" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_54_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of smoke inhalation" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_55_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Coughing fresh blood" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_56_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of submersion" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_57_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_58_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Moderate pain (4-6/10)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_59_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "SaO2 92%-94% in room air" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_60_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "PEFR 40-70% of normal value" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_61_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Significant respiratory history (e.g. ICU admission)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_62_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Moderate respiratory distress (Refer A1.4)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_63_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of inhalation / ingestion of foreign body" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_64_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of haemoptysis" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_65_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Inhalation of sharp foreign body" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_66_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Mild respiratory distress (Refer A1.4)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_67_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Mild pain (1-3/10)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_68_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "SaO2 > 94% in room air" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_69_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "PEFR >70% of normal value" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_70_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Recent problem (< 48 hours)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_71_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Cough present with minimal or no distress" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_72_airway / Breathing difficulty"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "No respiratory distress" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_73_altered Blood glucose (including patients with diabetes mellitus)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Airway compromise" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_74_altered Blood glucose (including patients with diabetes mellitus)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Respiratory failure / respiratory arrest" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_75_altered Blood glucose (including patients with diabetes mellitus)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Kussmaul breathing (deep sighing respirations)" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_76_altered Blood glucose (including patients with diabetes mellitus)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Currently seizing" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_77_altered Blood glucose (including patients with diabetes mellitus)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_78_altered Blood glucose (including patients with diabetes mellitus)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Signs of cerebral oedema: headache, lethargy, irritability, confusion" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_79_altered Blood glucose (including patients with diabetes mellitus)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "↓pulse, ↑BP" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_80_altered Blood glucose (including patients with diabetes mellitus)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_81_altered Blood glucose (including patients with diabetes mellitus)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_82_altered Blood glucose (including patients with diabetes mellitus)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Glasgow Coma Scale Score (GCS) 13-14" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_83_altered Blood glucose (including patients with diabetes mellitus)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Hypoglycaemia (blood sugar ≤ 2.7mmol/L)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_84_altered Blood glucose (including patients with diabetes mellitus)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Blood glucose > 11 mmol/L with blood ketones  >1mmol/L" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_85_altered Blood glucose (including patients with diabetes mellitus)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Signs of compensated shock" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_86_altered Blood glucose (including patients with diabetes mellitus)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "≥ 10% dehydration. Severe dehydration (Refer A1.2)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_87_altered Blood glucose (including patients with diabetes mellitus)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Lethargy / listless / irritability / floppy" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_88_altered Blood glucose (including patients with diabetes mellitus)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of both seizure and diabetes mellitus" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_89_altered Blood glucose (including patients with diabetes mellitus)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_90_altered Blood glucose (including patients with diabetes mellitus)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Blood sugar 2.8 – 3.4 mmol/L in an asymptomatic child" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_91_altered Blood glucose (including patients with diabetes mellitus)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Hyperglycaemia with blood ketones < 1 mmol/L" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_92_altered Blood glucose (including patients with diabetes mellitus)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Vomiting / diarrhoea in patient with a history of diabetes" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_93_altered Blood glucose (including patients with diabetes mellitus)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Diabetic patient required to be fasting" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_94_altered Blood glucose (including patients with diabetes mellitus)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of diabetes presenting with other (non-acute) problem" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_95_altered Blood glucose (including patients with diabetes mellitus)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Illness with normal blood sugar level" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_96_altered Blood glucose (including patients with diabetes mellitus)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "These patients should never be triaged less than Category 4" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_97_Back Pain / isolated Neck and / or Back injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Airway compromise" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_98_Back Pain / isolated Neck and / or Back injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Respiratory failure / respiratory arrest" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_99_Back Pain / isolated Neck and / or Back injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Hypotension" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_100_Back Pain / isolated Neck and / or Back injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_101_Back Pain / isolated Neck and / or Back injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_102_Back Pain / isolated Neck and / or Back injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_103_Back Pain / isolated Neck and / or Back injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Glasgow Coma Scale Score (GCS)  13-14" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_104_Back Pain / isolated Neck and / or Back injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Severe pain (7-10/10)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_105_Back Pain / isolated Neck and / or Back injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Patient on spinal precautions" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_106_Back Pain / isolated Neck and / or Back injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Significant history / mechanism of injury (Refer A1.3)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_107_Back Pain / isolated Neck and / or Back injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Signs of compensated shock" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_108_Back Pain / isolated Neck and / or Back injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Back pain with altered peripheral neurological status" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_109_Back Pain / isolated Neck and / or Back injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_110_Back Pain / isolated Neck and / or Back injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Moderate pain (4-6/10)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_111_Back Pain / isolated Neck and / or Back injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History inconsistent with injury" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_112_Back Pain / isolated Neck and / or Back injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Back trauma < 24 hours" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_113_Back Pain / isolated Neck and / or Back injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Difficulty walking" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_114_Back Pain / isolated Neck and / or Back injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of bleeding disorder" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_115_Back Pain / isolated Neck and / or Back injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Mild pain (1-3/10)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_116_Back Pain / isolated Neck and / or Back injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "No focal neurological signs" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_117_Back Pain / isolated Neck and / or Back injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "No limb deficits" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_118_Back Pain / isolated Neck and / or Back injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Recent problem (< 48 hours)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_119_Back Pain / isolated Neck and / or Back injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Problem > 48 hours with no acute symptoms" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_120_Back Pain / isolated Neck and / or Back injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "No pain / discomfort at present" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_121_Burns / scalds"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Airway compromise" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_122_Burns / scalds"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Respiratory failure / respiratory arrest" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_123_Burns / scalds"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "SaO2 ≤ 90% in room air" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_124_Burns / scalds"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_125_Burns / scalds"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_126_Burns / scalds"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_127_Burns / scalds"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Glasgow Coma Scale Score (GCS) 13-14" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_128_Burns / scalds"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "SaO2 < 94% in room air" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_129_Burns / scalds"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Temperature ≥ 40.0°C or ≤ 35.5°C" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_130_Burns / scalds"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Severe pain (7-10/10)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_131_Burns / scalds"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Flame burn with face/neck involvement / facial oedema" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_132_Burns / scalds"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Signs of compensated shock" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_133_Burns / scalds"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Significant history / mechanism of injury (Refer A1.3)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_134_Burns / scalds"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Other injuries" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_135_Burns / scalds"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Burn ≥ 10% body surface area (BSA) or involving face, neck or perineum" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_136_Burns / scalds"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Circumferential hand, foot or chest involvement" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_137_Burns / scalds"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Chemical or electrical burn" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_138_Burns / scalds"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of smoke inhalation/ smoke, dirt around nostrils/mouth" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_139_Burns / scalds"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_140_Burns / scalds"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Moderate pain (4-6/10)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_141_Burns / scalds"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History inconsistent with injury" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_142_Burns / scalds"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Delayed presentation" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_143_Burns / scalds"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Burn, partial thickness < 10% BSA" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_144_Burns / scalds"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Burn, full thickness < 5% BSA" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_145_Burns / scalds"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Localised cold injury" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_146_Burns / scalds"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Mild pain (1-3/10)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_147_Burns / scalds"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Local tenderness" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_148_Burns / scalds"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Redness / inflammation" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_149_Burns / scalds"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Local infection" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_150_Burns / scalds"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Minor burn" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_151_Burns / scalds"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Planned Review (not fasting)" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_152_chest Pain / isolated chest injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Airway compromise" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_153_chest Pain / isolated chest injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Respiratory failure / respiratory arrest" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_154_chest Pain / isolated chest injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Severe trauma with respiratory distress" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_155_chest Pain / isolated chest injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Exsanguinating haemorrhage" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_156_chest Pain / isolated chest injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "SaO2 ≤ 90% in room air" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_157_chest Pain / isolated chest injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Cardiac arrhythmias" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_158_chest Pain / isolated chest injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_159_chest Pain / isolated chest injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_160_chest Pain / isolated chest injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Penetrating / blunt chest / abdominal trauma with signs of shock" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_161_chest Pain / isolated chest injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_162_chest Pain / isolated chest injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Glasgow Coma Scale Score (GCS) 13-14" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_163_chest Pain / isolated chest injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "SaO2 < 92% in room air" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_164_chest Pain / isolated chest injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Temperature ≥ 40.0°C or ≤ 35.5°C" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_165_chest Pain / isolated chest injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Severe pain (7-10/10)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_166_chest Pain / isolated chest injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Signs of compensated shock" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_167_chest Pain / isolated chest injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Significant history/mechanism of injury (Refer A1.3)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_168_chest Pain / isolated chest injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Significant bruising to chest or abdomen" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_169_chest Pain / isolated chest injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Any penetrating / blunt chest / abdominal trauma" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_170_chest Pain / isolated chest injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_171_chest Pain / isolated chest injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Moderate pain (4-6/10)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_172_chest Pain / isolated chest injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History inconsistent with injury" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_173_chest Pain / isolated chest injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Pleuritic pain" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_174_chest Pain / isolated chest injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Minor haemorrhage" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_175_chest Pain / isolated chest injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of haemoptysis" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_176_chest Pain / isolated chest injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Minor chest injury with no respiratory distress" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_177_chest Pain / isolated chest injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Significant medical or surgical history" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_178_chest Pain / isolated chest injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Mild pain (1-3/10)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_179_chest Pain / isolated chest injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Local inflammation" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_180_chest Pain / isolated chest injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Recent problem (< 48 hours)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_181_chest Pain / isolated chest injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Local infection" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_182_chest Pain / isolated chest injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Problem > 48 hours with no acute symptoms" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_183_chest Pain / isolated chest injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "No pain / discomfort at present" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_184_dental Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Airway compromise" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_185_dental Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Respiratory failure / respiratory arrest" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_186_dental Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Uncontrollable major haemorrhage" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_187_dental Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Marked stridor with severe respiratory distress" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_188_dental Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Cyanosis" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_189_dental Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_190_dental Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_191_dental Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_192_dental Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Glasgow Coma Scale Score (GCS) 13-14" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_193_dental Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Temperature ≥ 40.0°C or ≤ 35.5°C" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_194_dental Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Severe pain (7-10/10)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_195_dental Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Central capillary refill time (CRT) > 2 seconds" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_196_dental Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Difficulty swallowing" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_197_dental Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Significant history / mechanism of injury (A1.3)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_198_dental Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Actively bleeding with history of bleeding disorder / ITP" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_199_dental Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Signs of compensated shock" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_200_dental Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Acutely avulsed permanent tooth" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_201_dental Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_202_dental Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Moderate pain (4-6/10)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_203_dental Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History inconsistent with injury" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_204_dental Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Uncontrollable minor haemorrhage" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_205_dental Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of bleeding disorder - not actively bleeding at present" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_206_dental Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Significant facial redness and swelling" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_207_dental Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Mild pain (1-3/10)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_208_dental Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Facial swelling" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_209_dental Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Recent problem (< 48 hours)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_210_dental Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Oral laceration with no dental involvement" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_211_dental Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Problem > 48 hours with no acute symptoms" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_212_dental Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Loss of deciduous teeth" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_213_dental Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "No pain / discomfort at present" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_214_Ear / Nose Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Airway compromise" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_215_Ear / Nose Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Respiratory failure / respiratory arrest" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_216_Ear / Nose Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Uncontrollable major haemorrhage" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_217_Ear / Nose Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Marked stridor with severe respiratory distress" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_218_Ear / Nose Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Cyanosis" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_219_Ear / Nose Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_220_Ear / Nose Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_221_Ear / Nose Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_222_Ear / Nose Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Glasgow Coma Scale Score (GCS) 13-14" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_223_Ear / Nose Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Temperature ≥ 40.0°C or ≤ 35.5°C" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_224_Ear / Nose Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Severe pain (7-10/10)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_225_Ear / Nose Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Central capillary refill time (CRT) > 2 seconds" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_226_Ear / Nose Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Difficulty swallowing" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_227_Ear / Nose Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Significant history / mechanism of injury (Refer A1.3)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_228_Ear / Nose Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Actively bleeding with history of bleeding disorder / ITP" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_229_Ear / Nose Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Signs of compensated shock" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_230_Ear / Nose Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Bruising or swelling behind the ear over the mastoid process" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_231_Ear / Nose Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Clear fluid leaking from nose or ear with history of trauma" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_232_Ear / Nose Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_233_Ear / Nose Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Moderate pain (4-6/10)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_234_Ear / Nose Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History inconsistent with injury" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_235_Ear / Nose Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Foreign body in nose" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_236_Ear / Nose Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Uncontrollable minor haemorrhage" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_237_Ear / Nose Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of bleeding disorder - not actively bleeding at present" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_238_Ear / Nose Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Any swelling behind the ear" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_239_Ear / Nose Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of recent head injury" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_240_Ear / Nose Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Mild pain (1-3/10)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_241_Ear / Nose Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Swelling / deformity / auricular haematoma" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_242_Ear / Nose Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Discharge from ear / nose" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_243_Ear / Nose Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Recent problem (< 48 hours)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_244_Ear / Nose Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Problem > 48 hours with no acute symptoms" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_245_Ear / Nose Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Foreign body in ear" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_246_Ear / Nose Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "No pain / discomfort at present" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_247_Eye injury / Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Penetrating eye trauma" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_248_Eye injury / Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Sudden loss of vision" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_249_Eye injury / Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Chemical eye injury" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_250_Eye injury / Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_251_Eye injury / Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_252_Eye injury / Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Severe pain (7-10/10)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_253_Eye injury / Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Significant eye / head trauma" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_254_Eye injury / Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Hyphaema" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_255_Eye injury / Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal pupil following trauma" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_256_Eye injury / Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Orbital cellulitis" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_257_Eye injury / Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_258_Eye injury / Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Moderate pain (4-6/10)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_259_Eye injury / Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History inconsistent with injury" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_260_Eye injury / Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Significant history" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_261_Eye injury / Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Foreign body" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_262_Eye injury / Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Peri-orbital swelling / cellulitis" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_263_Eye injury / Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Acute reduced visual acuity" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_264_Eye injury / Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Mild pain (1-3/10)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_265_Eye injury / Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Sticky eye" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_266_Eye injury / Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Red eye" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_267_Eye injury / Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Recent problem (< 48 hours)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_268_Eye injury / Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Discharge from eye" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_269_Eye injury / Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Problem > 48 hours with no acute symptoms" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_270_Eye injury / Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "pain / discomfort at present" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_271_Foreign Body - not inhaled (for inhaled foreign body use airway/Breathing algorithm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Airway compromise" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_272_Foreign Body - not inhaled (for inhaled foreign body use airway/Breathing algorithm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Respiratory failure / respiratory arrest" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_273_Foreign Body - not inhaled (for inhaled foreign body use airway/Breathing algorithm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Exsanguinating haemorrhage" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_274_Foreign Body - not inhaled (for inhaled foreign body use airway/Breathing algorithm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_275_Foreign Body - not inhaled (for inhaled foreign body use airway/Breathing algorithm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_276_Foreign Body - not inhaled (for inhaled foreign body use airway/Breathing algorithm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Penetrating eye trauma" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_277_Foreign Body - not inhaled (for inhaled foreign body use airway/Breathing algorithm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_278_Foreign Body - not inhaled (for inhaled foreign body use airway/Breathing algorithm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Glasgow Coma Scale Score (GCS)  13-14" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_279_Foreign Body - not inhaled (for inhaled foreign body use airway/Breathing algorithm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Temperature ≥ 40.0°C or ≤ 35.5°C" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_280_Foreign Body - not inhaled (for inhaled foreign body use airway/Breathing algorithm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Severe pain (7-10/10)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_281_Foreign Body - not inhaled (for inhaled foreign body use airway/Breathing algorithm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Significant history / mechanism of injury (Refer A1.3)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_282_Foreign Body - not inhaled (for inhaled foreign body use airway/Breathing algorithm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Substance of high toxicity (check Toxbase©)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_283_Foreign Body - not inhaled (for inhaled foreign body use airway/Breathing algorithm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Central capillary refill time (CRT) > 2 seconds" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_284_Foreign Body - not inhaled (for inhaled foreign body use airway/Breathing algorithm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Difficulty swallowing" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_285_Foreign Body - not inhaled (for inhaled foreign body use airway/Breathing algorithm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Signs of compensated shock" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_286_Foreign Body - not inhaled (for inhaled foreign body use airway/Breathing algorithm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of cyanosis" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_287_Foreign Body - not inhaled (for inhaled foreign body use airway/Breathing algorithm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_288_Foreign Body - not inhaled (for inhaled foreign body use airway/Breathing algorithm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Moderate pain (4-6/10)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_289_Foreign Body - not inhaled (for inhaled foreign body use airway/Breathing algorithm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History inconsistent with injury" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_290_Foreign Body - not inhaled (for inhaled foreign body use airway/Breathing algorithm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Uncontrollable minor haemorrhage" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_291_Foreign Body - not inhaled (for inhaled foreign body use airway/Breathing algorithm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Substance of moderate toxicity (check Toxbase©)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_292_Foreign Body - not inhaled (for inhaled foreign body use airway/Breathing algorithm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Foreign body in nose / history of swallowing sharp object" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_293_Foreign Body - not inhaled (for inhaled foreign body use airway/Breathing algorithm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of bleeding disorder - not actively bleeding at present" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_294_Foreign Body - not inhaled (for inhaled foreign body use airway/Breathing algorithm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Mild pain (1-3/10)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_295_Foreign Body - not inhaled (for inhaled foreign body use airway/Breathing algorithm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Local inflammation" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_296_Foreign Body - not inhaled (for inhaled foreign body use airway/Breathing algorithm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Local infection" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_297_Foreign Body - not inhaled (for inhaled foreign body use airway/Breathing algorithm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Red eye" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_298_Foreign Body - not inhaled (for inhaled foreign body use airway/Breathing algorithm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Substance of low toxicity (check Toxbase©)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_299_Foreign Body - not inhaled (for inhaled foreign body use airway/Breathing algorithm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Swelling / deformity" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_300_Foreign Body - not inhaled (for inhaled foreign body use airway/Breathing algorithm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Purulent discharge from affected area" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_301_Foreign Body - not inhaled (for inhaled foreign body use airway/Breathing algorithm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Recent hearing loss" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_302_Foreign Body - not inhaled (for inhaled foreign body use airway/Breathing algorithm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Recent problem (< 48 hours)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_303_Foreign Body - not inhaled (for inhaled foreign body use airway/Breathing algorithm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Problem > 48 hours with no acute symptoms" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_304_Foreign Body - not inhaled (for inhaled foreign body use airway/Breathing algorithm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "No pain / discomfort at present" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_305_genitourinary Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Airway compromise" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_306_genitourinary Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Respiratory failure / respiratory arrest" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_307_genitourinary Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Uncontrollable major haemorrhage" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_308_genitourinary Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_309_genitourinary Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Currently seizing" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_310_genitourinary Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_311_genitourinary Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_312_genitourinary Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Severe hypertension (A1.1)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_313_genitourinary Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Glasgow Coma Scale Score (GCS) 13-14" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_314_genitourinary Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Temperature ≥ 40.0°C or ≤ 35.5°C" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_315_genitourinary Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Severe pain (7-10/10)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_316_genitourinary Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of injury" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_317_genitourinary Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Priapism (especially with Sickle Cell Disease)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_318_genitourinary Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Testicular pain or swelling < 48 hours" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_319_genitourinary Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Scrotal trauma" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_320_genitourinary Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Signs of compensated shock" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_321_genitourinary Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Frank haematuria" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_322_genitourinary Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of renal transplant/currently on dialysis" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_323_genitourinary Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_324_genitourinary Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Significant renal history with significant hypertension (A1.1)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_325_genitourinary Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Moderate pain (4-6/10)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_326_genitourinary Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Urinary retention" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_327_genitourinary Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History inconsistent with injury/illness" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_328_genitourinary Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Inguinal swelling with pain" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_329_genitourinary Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Mild pain (1-3/10)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_330_genitourinary Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Discharge" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_331_genitourinary Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Paraphimosis" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_332_genitourinary Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Previous renal problem" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_333_genitourinary Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of vaginal bleed" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_334_genitourinary Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Recent problem (< 48 hours)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_335_genitourinary Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Problem > 48 hours with no acute symptoms" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_336_genitourinary Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "No pain / discomfort at present" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_337_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Airway compromise" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_338_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Respiratory failure / respiratory arrest" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_339_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_340_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Currently seizing" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_341_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_342_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Penetrating Injury" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_343_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_344_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Glasgow Coma Scale Score (GCS) 13-14" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_345_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Severe pain (7-10/10)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_346_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Mechanism of injury (Refer A1.3)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_347_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of bleeding disorder" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_348_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Significant medical or surgical history" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_349_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Ventriculo-peritoneal shunt" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_350_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Persistent vomiting" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_351_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "New neurological symptoms(*see footnote) yEs" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_352_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of loss of consciousness ≥ 30 seconds" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_353_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Blood or serous fluid in nose or ear(s)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_354_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Bruising around the eyes or behind ears" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_355_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of blurred vision or seizure" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_356_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Patient on spinal precautions" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_357_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Large scalp laceration with pulsatile bleeding" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_358_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Boggy temporal, parietal or occipital swelling" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_359_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_360_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Moderate pain (4-6/10)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_361_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Inconsistent history" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_362_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of loss of consciousness < 30 seconds" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_363_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Amnesia" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_364_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Infant < 1 year" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_365_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Mild pain (1-4/10)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_366_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "No loss of consciousness / no amnesia" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_367_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Problem > 24 hours with no acute symptoms" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_368_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "No vomiting" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_369_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "* New neurological symptoms = sudden onset of confusion, weakness /" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_370_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "irritability or drowsiness. symptoms may also include altered level of" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_371_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "consciousness, loss of sensation, weakness of the limbs or alterations" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_372_head injury / headache / VP shunt"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "in bladder or bowel function" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_373_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Airway compromise" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_374_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Respiratory failure / respiratory arrest" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_375_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Exsanguinating haemorrhage" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_376_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Unresponsive Glasgow Coma Scale Score (GCS) ≤ 12" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_377_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_378_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_379_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Glasgow Coma Scale Score (GCS) 13-14" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_380_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Temperature ≥ 40.0°C or ≤ 35.5°C" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_381_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Severe pain (7-10/10)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_382_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Deformity ± compound fracture ± significant swelling" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_383_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Neurovascular compromise" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_384_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Central capillary refill time (CRT) > 2 seconds" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_385_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Signs of compensated shock" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_386_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Critical skin over fracture site" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_387_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Traumatic amputation, > 50% partial / degloving injury" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_388_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Penetrating trauma" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_389_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of sickle cell disease" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_390_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of bleeding disorder with swelling present" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_391_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_392_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Moderate pain (4-6/10)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_393_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History inconsistent with injury / significant delayed presentation" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_394_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "post injury" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_395_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Tight cast with possible neurovascular compromise" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_396_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Limp / joint pain with fever/hot joint" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_397_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Unable to weight-bear with history of trauma" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_398_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of bleeding disorder" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_399_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Mild pain (1-3/10)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_400_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Recent problem (< 48 hours)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_401_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Pain over joint" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_402_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Reduced weight-bearing" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_403_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Swelling present" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_404_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of pyrexia" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_405_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Inflammation" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_406_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Non-weight bearing with no history trauma / injury" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_407_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History minor penetrating wound" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_408_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Review (not fasting) to other specialities" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_409_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Problem > 48 hours with no acute symptoms" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_410_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Minor lacerations, abrasions, contusions" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_411_limb Problem / limb injury"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Damaged/wet/broken cast" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_412_major trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Airway compromise" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_413_major trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Respiratory failure / respiratory arrest" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_414_major trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Exsanguinating haemorrhage" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_415_major trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_416_major trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Currently seizing" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_417_major trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_418_major trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Penetrating trauma to head / chest / abdomen / pelvis with signs of" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_419_major trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "shock" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_420_major trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_421_major trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Glasgow Coma Scale Score (GCS) 13-14" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_422_major trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Temperature ≤ 35.5°C" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_423_major trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Severe pain (7-10/10)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_424_major trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Significant history/mechanism of injury (Refer A1.3)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_425_major trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Altered respiratory pattern" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_426_major trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Signs of compensated shock" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_427_major trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of bleeding disorder" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_428_major trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Severe deformity" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_429_major trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Neurovascular compromise" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_430_major trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Patient on spinal precautions" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_431_major trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of loss of consciousness ≥ 30 seconds" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_432_major trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Persistent vomiting" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_433_major trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Blood or serous fluid in nose or ear(s)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_434_major trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Bruising around the eyes or behind ears" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_435_major trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Penetrating trauma" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_436_major trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Frank haematuria/blood in perineum" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_437_major trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_438_major trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Moderate pain (4-6/10)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_439_major trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of loss of consciousness < 30 seconds" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_440_major trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Amnesia" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_441_major trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Limb deformity" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_442_major trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Open wound" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_443_major trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Minor haemorrhage" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_444_major trauma"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "These patients should never be triaged less than Category 3" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_445_overdose and Poisoning"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Airway compromise" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_446_overdose and Poisoning"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Respiratory failure / respiratory arrest" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_447_overdose and Poisoning"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_448_overdose and Poisoning"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Currently seizing" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_449_overdose and Poisoning"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_450_overdose and Poisoning"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_451_overdose and Poisoning"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Glasgow Coma Scale Score (GCS) 13-14" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_452_overdose and Poisoning"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Severe pain (7-10/10)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_453_overdose and Poisoning"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Substance of high toxicity (check Toxbase©)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_454_overdose and Poisoning"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Ingestion of unknown substance/quantity" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_455_overdose and Poisoning"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Intentional self-harm / high risk of further self-harm" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_456_overdose and Poisoning"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Increased / decreased work of breathing" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_457_overdose and Poisoning"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Signs of compensated shock" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_458_overdose and Poisoning"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Cardiac arrhythmias" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_459_overdose and Poisoning"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Hypoglycaemia (blood sugar ≤ 2.7 mmol/L)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_460_overdose and Poisoning"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Hypotension / hypertension (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_461_overdose and Poisoning"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_462_overdose and Poisoning"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Moderate pain (4-6/10)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_463_overdose and Poisoning"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Substance of moderate toxicity (check Toxbase©)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_464_overdose and Poisoning"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Blood sugar 2.8-3.4 mmol/L" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_465_overdose and Poisoning"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Persistent vomiting" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_466_overdose and Poisoning"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Inconsistent history" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_467_overdose and Poisoning"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Substance of low toxicity (check Toxbase©)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_468_overdose and Poisoning"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Mild pain (1-3/10)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_469_overdose and Poisoning"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Ingestion time > 48 hrs with no toxicity (check Toxbase©)" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_470_overdose and Poisoning"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "If patient exhibits a psychosocial problem, refer to" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_471_overdose and Poisoning"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "“Psychosocial Problem (including self-harm)”" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_472_Psychosocial Problem (including self-harm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Airway compromise" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_473_Psychosocial Problem (including self-harm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Respiratory failure / respiratory arrest" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_474_Psychosocial Problem (including self-harm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_475_Psychosocial Problem (including self-harm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Currently seizing" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_476_Psychosocial Problem (including self-harm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_477_Psychosocial Problem (including self-harm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Violent behaviour / Immediate risk of harm to self and others" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_478_Psychosocial Problem (including self-harm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Violent behaviour / possession of a weapon" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_479_Psychosocial Problem (including self-harm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Self-destructive behaviour in the ED / requires restraint" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_480_Psychosocial Problem (including self-harm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_481_Psychosocial Problem (including self-harm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Glasgow Coma Scale Score (GCS) 13-14" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_482_Psychosocial Problem (including self-harm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Signs of compensated shock" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_483_Psychosocial Problem (including self-harm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Probable risk of harm to self or others" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_484_Psychosocial Problem (including self-harm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Extreme agitation / physically / verbally aggressive" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_485_Psychosocial Problem (including self-harm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Confused/unable to co-operate" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_486_Psychosocial Problem (including self-harm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "High risk of absconding" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_487_Psychosocial Problem (including self-harm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Auditory / visual hallucinations" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_488_Psychosocial Problem (including self-harm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Attempted threat of self-harm" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_489_Psychosocial Problem (including self-harm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Threat of harm to self / others" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_490_Psychosocial Problem (including self-harm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Acts of deliberate self-harm" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_491_Psychosocial Problem (including self-harm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Expressing suicidal intent/ideation" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_492_Psychosocial Problem (including self-harm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_493_Psychosocial Problem (including self-harm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Disclosure of abuse" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_494_Psychosocial Problem (including self-harm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Significant behaviour change" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_495_Psychosocial Problem (including self-harm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Recent assault" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_496_Psychosocial Problem (including self-harm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Agitation / restlessness / intrusive behaviour" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_497_Psychosocial Problem (including self-harm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Bizarre, disorganised behaviour" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_498_Psychosocial Problem (including self-harm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Withdrawn and uncommunicative" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_499_Psychosocial Problem (including self-harm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Ambivalent about treatment" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_500_Psychosocial Problem (including self-harm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Moderate risk of absconding" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_501_Psychosocial Problem (including self-harm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Suicidal ideation" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_502_Psychosocial Problem (including self-harm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Presence of psychotic symptoms of affective disorder (depressed or" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_503_Psychosocial Problem (including self-harm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "elated)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_504_Psychosocial Problem (including self-harm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Vague social problem" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_505_Psychosocial Problem (including self-harm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Eating disorder with normal vital signs" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_506_Psychosocial Problem (including self-harm)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "These patients should never be triaged less than Category 4" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_507_rashes (Blanching/Non-Blanching)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Airway compromise" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_508_rashes (Blanching/Non-Blanching)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Respiratory failure / respiratory arrest" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_509_rashes (Blanching/Non-Blanching)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Marked stridor with severe respiratory distress" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_510_rashes (Blanching/Non-Blanching)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "SaO2 ≤ 90% in room air" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_511_rashes (Blanching/Non-Blanching)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_512_rashes (Blanching/Non-Blanching)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Currently seizing" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_513_rashes (Blanching/Non-Blanching)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_514_rashes (Blanching/Non-Blanching)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_515_rashes (Blanching/Non-Blanching)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Glasgow Coma Scale Score (GCS) 13-14" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_516_rashes (Blanching/Non-Blanching)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "SaO2 < 92% in room air" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_517_rashes (Blanching/Non-Blanching)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Temperature ≥ 40.0°C or ≤ 35.5°C" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_518_rashes (Blanching/Non-Blanching)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Severe pain / itch (7-10/10)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_519_rashes (Blanching/Non-Blanching)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Severe respiratory distress (Refer A1.4)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_520_rashes (Blanching/Non-Blanching)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Oedema of the tongue" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_521_rashes (Blanching/Non-Blanching)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Non-blanching rash / purpura / petechiae" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_522_rashes (Blanching/Non-Blanching)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Signs of compensated shock" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_523_rashes (Blanching/Non-Blanching)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Signs & symptoms of severe anaphylaxis" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_524_rashes (Blanching/Non-Blanching)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_525_rashes (Blanching/Non-Blanching)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Moderate pain / itch (4-6/10)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_526_rashes (Blanching/Non-Blanching)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Moderate respiratory distress (Refer A1.4)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_527_rashes (Blanching/Non-Blanching)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Widespread discharge or blistering" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_528_rashes (Blanching/Non-Blanching)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of haematological problems" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_529_rashes (Blanching/Non-Blanching)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History inconsistent with injury" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_530_rashes (Blanching/Non-Blanching)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Unexplained bruising" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_531_rashes (Blanching/Non-Blanching)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Mild respiratory distress (Refer A1.4)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_532_rashes (Blanching/Non-Blanching)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Localised signs of allergic reaction" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_533_rashes (Blanching/Non-Blanching)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Mild pain / itch (1-3/10)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_534_rashes (Blanching/Non-Blanching)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Blanching rash" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_535_rashes (Blanching/Non-Blanching)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Recent problem (< 48 hours)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_536_rashes (Blanching/Non-Blanching)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Problem > 48 hours with no acute symptoms" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_537_rashes (Blanching/Non-Blanching)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "No pain / discomfort at present" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_538_seizure / absent Episode / collapse"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Airway compromise" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_539_seizure / absent Episode / collapse"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Respiratory failure / respiratory arrest" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_540_seizure / absent Episode / collapse"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Imminent respiratory failure / respiratory arrest" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_541_seizure / absent Episode / collapse"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Cyanosis" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_542_seizure / absent Episode / collapse"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_543_seizure / absent Episode / collapse"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Currently seizing" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_544_seizure / absent Episode / collapse"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_545_seizure / absent Episode / collapse"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_546_seizure / absent Episode / collapse"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Glasgow Coma Scale Score (GCS) 13-14" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_547_seizure / absent Episode / collapse"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Temperature ≥ 40.0°C or ≤ 35.5°C" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_548_seizure / absent Episode / collapse"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Severe pain (7-10/10)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_549_seizure / absent Episode / collapse"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Signs of compensated shock" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_550_seizure / absent Episode / collapse"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Hypoglycaemia (blood sugar ≤ 2.7mmol/L)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_551_seizure / absent Episode / collapse"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Significant medical conditions" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_552_seizure / absent Episode / collapse"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Signs of meningism" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_553_seizure / absent Episode / collapse"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "New neurological symptoms (see footnote)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_554_seizure / absent Episode / collapse"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of both seizure and Diabetes Mellitus" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_555_seizure / absent Episode / collapse"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History or suspicion of ingestion" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_556_seizure / absent Episode / collapse"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_557_seizure / absent Episode / collapse"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of seizures - well now" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_558_seizure / absent Episode / collapse"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Blood sugar 2.8 – 3.4 mmol/L" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_559_seizure / absent Episode / collapse"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Moderate pain (4-6/10)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_560_seizure / absent Episode / collapse"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Mild Pain 1 – 3/10" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_561_seizure / absent Episode / collapse"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "No neurological symptoms yEs" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_562_seizure / absent Episode / collapse"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "* New neurological symptoms = sudden onset of confusion, weakness /" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_563_seizure / absent Episode / collapse"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "irritability or drowsiness. symptoms may also include altered level of" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_564_seizure / absent Episode / collapse"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "consciousness, loss of sensation, weakness of the limbs or alterations" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_565_seizure / absent Episode / collapse"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "in bladder or bowel function" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_566_testicular Pain"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Airway compromise" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_567_testicular Pain"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Respiratory failure / respiratory arrest" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_568_testicular Pain"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_569_testicular Pain"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_570_testicular Pain"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_571_testicular Pain"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Temperature ≥ 40.0°C or ≤ 35.5°C" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_572_testicular Pain"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Severe pain (7-10/10)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_573_testicular Pain"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Significant skin colour change to scrotum" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_574_testicular Pain"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Frank haematuria" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_575_testicular Pain"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of testicular pain or swelling <48 hours" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_576_testicular Pain"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_577_testicular Pain"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Moderate pain (4-6/10)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_578_testicular Pain"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Scrotal swelling" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_579_testicular Pain"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Vomiting" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_580_testicular Pain"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Mild pain (1-3/10)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_581_testicular Pain"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Dysuria" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_582_testicular Pain"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Penile discharge" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_583_testicular Pain"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Chronic problem" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_584_throat Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Airway compromise" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_585_throat Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Drooling" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_586_throat Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "‘Tripod’ positioning" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_587_throat Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Stridor with severe increase in work of breathing" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_588_throat Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Respiratory failure / respiratory arrest" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_589_throat Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Hoarseness – sudden onset" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_590_throat Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Cyanosis" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_591_throat Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Trauma (A1.3)" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_592_throat Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Uncontrollable bleeding post-tonsillectomy" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_593_throat Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_594_throat Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_595_throat Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_596_throat Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Glasgow Coma Scale Score (GCS) 13-14" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_597_throat Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Temperature ≥ 40.0°C or ≤ 35.5°C" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_598_throat Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Severe pain (7-10/10)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_599_throat Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Stridor at rest ± foreign body inhalation / ingestion" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_600_throat Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Central capillary refill time > 2 seconds" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_601_throat Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Difficulty swallowing" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_602_throat Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Bleeding post-tonsillectomy" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_603_throat Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Signs of compensated shock" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_604_throat Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_605_throat Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Moderate pain (4-6/10)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_606_throat Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of bleed post-tonsillectomy but not actively bleeding at" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_607_throat Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "present" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_608_throat Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Mild pain (1-3/10)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_609_throat Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Tolerating oral fluids" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_610_throat Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Recent problem (< 48 hours)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_611_throat Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Planned review (not fasting)" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_612_throat Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Problem > 48 hours with no acute symptoms" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_613_throat Problem"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "No pain / discomfort at present" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_614_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Airway compromise" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_615_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Respiratory failure / respiratory arrest" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_616_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_617_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Hypoglycaemia with altered neurological status" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_618_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Currently seizing" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_619_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "SaO2 ≤ 90% in room air SaO2 ≤ 90% in room air" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_620_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_621_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_622_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Glasgow Coma Scale Score (GCS) 13-14" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_623_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Temperature ≥ 40.0°C or ≤ 35.5°C" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_624_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Hypoglycaemia (blood sugar ≤  2.7mmol/L)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_625_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Lethargy / listless / irritability / floppy" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_626_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Central capillary refill > 2 seconds" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_627_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Not responding to parents" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_628_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "New neurological symptoms (see glossary)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_629_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Severe pain (7-10/10) / distress" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_630_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Signs of compensated shock" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_631_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Purpura / Petechiae" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_632_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "SaO2 ≤ 92% in room air" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_633_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Signs and symptoms of meningism" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_634_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_635_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Moderate pain (4-6/10)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_636_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Blood sugar 2.8 – 3.4 mmol/L" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_637_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of seizure/ syncope episode / rigors / hallucinations" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_638_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Oliguria" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_639_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "PEG tube problem / nasogastric tube problem" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_640_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Jaundice" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_641_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Reduced feeding with clinical signs of dehydration (Refer A1.2)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_642_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Moderate increase in work of breathing" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_643_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History inconsistent with illness/injury" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_644_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Significant medical or surgical history" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_645_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Mild pain (1-3/10)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_646_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Off form" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_647_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Facial weakness" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_648_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Recent problem (< 48 hours)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_649_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "No signs of dehydration" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_650_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Problem > 48 hours with no acute symptoms yEs" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_651_Unwell child (over 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "No pain / discomfort at present" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_652_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Airway compromise" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_653_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Respiratory failure / respiratory arrest" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_654_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_655_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Hypoglycaemia with altered neurological status" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_656_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Currently seizing" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_657_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "SaO2 ≤ 90% in room air" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_658_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_659_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_660_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Glasgow Coma Scale Score (GCS) 13-14" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_661_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Central capillary refill time (CRT) > 2 seconds" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_662_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal cry" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_663_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Not responding to parents" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_664_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Severe pain (7-10/10)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_665_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Temperature ≥ 40.0°C or ≤ 35.5°C" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_666_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Mottled / cold infant" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_667_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Purpura / Petechiae" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_668_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Signs and symptoms of  meningism" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_669_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "New neurological symptoms (see glossary)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_670_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Signs of compensated shock" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_671_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "SaO2 ≤ 92% in room air" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_672_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Lethargy / listless / irritability / floppy" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_673_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of floppiness with pallor / cyanosis" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_674_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of apnoea lasting ≥ 20 seconds" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_675_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Bulging fontanelle / sunken fontanelle" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_676_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Hypoglycaemia (blood sugar ≤  2.7mmol/L)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_677_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_678_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Atypical behaviour" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_679_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Moderate pain (4-6/10) / distress" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_680_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Blood sugar 2.8 – 3.4 mmol/L" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_681_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Reduced feeding / projectile vomiting" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_682_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "PEG tube problem / nasogastric tube problem" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_683_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Jaundice" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_684_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Reduced urinary output / dry nappies" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_685_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Prolonged crying" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_686_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Inconsolable by parents" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_687_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History inconsistent with injury / illness" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_688_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History of seizure / jittery episode" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_689_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Drawing up legs" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_690_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Infant < 3 months" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_691_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Consolable infant" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_692_Unwell infant (less than 1 year) (including Pyrexia)"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Mild pain (1-3/10)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_693_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Airway compromise" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_694_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Respiratory failure / respiratory arrest" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_695_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_696_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Currently seizing" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_697_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_698_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_699_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Glasgow Coma Scale Score (GCS) 13-14" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_700_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Central capillary refill time (CRT) > 2 seconds" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_701_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Temperature ≥ 40.0°C or ≤ 35.5°C" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_702_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Hypoglycaemia (blood sugar ≤2.7mmol/L)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_703_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Severe pain (7-10/10)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_704_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Acute haematemesis / melaena / red currant stools" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_705_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Signs of compensated shock" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_706_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal cry" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_707_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Not responding to parents" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_708_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Purpura / Petechiae" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_709_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Signs and symptoms of meningism" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_710_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Severe dehydration (Refer A1.2)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_711_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Lethargy / listless / irritability / floppy" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_712_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Bulging fontanelle / sunken fontanelle" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_713_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Sunken eyes" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_714_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Anuria" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_715_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Metabolic illness" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_716_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_717_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Moderate pain (4-6/10)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_718_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Significant medical or surgical history" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_719_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Persistent vomiting" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_720_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Persistent diarrhoea with abdominal pain" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_721_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Moderate dehydration (Refer A1.2) yEs" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_722_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Blood sugar 2.8 – 3.4 mmol/L in an asymptomatic child" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_723_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Reduced feeding with clinical signs of dehydration (Refer A1.2)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_724_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Reduced skin turgor" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_725_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Oliguria" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_726_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Mild pain (1-3/10)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_727_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Recent problem (< 48 hours)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_728_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Mild Dehydration (Refer A1.2)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_729_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Decreased oral intake" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_730_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "No signs of dehydration" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_731_Vomiting ± diarrhoea"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Problem > 48 hours with no acute symptoms" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_732_Wounds/signs of local inflammation"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Airway compromise" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_733_Wounds/signs of local inflammation"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Respiratory failure / respiratory arrest" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_734_Wounds/signs of local inflammation"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Exsanguinating haemorrhage" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_735_Wounds/signs of local inflammation"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_736_Wounds/signs of local inflammation"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Red"));
+end
+
+rule "Rule_737_Wounds/signs of local inflammation"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_738_Wounds/signs of local inflammation"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Glasgow Coma Scale Score (GCS) 13-14" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_739_Wounds/signs of local inflammation"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Severe pain (7-10/10)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_740_Wounds/signs of local inflammation"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Signs of compensated shock" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_741_Wounds/signs of local inflammation"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Significant history / mechanism of injury (Refer A1.3)" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_742_Wounds/signs of local inflammation"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Traumatic amputation  >50% partial/degloving injury" ) from $s
+    then
+        insert(new TriageResult("Orange"));
+end
+
+rule "Rule_743_Wounds/signs of local inflammation"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Abnormal age-related vital signs (Refer A1.1)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_744_Wounds/signs of local inflammation"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Moderate pain (4-6/10)" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_745_Wounds/signs of local inflammation"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "History inconsistent with injury" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_746_Wounds/signs of local inflammation"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Delayed presentation" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_747_Wounds/signs of local inflammation"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Moderate haemorrhage" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_748_Wounds/signs of local inflammation"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Inflammation with tracking" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_749_Wounds/signs of local inflammation"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Infant under 3 months" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_750_Wounds/signs of local inflammation"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Needle-stick injury with known blood borne infection" ) from $s
+    then
+        insert(new TriageResult("Yellow"));
+end
+
+rule "Rule_751_Wounds/signs of local inflammation"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Mild pain (1-3/10)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_752_Wounds/signs of local inflammation"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Mild haemorrhage" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_753_Wounds/signs of local inflammation"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Foreign body" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_754_Wounds/signs of local inflammation"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Local infection and inflammation" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_755_Wounds/signs of local inflammation"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Needle-stick injury" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_756_Wounds/signs of local inflammation"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Recent problem (< 48 hours)" ) from $s
+    then
+        insert(new TriageResult("Green"));
+end
+
+rule "Rule_757_Wounds/signs of local inflammation"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Superficial wound" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_758_Wounds/signs of local inflammation"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Suspicion of bite or injury" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_759_Wounds/signs of local inflammation"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Chronic problem (> 48 hours)" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_760_Wounds/signs of local inflammation"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "Change of dressing / removal of sutures" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+
+rule "Rule_761_Wounds/signs of local inflammation"
+    when
+        $p : Patient( $s : symptoms )
+        Symptom( name == "No pain / discomfort at present" ) from $s
+    then
+        insert(new TriageResult("Blue"));
+end
+

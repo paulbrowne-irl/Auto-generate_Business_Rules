@@ -1,0 +1,5633 @@
+[29.46, 712.45] NatioNal EmErgENcy mEdiciNE ProgrammE
+
+[61.33, 744.85] irish childrEN’s triagE systEm (icts)
+
+[48.19, 63.17] Foreword
+
+[48.19, 103.56] The National Emergency Medicine Programme presents the Irish Children’s Triage System (ICTS) for the prioritisation and
+
+[48.19, 115.56] assessment of paediatric patients presenting to Emergency Departments (EDs) in Ireland. The system supports safer, more
+
+[48.19, 127.56] effective, timely ED care and reflects the importance of child and family experiences of emergency care. The ICTS makes a very
+
+[48.19, 139.56] significant contribution to the suite of clinical tools developed by the National Emergency Medicine Programme to drive
+
+[48.19, 151.56] improvement in the safety, quality and value of emergency care in Ireland.  
+
+[48.19, 175.56] The triage of children in EDs is an established standard of care in international and national practice. However the triage of
+
+[48.19, 187.56] children can be difficult compared to adults and additional triage parameters are recommended to reflect age-related physiological
+
+[48.19, 199.56] differences, children’s presenting signs and symptoms, significant paediatric co-morbidities and common Paediatric Emergency
+
+[48.19, 211.56] Medicine diagnoses. 
+
+[48.19, 235.56] The development of the ICTS was prompted by the triage experiences of front-line ED nurses and doctors caring for children and
+
+[48.19, 247.56] advanced by the Emergency Nursing Interest Group (ENIG) of the National Emergency Medicine Programme as a safety and
+
+[48.19, 259.56] quality improvement initiative.  The development and testing of the ICTS has been conducted under the guidance of a Steering
+
+[48.19, 271.56] Group composed of stakeholders from within Emergency Medicine and senior clinicians across a number of hospitals. The ICTS
+
+[48.19, 283.56] has undergone extensive stakeholder consultation and the National Emergency Medicine Programme and Office for Nursing and
+
+[48.19, 295.56] Midwifery Services Director are therefore pleased to endorse the recommendations outlined in this document and recommend
+
+[48.19, 307.56] that ICTS be adopted as the national standard of triage for children and should be adopted in all EDs in Ireland that see paediatric
+
+[48.19, 319.56] patients. Implementation of the ICTS will contribute significantly to paediatric patient care in our EDs and will promote safety,
+
+[48.19, 331.56] quality of care, improved access and patient experience in emergency care in Ireland.
+
+[48.19, 391.56] ________________________
+ [227.63, 391.56] ________________________
+ [404.37, 391.56] ________________________
+
+[48.19, 409.23] Dr Una Geary
+ [227.63, 409.23] Dr Gerard Mc Carthy
+ [404.37, 409.23] Ms Mary Wynne 
+
+[48.19, 421.23] Clinical Lead (2010-2014)
+ [227.63, 421.23] Clinical Lead (2014 – present)
+ [404.37, 421.23] Interim Director of Nursing & 
+
+[48.19, 433.23] National Emergency Medicine Programme
+ [227.63, 433.23] National Emergency Medicine Programme
+ [404.37, 433.23] Midwifery Services
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[295.39, 812.97] 1
+
+[48.19, 63.17] irish children’s triage system (icts)
+
+[48.19, 103.56] document number
+ [232.44, 103.56] ICTS2016
+
+[48.19, 127.56] date issued April 2016
+
+[48.19, 151.56] summary This document describes the prioritisation and assessment of paediatric patients
+
+[232.44, 163.56] presenting to Emergency Departments (EDs) in Ireland. (Paediatric patient = up
+
+[232.44, 175.56] to the eve of 16th birthday) 
+
+[48.19, 199.56] contact emp@rcsi.ie 
+
+[48.19, 223.56] applies to Applies to all Emergency Departments in Ireland with paediatric attendances
+
+[48.19, 247.56] audience
+ [232.44, 247.56] All nursing, medical, clinical and administrative staff involved in the care of
+
+[232.44, 259.56] children who present to Emergency Departments in Ireland
+
+[48.19, 283.56] author
+ [232.44, 283.56] Irish Children’s Triage System was developed under the guidance of ICTS National
+
+[232.44, 295.56] Steering Group and approved by the National Emergency Medicine Programme
+
+[232.44, 307.56] Working Group and the Emergency Nursing Interest Group.
+
+[48.19, 331.56] approved by National Emergency Medicine Programme 
+
+[232.44, 343.56] Health Service Executive, Senior Leadership Team
+
+[48.19, 367.56] document status Final version - Irish Children’s Triage System (ICTS)
+
+[48.19, 391.56] Full review September 2018
+
+[48.19, 415.56] associated document
+ [232.44, 415.56] The National Emergency Medicine Programme: A Strategy to improve safety,
+
+[232.44, 427.56] quality, access and value in emergency medicine in Ireland (HSE 2012)
+
+[48.19, 451.56] © 2016 Irish Children’s Triage System: National Emergency Medicine Programme
+
+[48.19, 463.56] Material may be reproduced with permission of the ICTS National Steering Group/National Emergency Medicine Programme.
+
+[48.19, 487.56] ICTS cannot cover all clinical scenarios. The ultimate responsibility for the interpretation and application of these guidelines, the
+
+[48.19, 499.56] use of current information and a patient's overall care and wellbeing resides with the multidisciplinary clinical team.
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[295.39, 812.97] 2
+
+[48.19, 63.17] table of contents
+
+[48.19, 103.56] 1.
+ [73.70, 103.56] Purpose
+ [111.42, 103.56] ..........................................................................................................................................................................4
+
+[73.70, 115.56] 1.1
+ [99.21, 115.56] Objectives of the ICTS
+ [193.92, 115.56] .........................................................................................................................................4
+
+[73.70, 127.56] 1.2
+ [99.21, 127.56] Approach
+ [141.42, 127.56] ..............................................................................................................................................................4
+
+[48.19, 139.56] 2.
+ [73.70, 139.56] Introduction
+ [128.92, 139.56] ...................................................................................................................................................................5
+
+[48.19, 151.56] 3.
+ [73.70, 151.56] The Generic Triage Process
+ [188.92, 151.56] ...........................................................................................................................................6
+
+[48.19, 163.56] 4.
+ [73.70, 163.56] Background to Irish Children’s Triage System
+ [258.92, 163.56] ...............................................................................................................8
+
+[73.70, 175.56] 4.1
+ [99.21, 175.56] Nursing Assessment
+ [186.42, 175.56] ............................................................................................................................................8
+
+[73.70, 187.56] 4.2
+ [99.21, 187.56] Manchester Triage System – Emergency Triage (MTS)
+ [316.42, 187.56] ........................................................................................8
+
+[73.70, 199.56] 4.3
+ [99.21, 199.56] Canadian Paediatric Triage and Acuity Scale Guideline (PaedCTAS)
+ [368.92, 199.56] ...................................................................8
+
+[48.19, 211.56] 5.
+ [73.70, 211.56] The Development of the Irish Children’s Triage System (ICTS)
+ [321.42, 211.56] ......................................................................................9
+
+[73.70, 223.56] 5.1
+ [99.21, 223.56] Special Case Guidelines
+ [198.92, 223.56] .......................................................................................................................................9
+
+[73.70, 235.56] 5.2 Vital Signs Reference Grids
+ [206.42, 235.56] ..................................................................................................................................11
+
+[48.19, 247.56] 6.
+ [73.70, 247.56] General Discriminators
+ [168.92, 247.56] .................................................................................................................................................13
+
+[48.19, 259.56] 7.
+ [73.70, 259.56] Irish Children’s Triage System Flowcharts
+ [246.42, 259.56] ..................................................................................................................14
+
+[73.70, 271.56] Abdominal Pain / Isolated Abdominal Trauma
+ [256.42, 271.56] ..............................................................................................................15
+
+[73.70, 283.56] Airway / Breathing Difficulty
+ [191.42, 283.56] ........................................................................................................................................16
+
+[73.70, 295.56] Altered Blood Glucose (including patients with Diabetes Mellitus)
+ [336.42, 295.56] ..............................................................................17
+
+[73.70, 307.56] Back Pain / Isolated Neck and / or Back Injury
+ [258.92, 307.56] .............................................................................................................18
+
+[73.70, 319.56] Burns / Scalds
+ [136.42, 319.56] ..............................................................................................................................................................19
+
+[73.70, 331.56] Chest Pain / Isolated Chest Injury
+ [211.42, 331.56] ................................................................................................................................20
+
+[73.70, 343.56] Dental Problem
+ [138.92, 343.56] .............................................................................................................................................................21
+
+[73.70, 355.56] Ear / Nose Problem
+ [156.42, 355.56] ......................................................................................................................................................22
+
+[73.70, 367.56] Eye Injury / Problem
+ [158.92, 367.56] .....................................................................................................................................................23
+
+[73.70, 379.56] Foreign Body - not inhaled
+ [183.91, 379.56] ...........................................................................................................................................24
+
+[73.70, 391.56] Genitourinary Problem
+ [168.91, 391.56] .................................................................................................................................................25
+
+[73.70, 403.56] Head Injury / Headache / VP shunt
+ [213.91, 403.56] ...............................................................................................................................26
+
+[73.70, 415.56] Limb Problem / Limb Injury
+ [186.41, 415.56] ..........................................................................................................................................27
+
+[73.70, 427.56] Major Trauma
+ [133.91, 427.56] ...............................................................................................................................................................28
+
+[73.70, 439.56] Overdose and Poisoning
+ [181.41, 439.56] ............................................................................................................................................29
+
+[73.70, 451.56] Psychosocial Problem (including self-harm)
+ [253.91, 451.56] ...............................................................................................................30
+
+[73.70, 463.56] Rashes (Blanching/Non-Blanching)
+ [216.41, 463.56] ..............................................................................................................................31
+
+[73.70, 475.56] Seizure / Absent Episode / Collapse
+ [216.41, 475.56] ..............................................................................................................................32
+
+[73.70, 487.56] Testicular Pain
+ [138.91, 487.56] .............................................................................................................................................................33
+
+[73.70, 499.56] Throat Problem
+ [141.41, 499.56] ............................................................................................................................................................34
+
+[73.70, 511.56] Unwell Child (over 1 year) (including Pyrexia)
+ [258.91, 511.56] .............................................................................................................35
+
+[73.70, 523.56] Unwell Infant (less than 1 year) (including Pyrexia)
+ [278.91, 523.56] .....................................................................................................36
+
+[73.70, 535.56] Vomiting ± Diarrhoea
+ [161.41, 535.56] ....................................................................................................................................................37
+
+[73.70, 547.56] Wounds / Signs of Local Inflammation
+ [233.91, 547.56] .......................................................................................................................38
+
+[48.19, 559.56] 8.
+ [73.70, 559.56] Educational Requirements for Performing ICTS
+ [263.91, 559.56] ...........................................................................................................39
+
+[48.19, 571.56] 9.
+ [73.70, 571.56] Pilot Phase
+ [126.41, 571.56] ..................................................................................................................................................................40
+
+[73.70, 583.56] 9.1 Audit
+ [126.41, 583.56] ..................................................................................................................................................................40
+
+[48.19, 595.56] 10.
+ [73.70, 595.56] Limitations of Irish Children’s Triage System
+ [253.91, 595.56] ...............................................................................................................43
+
+[48.19, 607.56] 11.
+ [73.70, 607.56] Conclusion
+ [126.42, 607.56] ..................................................................................................................................................................44
+
+[48.19, 619.56] 12.
+ [73.70, 619.56] Glossary of Terms
+ [151.42, 619.56] ........................................................................................................................................................45
+
+[48.19, 631.56] 13.
+ [73.70, 631.56] References
+ [126.42, 631.56] ..................................................................................................................................................................47
+
+[48.19, 643.56] Appendix 1
+ [98.92, 643.56] .............................................................................................................................................................................50
+
+[73.70, 655.56] 1.1 Vital Signs Reference Grid(s)
+ [221.42, 655.56] ............................................................................................................................51
+
+[73.70, 667.56] 1.2 Levels of Dehydration
+ [191.42, 667.56] ........................................................................................................................................54
+
+[73.70, 679.56] 1.3 Major Trauma Guidelines
+ [203.92, 679.56] ...................................................................................................................................55
+
+[73.70, 691.56] 1.4 Levels of Respiratory Distress
+ [223.92, 691.56] ...........................................................................................................................56
+
+[48.19, 703.56] Appendix 2
+ [98.92, 703.56] .............................................................................................................................................................................57
+
+[73.70, 715.56] ICTS Validation Sample Audit Tool
+ [226.42, 715.56] ..........................................................................................................................58
+
+[48.19, 727.56] Appendix 3
+ [98.92, 727.56] .............................................................................................................................................................................59
+
+[73.70, 739.56] Acknowledgments
+ [153.92, 739.56] .......................................................................................................................................................60
+
+[48.19, 751.56] Appendix 4
+ [98.92, 751.56] .............................................................................................................................................................................61
+
+[73.70, 763.56] Key Stakeholder Consultation List
+ [218.92, 763.56] .............................................................................................................................62
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[295.39, 812.97] 3
+
+[48.19, 63.17] 1. Purpose 
+
+[48.19, 103.56] This document describes the Irish Children’s Triage System (ICTS), a child-specific triage tool that should be followed for the
+
+[48.19, 115.56] prioritisation and assessment of paediatric patients presenting to an Emergency Department (ED) in Ireland. 
+
+[48.19, 139.56] Locally developed paediatric triage systems had been in place in two Paediatric EDs in Dublin, Our Lady’s Children’s Hospital,
+
+[48.19, 151.56] Crumlin (OLCHC) and Temple Street Children’s University Hospital, (TSCUH). Formal evaluations of these systems indicated that
+
+[48.19, 163.56] they were safe and effective tools. As a quality improvement initiative, the National Emergency Medicine Programme (EMP)
+
+[48.19, 175.56] through its Emergency Nursing Interest Group (ENIG) convened an ICTS project subgroup comprising senior nurses from seven
+
+[48.19, 187.56] EDs (children’s only and mixed) and specialists in Paediatric Emergency Medicine. This group collaboratively produced the
+
+[48.19, 199.56] national ICTS, based largely on the pre-existing tool in use in OLCHC with input from TSCUH.
+
+[48.19, 223.56] The work of the project subgroup was overseen by a National Steering Group of key stakeholders and experts in the area of
+
+[48.19, 235.56] paediatric emergency care. The ICTS was successfully piloted and evaluated in six EDs across the country in 2013, namely: 
+
+[48.19, 260.38] 
+ [70.87, 260.38] Cork University Hospital
+
+[48.19, 273.19] 
+ [70.87, 273.19] Galway University Hospital
+
+[48.19, 286.01] 
+ [70.87, 286.01] National Children’s Hospital, Tallaght
+
+[48.19, 298.83] 
+ [70.87, 298.83] Our Lady of Lourdes Hospital, Drogheda
+
+[48.19, 311.65] 
+ [70.87, 311.65] Our Lady’s Children’s Hospital, Crumlin
+
+[48.19, 324.47] 
+ [70.87, 324.47] Temple Street Children’s University Hospital
+
+[48.19, 372.47] 1.1 objectives of the icts
+
+[48.19, 397.28] 
+ [70.87, 397.28] To develop a specific triage tool to clinically assess children attending EDs that facilitates the prompt recognition of acuity
+
+[70.87, 409.28] for ill or injured children.
+
+[48.19, 422.10] 
+ [70.87, 422.10] To develop a tool tailored to include clinical elements such as physiological vital signs, pain assessment, temperature and
+
+[70.87, 434.10] other special guidelines specific to the needs of children. 
+
+[48.19, 446.92] 
+ [70.87, 446.92] To provide an evidence-based approach to the triage of children that supports clinical decision making with regard to the
+
+[70.87, 458.92] symptoms and clinical management of the patient.
+
+[48.19, 471.74] 
+ [70.87, 471.74] To provide a National Standard for Children’s Triage which ensures that children receive the same standard and quality of
+
+[70.87, 483.74] care regardless of where in the country they present for treatment. 
+
+[48.19, 531.74] 1.2 approach 
+
+[48.19, 555.74] When developing the ICTS tool, the sub-group agreed to use a similar format to that of the Manchester Triage System (Mackway-
+
+[48.19, 567.74] Jones et al 1997, 2006 & 2014) as it was considered appropriate to build on a system that was already familiar to staff rather
+
+[48.19, 579.74] than introduce a completely new system that would require substantial re-education and training.
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[295.39, 812.97] 4
+
+[48.19, 63.17] 2. introduction
+
+[48.19, 103.56] The term triage comes from the French verb ‘trier’ meaning to separate, sort, sift or select. It was a concept originally developed
+
+[48.19, 115.56] by Dr Dominique Jean Larrey, a military surgeon during the Napoleonic Wars, and was used to sort soldiers wounded in battle
+
+[48.19, 127.56] for the purpose of establishing treatment priorities. 
+
+[48.19, 151.56] Changes in the health care delivery system in the United States forced EDs to consider alternative ways of handling an increase
+
+[48.19, 163.56] in the number of patient attendances during the 1950s and early 1960s (Gilboy et al 2005). EDs recognised that a method to sort
+
+[48.19, 175.56] patients and identify those needing immediate care was required. This provided the impetus to have ED triage systems in place.
+
+[48.19, 187.56] Doctors and nurses who had used the triage process effectively in the military environment introduced triage into civilian EDs.
+
+[48.19, 199.56] The transition of the triage process from the military environment to US EDs was considered very successful (Gilboy et al 2005).
+
+[48.19, 223.56] Across the world EDs are faced with increasing numbers of patients presenting faster than they can be seen. Longer waits for
+
+[48.19, 235.56] care make the use of reliable, valid triage systems essential to patient safety (Storm-Versloot et al 2011). Triage is the rapid and
+
+[48.19, 247.56] preliminary assessment which identifies and sorts patients based on their need for or likely benefit from immediate medical
+
+[48.19, 259.56] treatment (Fitzgerald et al 2009). Additionally, there are patients who will not require major resources for assessment and treatment
+
+[48.19, 271.56] and could be seen in a low-intensity (fast-track/ambulatory unit) area by a doctor or an Advanced Nurse Practitioner. Identifying
+
+[48.19, 283.56] these patients as they present permits the ED to maximise resources and clinical space and allow appropriate resources to be
+
+[48.19, 295.56] invested in sicker patients at the same time as the less acute and less resource-dependent patients have their needs met.
+
+[48.19, 319.56] International healthcare systems in the United Kingdom (Manchester Triage System 1997, 2006 & 2014), Canada (Canadian
+
+[48.19, 331.56] Paediatric Triage and Acuity Scale 2001 & 2008), and Australia and New Zealand (Australasian Triage Scale, ACEM 2013) have
+
+[48.19, 343.56] designed national triage systems to attend to patient needs based on acuity of presentation, improve patient safety and enhance
+
+[48.19, 355.56] satisfaction. Although the United States has a variety of triage tools (3-tier to 5-tier systems), the most commonly used triage
+
+[48.19, 367.56] system in the US is the 5-tier Emergency Severity Index (1998, 2012). Five-level triage systems have been shown to be more
+
+[48.19, 379.56] reliable and valid than three-level systems (Travers et al 2002, College of Emergency Nursing, Australia 2012).
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[295.39, 812.97] 5
+
+[48.19, 63.17] 3. the generic triage Process
+
+[48.19, 103.56] To ensure transparency and uniformity, a formally structured triage system for ED patients is advocated. Internationally, the most
+
+[48.19, 115.56] commonly used triage processes are 5-tiered in nature and classify the acuity of a patient’s condition based chiefly on the patient’s
+
+[48.19, 127.56] presenting complaint and findings on assessment (Murray et al 2004, ACEM 2013). Acuity rating levels are used to prioritise
+
+[48.19, 139.56] patients for care and characteristically involve assigning a numeric score to patients, such as triage category 1 (most acute) to
+
+[48.19, 151.56] triage category 5 (least acute). The presenting complaint determines which flowchart is followed. Each flowchart is based on a
+
+[48.19, 163.56] five-step decision process that uses general and condition-specific discriminators at each step to assign patients to one of the
+
+[48.19, 175.56] five triage categories (Storm-Versloot et al 2009). The triage decision and acuity rating allocated to the patient determines the
+
+[48.19, 187.56] ideal maximum time to first contact with the treating clinician (Mackway Jones et al 2006) and this prioritisation influences and
+
+[48.19, 199.56] ultimately affects patient safety. It is imperative therefore, that patients in need of urgent care are identified immediately, as
+
+[48.19, 211.56] adverse outcomes may otherwise occur while the patient is waiting. Mackway-Jones et al (2006, 2014) maintain that triage is a
+
+[48.19, 223.56] fundamental element of ED clinical risk management. Inherent in the belief that triage is of value is the assumption that the
+
+[48.19, 235.56] outcome of some patients will be improved if they are seen sooner whilst other patients will not be adversely affected by delays
+
+[48.19, 247.56] in their care. 
+
+[48.19, 271.56] Triage is frequently the first instance of clinical contact for patients and their carers presenting to the ED. It is consistently the
+
+[48.19, 283.56] point at which emergency care begins in the acute hospital setting. Clinical decisions made by triage nurses require complex
+
+[48.19, 295.56] cognitive processes. The ability to make efficient clinical judgments and decisions is critical, and the quality and accuracy of
+
+[48.19, 307.56] triage decisions are central to appropriate and timely clinical care. Some authors suggest that response times (interval from time
+
+[48.19, 319.56] of triage categorisation to treating clinician review) are ideals and not standards, based on the need for timely interventions that
+
+[48.19, 331.56] improve outcomes (Warren et al 2001, PricewaterhouseCoopers and the Health Administration Corporation 2011). However
+
+[48.19, 343.56] ACEM (2013) suggests that the triage category outlines the maximum time that a patient should wait for a treating clinician
+
+[48.19, 355.56] assessment. 
+
+[48.19, 379.56] Triage also allows for the allocation of a patient to the most appropriate assessment and treatment area and contributes information
+
+[48.19, 391.56] that helps to describe case-mix in the ED (ACEM 2013). Patients who are identified as safe to wait longer may be seen by another
+
+[48.19, 403.56] caregiver such as an Advanced Nurse Practitioner (Veen & Moll 2009). The triage process should form the start of a documented
+
+[48.19, 415.56] care pathway for each individual patient (Comhairle na nOspideal 2002).
+
+[48.19, 439.56] The aims of triage are:
+
+[48.19, 464.38] 
+ [70.87, 464.38] To rapidly identify patients with urgent, life threatening conditions;
+
+[48.19, 477.19] 
+ [70.87, 477.19] To ensure that patients are treated in the order of their clinical urgency;  
+
+[48.19, 490.01] 
+ [70.87, 490.01] To initiate appropriate nursing interventions e.g. first aid, administer prescribed medication/analgesia and emergency
+
+[70.87, 502.01] interventions; 
+
+[48.19, 514.83] 
+ [70.87, 514.83] To improve patient outcomes and safety within the department;
+
+[48.19, 527.65] 
+ [70.87, 527.65] To plan appropriate reassessment and management of patients who remain in a waiting area, dependent on their condition
+
+[70.87, 539.65] and time frames; 
+
+[48.19, 552.47] 
+ [70.87, 552.47] To allocate patients to the most appropriate assessment and treatment area;
+
+[48.19, 565.28] 
+ [70.87, 565.28] To decrease congestion in emergency treatment areas;
+
+[48.19, 578.10] 
+ [70.87, 578.10] To assist in the identification of patients who could be seen by another health professional (e.g. Advanced Nurse
+
+[70.87, 590.10] Practitioner);
+
+[48.19, 602.92] 
+ [70.87, 602.92] To contribute information that helps to define departmental acuity and describe departmental case-mix; 
+
+[48.19, 615.74] 
+ [70.87, 615.74] To facilitate patient and public education in relation to health promotion and injury prevention, when appropriate;
+
+[48.19, 628.56] 
+ [70.87, 628.56] To provide information to patients and families regarding services expected, care and waiting times; 
+
+[48.19, 641.37] 
+ [70.87, 641.37] To act as the liaison for members of the public and other health care professionals.
+
+[224.40, 653.37] (Beveridge et al 1999, Murray et al 2004, Mackway-Jones et al 2006, ACEM 2013)
+
+[48.19, 677.37] The initial features used to assess urgency in the Irish Children’s Triage System (ICTS) are a combination of:
+
+[48.19, 702.19] 
+ [70.87, 702.19] Presenting problem; 
+
+[48.19, 715.01] 
+ [70.87, 715.01] General appearance; 
+
+[48.19, 727.83] 
+ [70.87, 727.83] Physiological findings; 
+
+[48.19, 740.65] 
+ [70.87, 740.65] Age of the child; 
+
+[48.19, 753.46] 
+ [70.87, 753.46] Significant past medical history that may impact on the current attendance
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[295.39, 812.97] 6
+
+[48.19, 71.63] Internationally, it is recommended that the triage assessment should take no longer than two to five minutes to obtain sufficient
+
+[48.19, 83.63] information to determine urgency and identify any immediate care needs (Warren et al 2001, Gilboy et al 2005, Gerdtz et al 2007,
+
+[48.19, 95.63] ACEM 2013). However Travers (1999) demonstrated that this target was only achieved 22% of the time. The triage process tends
+
+[48.19, 107.63] to incur delays especially in the younger age group of attendees. 
+
+[48.19, 131.63] Recording of vital signs in children, for example, is time consuming due to difficulty with cooperation (age-related), cognitive
+
+[48.19, 143.63] ability and comprehension. Privacy also needs consideration as exposing children for assessment and examination is mandatory
+
+[48.19, 155.63] in a number of circumstances, particularly where rashes need to be assessed or small infants need to be weighed and this can
+
+[48.19, 167.63] only be performed in a private cubicle. Parental anxiety is another factor that cannot be overlooked and is often reduced by the
+
+[48.19, 179.63] triage nurse. The commonly internationally accepted times associated with triage are based on adult triage.
+
+[48.19, 203.63] The assessment of initial features, presenting problem, general appearance, physiological findings, age of the child and significant
+
+[48.19, 215.63] past medical history should determine whether a patient is a category 1 (immediate) or 2 (very urgent) and accordingly should
+
+[48.19, 227.63] be seen within the appropriate timeframe. A more thorough assessment may be required to determine lower triage categories.
+
+[48.19, 239.63] The National Emergency Medicine Programme Report (2012) recommends that 95% of patients are triaged within 15 minutes
+
+[48.19, 251.63] of presentation to an ED.
+
+[48.19, 275.63] The documentation of the triage assessment in ICTS should include as a minimum the following essential details (In category 1
+
+[48.19, 287.63] and 2 patients, some or all of these details and assessments will be carried out in parallel with medical assessment): 
+
+[48.19, 312.45] 
+ [70.87, 312.45] Date and time of assessment;
+
+[48.19, 325.27] 
+ [70.87, 325.27] Name of triage nurse;
+
+[48.19, 338.09] 
+ [70.87, 338.09] Chief presenting problem(s);
+
+[48.19, 350.91] 
+ [70.87, 350.91] Significant past history that may have an impact on current attendance;
+
+[48.19, 363.72] 
+ [70.87, 363.72] Relevant assessment findings;
+
+[48.19, 376.54] 
+ [70.87, 376.54] Appropriate vital signs, neurological observations, respiratory assessment, pain score, blood sugar depending on
+
+[70.87, 388.54] presentation and findings;
+
+[48.19, 401.36] 
+ [70.87, 401.36] Diagnostic, first aid or treatment measures initiated; 
+
+[48.19, 414.18] 
+ [70.87, 414.18] Weight of the child as this is an essential component of paediatric medication calculations (critically ill patients will  have
+
+[70.87, 426.18] their weight calculated using recognised locally agreed formula);
+
+[48.19, 439.00] 
+ [70.87, 439.00] Infectious contacts/immunocompromised patients identified to determine if the patient requires isolation;
+
+[48.19, 451.81] 
+ [70.87, 451.81] Vaccination status, medications and allergies;
+
+[48.19, 464.63] 
+ [70.87, 464.63] Initial triage category allocated;
+
+[48.19, 477.45] 
+ [70.87, 477.45] Ongoing patient assessments required;
+
+[48.19, 490.27] 
+ [70.87, 490.27] Waiting area/treatment area allocated.
+
+[408.78, 502.27] (Beveridge et al 1999, ACEM 2013)
+
+[48.19, 526.27] The role of the triage nurse also includes:
+
+[48.19, 551.09] 
+ [70.87, 551.09] Greeting the child and carer(s) in a warm, empathetic manner;
+
+[48.19, 563.90] 
+ [70.87, 563.90] Advising the child/carer to notify staff of any change in condition;
+
+[48.19, 576.72] 
+ [70.87, 576.72] Commencing the child on an appropriate observation regime dependent on their presenting complaint and triage category;
+
+[48.19, 589.54] 
+ [70.87, 589.54] Administering prescribed medication e.g. analgesia, following discussion with the treating clinician regarding presenting
+
+[70.87, 601.54] complaint, assessment findings, past medical history (including allergies);
+
+[48.19, 614.36] 
+ [70.87, 614.36] Administering first aid treatment to the child (e.g. application of sling, temporary dressing, other appropriate interventions);
+
+[48.19, 627.18] 
+ [70.87, 627.18] Advising the child’s carer/family regarding waiting times and possible delays.
+
+[48.19, 651.18] Triage nurses are always encouraged to use their experience and intuition to “up triage” the category (increase the acuity level),
+
+[48.19, 663.18] even if the patient does not seem to fit exactly with the parameter or definitions on the triage flowchart because: 'if they look sick
+
+[48.19, 675.18] then they probably are'. Likewise a nurse should be encouraged to use his / her intuition and not 'down triage' if he/she has
+
+[48.19, 687.18] concerns (Berveridge et 1999).
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[295.39, 812.97] 7
+
+[48.19, 63.17] 4. Background to irish children’s triage system
+
+[48.19, 103.56] 4.1 Nursing assessment 
+
+[48.19, 127.56] Prior to 2011, there were three triage systems in use for triaging children in Ireland: Manchester Triage System (MTS) in the
+
+[48.19, 139.56] majority of EDs and two modified triage systems designed, tested and audited locally in OLCHC and TSCUH by local Triage
+
+[48.19, 151.56] Committees consisting of Consultants in Emergency Medicine and senior ED nurses. 
+
+[48.19, 175.56] In June 2011, the Clinical Nurse Managers 3 (CNM3) from OLCHC and TSCUH were invited to present their triage tools to the
+
+[48.19, 187.56] Emergency Nursing Interest Group (ENIG). At ENIG meetings senior emergency nurses had expressed the view that MTS had
+
+[48.19, 199.56] limitations as a tool when triaging children in their departments as many of the decisions made regarding the allocation of triage
+
+[48.19, 211.56] categories were dependent on nurses’ experience with no consideration given, in particular, to the importance of abnormal pulse
+
+[48.19, 223.56] and respirations in children. As a quality improvement initiative, a proposal was made by ENIG to the Emergency Medicine
+
+[48.19, 235.56] Programme Working Group that a subgroup should be set up to design an Irish Children’s Triage System (ICTS). The objective
+
+[48.19, 247.56] was to standardise a formal, comprehensive triage tool that would improve consistency between users and be suitable for triaging
+
+[48.19, 259.56] children in all EDs with paediatric attendances in Ireland. The ICTS subgroup comprised of senior nurses from the three paediatric
+
+[48.19, 271.56] hospitals and four hospitals with both adult and paediatric attendances. Professor Ronan O’Sullivan and Dr Carol Blackburn (both
+
+[48.19, 283.56] OLCHC) were the medical leads and all Consultants in Emergency Medicine across the three paediatric EDs in Dublin supported
+
+[48.19, 295.56] the project. 
+
+[48.19, 319.56] A comprehensive analysis of the international contemporary triage systems (MTS, Canadian Paediatric Triage and Acuity Scale)
+
+[48.19, 331.56] had been previously undertaken by the two hospitals who had designed local triage tools. A review of the literature identified
+
+[48.19, 343.56] three options available when systems of triage are introduced into EDs (Fortes Lahdet 2009): 
+
+[48.19, 368.38] 
+ [70.87, 368.38] Adopt an existing, well-recognised and validated method; 
+
+[48.19, 381.19] 
+ [70.87, 381.19] Develop a national triage model that is suited to national needs; 
+
+[48.19, 394.01] 
+ [70.87, 394.01] Design a local model that reflects specific needs and interests. 
+
+[48.19, 430.01] 4.2 manchester triage system – Emergency triage (mts)
+
+[48.19, 454.01] The MTS tool (1997, 2006 and 2014) is an example of a 5-tiered triage system which was referenced considerably whilst
+
+[48.19, 466.01] developing the two local child-specific triage tools. It uses a series of flow charts for various "presentations" with key
+
+[48.19, 478.01] "discriminators" to determine the triage category. MTS however, is primarily an adult triage tool (Beveridge et al in 1999,
+
+[48.19, 490.01] PricewaterhouseCoopers, Health Administration Corporation 2011) and authors suggest that general scales are less helpful (or
+
+[48.19, 502.01] reliable) at the extremes of age. In 2011, MTS (2006) had 50 flowcharts on the most common presenting complaints to ED;
+
+[48.19, 514.01] however only 7 of these were specific flow charts for triaging children (abdominal pain in children; crying baby; limping child;
+
+[48.19, 526.01] irritable child; shortness of breath in children; unwell child; worried parents). The current version of MTS (2014) has 55 flowcharts
+
+[48.19, 538.01] with 3 additional flowcharts which relate to children (unwell baby, unwell newborn, abused or neglected child). 
+
+[48.19, 562.01] In MTS, there are no child age-specific parameters available for abnormal pulse or respirations for children. The recommendation
+
+[48.19, 574.01] that ‘age appropriate definitions of bradycardia and tachycardia should be used in children’ (MTS 2014, p 161) was considered
+
+[48.19, 586.01] by the ICTS project sub-group to be too subjective for the assessment of children. In addition, ‘increased work of breathing’
+
+[48.19, 598.01] (MTS 2014, p149) explains increased respiratory rate without providing guidance on age-related clinically relevant parameters. 
+
+[48.19, 634.01] 4.3 canadian Paediatric triage and acuity scale guideline (Paedctas)
+
+[48.19, 658.01] PaedCTAS (Warren et al 2001, 2008) was the only child specific triage system identified and is also a 5-tiered triage scale.
+
+[48.16, 670.01] PaedCTAS was considered to be less user-friendly than MTS but included an age-specific physiologic parameter assessment.
+
+[48.16, 682.01] Warren et al (2008) identified that abnormal respiratory rate and heart rate may be the only indication of underlying sepsis or
+
+[48.16, 694.01] impending shock. With this in mind the 'Vital Signs Reference Grids’ previously adapted in OLCHC from the age-specific
+
+[48.15, 706.01] physiologic parameter assessment used in PaedCTAS were incorporated into the Irish Children’s Triage System (Appendix 1.1).
+
+[48.16, 730.01] Education and training in PaedCTAS system of triage was not readily available in Ireland and this was considered an essential
+
+[48.16, 742.01] element in developing a formalised triage tool. 
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[295.39, 812.97] 8
+
+[48.19, 63.17] 5. the development of the irish children’s triage system (icts)
+
+[48.19, 103.56] Neither MTS nor PaedCTAS on their own were considered to fully address the needs of the Irish paediatric patient population or
+
+[48.19, 115.56] the users of the system, thus the merits of both systems were identified and merged into one child-specific triage tool, namely
+
+[48.19, 127.56] the Irish Children’s Triage System (ICTS).
+
+[48.19, 151.56] It was agreed to use a similar format to that of MTS as the flow charts used in MTS were thought to be user friendly and easy to
+
+[48.19, 163.56] follow. It was also considered appropriate to build on a system that was already familiar to staff rather than introduce a completely
+
+[48.19, 175.56] new system that would require substantial re-education. Furthermore, ICTS adapted the use of numbering of categories and ideal
+
+[48.19, 187.56] time targets from MTS rather than target times recommended in the Canadian or Australasian triage tools. Finally, the physiologic
+
+[48.19, 199.56] parameters assessment of PaedCTAS, as modified previously for use in OLCHC, was incorporated into the new tool (5.2 Tables
+
+[48.19, 211.56] 1,2,3).
+
+[48.19, 235.56] Hereafter, ICTS was developed using flowcharts representing the 22 most common paediatric presenting complaints to Irish
+
+[48.19, 247.56] EDs. As the presenting signs and symptoms of childhood illnesses can be insidious in nature and the presenting complaint may
+
+[48.19, 259.56] therefore not always fit neatly into one of the defined flowcharts, two additional default flowcharts of Unwell Child and Unwell
+
+[48.19, 271.56] Infant (including pyrexia) were developed that would be comprehensive enough to capture all potential clinical risk. It is vital,
+
+[48.19, 283.56] however, that if there is an alternative flowchart more specific to the patient’s presenting complaint that this specialised flowchart
+
+[48.19, 295.56] is used and the flowcharts Unwell Child and Unwell Infant (including pyrexia) are only used where a more appropriate flow chart
+
+[48.19, 307.56] is not available. 
+
+[48.19, 343.56] 5.1 special case guidelines
+
+[48.19, 367.56] There are some conditions where patients may present and appear well but their underlying condition indicates that these patients
+
+[48.19, 379.56] can deteriorate at a very rapid rate. With this in mind patients with a history of metabolic disorder, Sickle Cell Disease, patients
+
+[48.19, 391.56] with a tracheostomy and breathing difficulties or patients with ventriculo-peritoneal shunt problems should never receive a lower
+
+[48.19, 403.56] acuity than category 2.
+
+[48.19, 427.56] In addition, the triage of patients with a co-existing medical problem or extremes of age provides particularly difficult challenges
+
+[48.19, 439.56] (Veen et al 2008). Patients with significant co-existing illness and co-morbidity are a group in which assessment and management
+
+[48.19, 451.56] is frequently complex, even with normal childhood illnesses. The ICTS project subgroup gave these children specific consideration
+
+[48.19, 463.56] (as well as children and babies < 3 months of age) and decided that in the absence of indicators for a higher category, these
+
+[48.19, 475.56] patients should never be categorised lower than category 3. 
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[295.39, 812.97] 9
+
+[48.19, 105.71] Children who should never be triaged less than Category
+
+[172.66, 144.30] 2
+
+[48.19, 179.98] 
+ [70.87, 179.98] Patients with history of metabolic disorder
+
+[48.19, 192.79] 
+ [70.87, 192.79] Patient with Sickle Cell Disease
+
+[48.19, 205.61] 
+ [70.87, 205.61] Patient with a tracheostomy and breathing difficulties
+
+[48.19, 218.43] 
+ [70.87, 218.43] Patient with ventriculo-peritoneal shunt problems
+
+[48.19, 268.58] Children who should never be triaged less than Category 
+
+[171.61, 306.08] 3
+
+[48.19, 342.85] 
+ [70.87, 342.85] Co-existing illness with significant morbidity:
+
+[70.87, 355.67] 
+ [93.54, 355.67] Patients with airway problems
+
+[70.87, 368.48] 
+ [93.54, 368.48] Significant respiratory history
+
+[70.87, 381.30] 
+ [93.54, 381.30] Cardiac patients
+
+[70.87, 394.12] 
+ [93.54, 394.12] Patients with significant renal history
+
+[70.87, 406.94] 
+ [93.54, 406.94] Bleeding disorders
+
+[70.87, 419.76] 
+ [93.54, 419.76] Oncology patients currently receiving oncology treatment
+
+[48.19, 432.57] 
+ [70.87, 432.57] Babies <3/12
+
+[48.19, 445.39] 
+ [70.87, 445.39] Immunocompromised patients
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 10
+
+[48.19, 103.56] 5.2 Vital signs reference grids (adapted from Warren et al 2008)
+
+[48.19, 139.56] respiratory rate Values 
+
+[48.19, 151.56] table 1.
+
+[53.86, 187.56] age
+ [167.95, 187.56] ≤ - 2 sd
+ [228.44, 187.56] - 1 sd
+ [282.64, 187.56] Normal
+ [341.00, 187.56] + 1 sd
+ [397.69, 187.56] + 2 sd
+ [450.63, 187.56] > + 2 sd
+
+[53.86, 202.39] 0 – 3 months
+ [175.50, 202.39] < 20
+ [225.94, 202.39] 21 – 30
+ [283.47, 202.39] 30 - 60
+ [339.33, 202.39] 60 – 70
+ [396.02, 202.39] 70 – 80
+ [458.97, 202.39] > 80
+
+[53.86, 217.23] 4 – 6 months
+ [175.50, 217.23] < 20
+ [225.94, 217.23] 20 – 30
+ [282.64, 217.23] 30 – 60
+ [339.33, 217.23] 60 – 70
+ [396.02, 217.23] 70 – 80
+ [458.97, 217.23] > 80
+
+[53.86, 232.06] 7 -12 months
+ [175.50, 232.06] < 17
+ [225.94, 232.06] 17 – 25
+ [282.64, 232.06] 25 – 45
+ [339.33, 232.06] 45 – 55
+ [396.02, 232.06] 55 – 60
+ [458.97, 232.06] > 60
+
+[53.86, 246.90] 1 – 3 years
+ [175.50, 246.90] < 15
+ [225.94, 246.90] 15 – 20
+ [282.64, 246.90] 20 – 30
+ [339.33, 246.90] 30 – 35
+ [396.02, 246.90] 35 – 40
+ [458.97, 246.90] > 40
+
+[53.86, 261.73] 4 – 6 years
+ [175.50, 261.73] < 12
+ [225.94, 261.73] 12 – 16
+ [282.64, 261.73] 16 – 24
+ [339.33, 261.73] 24 – 28
+ [396.02, 261.73] 28 – 32
+ [458.97, 261.73] > 32
+
+[53.86, 276.57] > 7 years
+ [175.50, 276.57] < 10
+ [225.94, 276.57] 10 – 14
+ [282.64, 276.57] 14 – 20
+ [339.33, 276.57] 20 – 24
+ [396.02, 276.57] 24 – 26
+ [458.97, 276.57] > 26
+
+[48.19, 298.40] SD: standard deviation
+
+[48.19, 318.40] heart rate Values 
+
+[48.19, 330.40] table 2.
+
+[53.86, 363.40] age
+ [167.95, 363.40] ≤ - 2 sd
+ [228.44, 363.40] - 1 sd
+ [282.64, 363.40] Normal
+ [341.00, 363.40] + 1 sd
+ [397.69, 363.40] + 2 sd
+ [450.63, 363.40] > + 2 sd
+
+[53.86, 378.23] 0 – 3 months
+ [175.50, 378.23] < 65
+ [225.94, 378.23] 65 – 90
+ [280.14, 378.23] 90 – 180
+ [334.33, 378.23] 180 – 205
+ [391.02, 378.23] 205 – 230
+ [456.47, 378.23] > 230
+
+[53.86, 393.07] 4 – 6 months
+ [175.50, 393.07] < 63
+ [225.94, 393.07] 63 – 80
+ [280.14, 393.07] 80 – 160
+ [334.33, 393.07] 160 – 180
+ [391.02, 393.07] 180 – 210
+ [456.47, 393.07] > 210
+
+[53.86, 407.90] 7 -12 months
+ [175.50, 407.90] < 60
+ [225.95, 407.90] 60 – 80
+ [280.14, 407.90] 80 – 140
+ [334.33, 407.90] 140 – 160
+ [391.02, 407.90] 160 – 180
+ [456.47, 407.90] > 180
+
+[53.86, 422.74] 1 – 3 years
+ [175.50, 422.74] < 58
+ [225.95, 422.74] 58 – 75
+ [280.14, 422.74] 75 – 130
+ [334.33, 422.74] 130 – 145
+ [391.02, 422.74] 145 – 165
+ [456.47, 422.74] > 165
+
+[53.86, 437.57] 4 – 6 years
+ [175.50, 437.57] < 55
+ [225.95, 437.57] 55 – 70
+ [280.14, 437.57] 70 – 110
+ [334.33, 437.57] 110 – 125
+ [391.02, 437.57] 125 – 140
+ [456.47, 437.57] > 140
+
+[53.86, 452.41] > 7 years
+ [175.50, 452.41] < 45
+ [225.95, 452.41] 45 – 60
+ [282.64, 452.41] 60 – 90
+ [336.83, 452.41] 90 – 105
+ [391.02, 452.41] 105 – 120
+ [456.47, 452.41] > 120
+
+[48.19, 474.24] SD: standard deviation
+
+[53.86, 508.91] colour
+ [211.81, 508.91] triage category
+
+[53.86, 526.58] red
+ [211.81, 526.58] triage category 1
+
+[53.86, 545.25] orange
+ [211.81, 545.25] triage category 2
+
+[53.86, 563.92] yellow
+ [211.81, 563.92] triage category 3
+
+[53.86, 582.59] White
+ [211.81, 582.59] triage category not determined by pulse or respiration rate
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 11
+
+[48.19, 106.56] classification of hypertension by age group 
+
+[48.19, 130.56] table 3.
+
+[53.86, 166.56] age group
+ [216.32, 166.56] significant hypertension
+ [369.51, 166.56] severe hypertension
+
+[248.27, 178.56] (mm hg)
+ [393.95, 178.56] (mm hg)
+
+[53.86, 202.56] Neonate (< 7 days)
+ [233.73, 202.56] Systolic BP ≥ 96
+ [376.91, 202.56] Systolic BP ≥ 106
+
+[53.86, 226.56] Neonate (8 – 30 days)
+ [231.23, 226.56] Systolic BP ≥ 104
+ [376.91, 226.56] Systolic BP ≥ 110
+
+[53.86, 250.56] Infant (< 2 years)
+ [231.23, 250.56] Systolic BP ≥ 112
+ [376.91, 250.56] Systolic BP ≥ 118
+
+[232.34, 262.56] Diastolic BP ≥ 74
+ [378.03, 262.56] Diastolic BP ≥ 82
+
+[53.86, 286.56] Children (3 – 5 years)
+ [231.23, 286.56] Systolic BP ≥ 116
+ [376.91, 286.56] Systolic BP ≥ 124
+
+[232.34, 298.56] Diastolic BP ≥ 76
+ [378.03, 298.56] Diastolic BP ≥ 84
+
+[53.86, 322.56] Children (6 – 9 years)
+ [231.23, 322.56] Systolic BP ≥ 122
+ [376.91, 322.56] Systolic BP ≥ 130
+
+[232.34, 334.56] Diastolic BP ≥ 78
+ [378.03, 334.56] Diastolic BP ≥ 86
+
+[53.86, 358.56] Children (10 – 12 years)
+ [231.23, 358.56] Systolic BP ≥ 126
+ [376.91, 358.56] Systolic BP ≥ 134
+
+[232.34, 370.56] Diastolic BP ≥ 82
+ [378.03, 370.56] Diastolic BP ≥ 90
+
+[53.86, 394.56] Adolescents (13 – 15 years)
+ [231.23, 394.56] Systolic BP ≥ 136
+ [376.91, 394.56] Systolic BP ≥ 144
+
+[232.34, 406.56] Diastolic BP ≥ 86
+ [378.03, 406.56] Diastolic BP ≥ 92
+
+[53.86, 430.56] Adolescents (16 – 18 years)
+ [231.23, 430.56] Systolic BP ≥ 142
+ [376.91, 430.56] Systolic BP ≥ 150
+
+[232.34, 442.56] Diastolic BP ≥ 92
+ [378.03, 442.56] Diastolic BP ≥ 98
+
+[53.86, 490.56] colour
+ [212.60, 490.56] triage category
+
+[53.86, 525.90] orange
+ [212.60, 525.90] triage category 2
+
+[53.86, 543.57] yellow
+ [212.60, 543.57] triage category 3
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 12
+
+[48.19, 63.17] 6. general discriminators
+
+[48.19, 103.56] The following is a list of the common discriminators that appear in every flow chart in ICTS and the recommended minimum
+
+[48.19, 115.56] triage category each specific discriminator should receive in the absence of a specific discriminator identifying a higher acuity
+
+[48.19, 127.56] level.
+
+[48.19, 164.55] definition
+ [218.27, 164.55] triage categories
+ [388.35, 164.55] general discriminators
+
+[48.19, 188.55] Colour
+ [218.27, 188.55] red
+ [388.35, 188.55] Airway compromise
+
+[388.35, 200.55] Inadequate breathing
+
+[48.19, 212.55] Triage category
+ [218.27, 212.55] 1
+ [388.35, 212.55] Exsanguinating haemorrhage
+
+[388.35, 224.55] Currently seizing
+
+[48.19, 236.55] Meaning of triage category
+ [218.27, 236.55] Immediate
+ [388.35, 236.55] Abnormal age-related vital signs (Refer
+
+[388.35, 248.55] vital signs reference grids)
+
+[48.19, 260.55] Recommended time to be seen by
+ [218.27, 260.55] Immediate (ongoing assessment)
+ [388.35, 260.55] GCS ≤ 12
+
+[48.19, 272.55] doctor/reassessment
+ [388.35, 272.55] Oxygen saturations ≤ 90%
+
+[48.19, 296.55] Colour
+ [218.27, 296.55] orange
+ [388.35, 296.55] Severe pain (pain score 7-10)
+
+[388.35, 308.55] Uncontrollable major haemorrhage
+
+[48.19, 320.55] Triage category
+ [218.27, 320.55] 2
+ [388.35, 320.55] GCS 13 or 14
+
+[388.35, 332.55] Abnormal age-related vital signs (Refer
+
+[48.19, 344.55] Meaning of triage category
+ [218.27, 344.55] Very urgent
+ [388.35, 344.55] vital signs reference grids)
+
+[388.35, 356.55] Signs of compensated shock
+
+[48.19, 368.55] Recommended time to be seen by
+ [218.27, 368.55] ≤ 10 minutes
+ [388.35, 368.55] Oxygen saturations ≤ 92%     
+
+[48.19, 380.55] doctor/reassessment
+
+[48.19, 404.55] Colour
+ [218.27, 404.55] yellow
+ [388.35, 404.55] Moderate pain (pain score 4-6)
+
+[388.35, 416.55] Uncontrollable minor haemorrhage
+
+[48.19, 428.55] Triage category
+ [218.27, 428.55] 3
+ [388.35, 428.55] Abnormal age-related vital signs (Refer
+
+[388.35, 440.55] vital signs reference grids)
+
+[48.19, 452.55] Meaning of triage category
+ [218.27, 452.55] Urgent
+ [388.35, 452.55] History of unconsciousness
+
+[48.19, 476.55] Ideal time targets
+ [218.27, 476.55] ≤ 60 minutes
+
+[48.19, 500.55] Colour
+ [218.27, 500.55] green
+ [388.35, 500.55] Mild pain (Pain score 1-3)
+
+[388.35, 512.55] Problem <48 hours
+
+[48.19, 524.55] Triage category
+ [218.27, 524.55] 4
+
+[48.19, 548.55] Meaning of triage category
+ [218.27, 548.55] Standard
+
+[48.19, 572.55] Ideal time targets
+ [218.27, 572.55] ≤ 120 minutes
+
+[48.19, 596.55] Colour
+ [218.27, 596.55] Blue
+ [388.35, 596.55] Problem > 48 hours
+
+[48.19, 620.55] Triage category
+ [218.27, 620.55] 5
+
+[48.19, 644.55] Meaning of triage category
+ [218.27, 644.55] Non urgent
+
+[48.19, 668.55] Ideal time targets
+ [218.27, 668.55] ≤ 240 minutes
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 13
+
+[48.19, 63.17] 7. irish children’s triage system Flowcharts
+
+[48.19, 103.56] ICTS flowcharts are presented in alphabetical order and should be used in conjunction with additional decision making aids and
+
+[48.19, 115.56] reference charts available in appendix 1
+ [208.12, 115.56] of this document.
+
+[48.40, 140.24] 
+ [70.87, 140.38] Abdominal Pain / Isolated Abdominal Trauma
+
+[48.40, 158.74] 
+ [70.87, 158.86] Airway / Breathing Difficulty
+
+[48.40, 177.24] 
+ [70.87, 177.35] Altered Blood Glucose (including patients with Diabetes Mellitus)
+
+[48.40, 195.74] 
+ [70.87, 195.84] Back Pain / Isolated Neck and / or Back Injury
+
+[48.40, 214.24] 
+ [70.87, 214.33] Burns / Scalds
+
+[48.40, 232.74] 
+ [70.87, 232.81] Chest Pain / Isolated Chest Injury
+
+[48.40, 251.24] 
+ [70.87, 251.30] Dental Problem
+
+[48.40, 269.74] 
+ [70.87, 269.79] Ear / Nose Problem
+
+[48.40, 288.24] 
+ [70.87, 288.27] Eye Injury / Problem
+
+[48.40, 306.49] 
+ [70.87, 306.76] Foreign Body - not inhaled
+
+[48.40, 324.99] 
+ [70.87, 325.25] Genitourinary Problem
+
+[48.40, 343.49] 
+ [70.87, 343.74] Head Injury / Headache / VP shunt
+
+[48.40, 361.99] 
+ [70.87, 362.22] Limb Problem / Limb Injury
+
+[48.40, 380.49] 
+ [70.87, 380.71] Major Trauma
+
+[48.40, 398.99] 
+ [70.87, 399.20] Overdose and Poisoning
+
+[48.40, 417.49] 
+ [70.87, 417.69] Psychosocial Problem (including self-harm)
+
+[48.40, 435.99] 
+ [70.87, 436.17] Rashes (Blanching / Non-Blanching)
+
+[48.40, 454.49] 
+ [70.87, 454.66] Seizure / Absent Episode / Collapse
+
+[48.40, 472.99] 
+ [70.87, 473.15] Testicular Pain
+
+[48.40, 491.49] 
+ [70.87, 491.64] Throat Problem
+
+[48.40, 509.99] 
+ [70.87, 510.12] Unwell Child (over 1 year) (including Pyrexia)
+
+[48.40, 528.49] 
+ [70.87, 528.61] Unwell Infant (less than 1 year) (including Pyrexia)
+
+[48.40, 546.99] 
+ [70.87, 547.10] Vomiting ± Diarrhoea
+
+[48.40, 565.49] 
+ [70.87, 565.58] Wounds / Signs of Local Inflammation
+
+[48.19, 601.58] imPortaNt NotEs: 
+
+[48.19, 614.40] 
+ [70.87, 614.40] an electronic version of icts is currently available in some Eds in ireland. 
+
+[48.19, 627.22] 
+ [70.87, 627.22] in Eds where an electronic icts system is in use the reference material contained in appendix 1 should be made
+
+[70.84, 639.22] available in paper format . 
+
+[48.19, 652.04] 
+ [70.87, 652.04] training and education in the use of icts including the electronic version rests with an Eds clinical operational group
+
+[70.87, 664.04] (cog). 
+
+[48.19, 676.86] 
+ [70.87, 676.86] No alterations should be made to any material (hard copy or electronic) without the explicit consent of the National
+
+[70.87, 688.86] Emergency medicine Programme.
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 14
+
+[48.19, 63.17] abdominal Pain / isolated abdominal trauma
+
+[48.19, 77.58] A = Appendix 1 (Decision making aids and reference charts)
+
+[53.86, 116.38] 
+ [76.54, 116.38] Airway compromise
+
+[53.86, 129.19] 
+ [76.54, 129.19] Respiratory failure / respiratory arrest
+
+[53.86, 142.01] 
+ [76.54, 142.01] Exsanguinating haemorrhage
+
+[427.22, 148.28] yEs
+
+[53.86, 154.83] 
+ [76.54, 154.83] Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12
+ [501.41, 152.10] 1
+
+[53.86, 167.65] 
+ [76.54, 167.65] Abnormal  age-related  vital signs (Refer A 1.1)
+
+[53.86, 180.47] 
+ [76.54, 180.47] Penetrating / blunt abdominal / chest trauma with signs of shock
+
+[195.15, 203.31] No
+
+[53.86, 229.28] 
+ [76.54, 229.28] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 242.10] 
+ [76.54, 242.10] Glasgow Coma Scale Score (GCS) 13-14
+
+[53.86, 254.92] 
+ [76.54, 254.92] Temperature ≥ 40.0°C or ≤ 35.5°C
+
+[53.86, 267.74] 
+ [76.54, 267.74] Severe pain (7 - 10/10)
+
+[53.86, 280.56] 
+ [76.54, 280.56] ≥10% dehydration: Severe dehydration (Refer A1.2)
+
+[53.86, 293.37] 
+ [76.54, 293.37] Acute haematemesis / melaena / red currant stools
+
+[53.86, 306.19] 
+ [76.54, 306.19] Signs of compensated shock
+ [427.22, 307.31] yEs
+ [501.41, 310.10] 2
+
+[53.86, 319.01] 
+ [76.54, 319.01] Significant history / mechanism of injury (Refer A1.3)
+
+[53.86, 331.83] 
+ [76.54, 331.83] Severe blood loss
+
+[53.86, 344.65] 
+ [76.54, 344.65] Penetrating / blunt abdominal / chest trauma
+
+[53.86, 357.46] 
+ [76.54, 357.46] Frank haematuria
+
+[195.15, 382.40] No
+
+[53.86, 406.28] 
+ [76.54, 406.28] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 419.10] 
+ [76.54, 419.10] Moderate pain (4-6/10)
+
+[53.86, 431.92] 
+ [76.54, 431.92] Moderate dehydration (Refer A1.2)
+
+[53.86, 444.74] 
+ [76.54, 444.74] Inconsolable by parents
+
+[53.86, 457.55] 
+ [76.54, 457.55] History inconsistent with injury
+
+[53.86, 470.37] 
+ [76.54, 470.37] Persistent vomiting / persistent diarrhoea
+ [427.22, 471.11] yEs
+ [501.41, 473.85] 3
+
+[53.86, 483.19] 
+ [76.54, 483.19] Retention of urine
+
+[53.86, 496.01] 
+ [76.54, 496.01] Jaundice
+
+[53.86, 508.83] 
+ [76.54, 508.83] Drawing up legs
+
+[53.86, 521.64] 
+ [76.54, 521.64] ‘Small’ blood on urinalysis
+
+[53.86, 534.46] 
+ [76.54, 534.46] Suspicion of pregnancy
+
+[195.15, 560.89] No
+
+[53.86, 586.12] 
+ [76.54, 586.12] Mild pain (1-3/10)
+
+[53.86, 598.93] 
+ [76.54, 598.93] Diarrhoea ± vomiting with no signs of dehydration
+ [427.22, 602.36] yEs
+ [502.41, 605.12] 4
+
+[53.86, 611.75] 
+ [76.54, 611.75] Previous renal problem
+
+[53.86, 624.57] 
+ [76.54, 624.57] Recent problem (< 48 hours)
+
+[195.15, 648.19] No
+
+[53.86, 673.39] 
+ [76.54, 673.39] Problem > 48 hours with no acute symptoms
+ [427.22, 676.12] yEs
+ [502.41, 678.02] 5
+
+[53.86, 686.21] 
+ [76.54, 686.21] History of constipation – no pain
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 15
+
+[48.19, 63.17] airway / Breathing difficulty 
+
+[48.19, 77.58] A = Appendix 1 (Decision making aids and reference charts)
+
+[53.86, 116.38] 
+ [76.54, 116.38] Airway compromise
+
+[53.86, 129.19] 
+ [76.54, 129.19] Respiratory failure / respiratory arrest
+
+[53.86, 142.01] 
+ [76.54, 142.01] SaO2 ≤ 90% in room air
+
+[53.86, 154.83] 
+ [76.54, 154.83] Marked stridor with severe respiratory distress (Refer A1.4)
+
+[53.86, 167.65] 
+ [76.54, 167.65] Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12
+ [427.22, 167.11] yEs
+ [501.41, 170.92] 1
+
+[53.86, 180.47] 
+ [76.54, 180.47] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 193.28] 
+ [76.54, 193.28] Silent Chest
+
+[53.86, 206.10] 
+ [76.54, 206.10] Drooling
+
+[53.86, 218.92] 
+ [76.54, 218.92] ‘Tripod’ positioning
+
+[53.86, 231.74] 
+ [76.54, 231.74] Uncontrollable haemoptysis
+
+[195.15, 254.33] No
+
+[53.86, 280.56] 
+ [76.54, 280.56] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 293.37] 
+ [76.54, 293.37] Glasgow Coma Scale Score (GCS) 13-14
+
+[53.86, 306.19] 
+ [76.54, 306.19] SaO2 < 92% in room air
+
+[53.86, 319.01] 
+ [76.54, 319.01] PEFR < 40% of normal value
+
+[53.86, 331.83] 
+ [76.54, 331.83] Severe pain (7-10/10) 
+
+[53.86, 344.65] 
+ [76.54, 344.65] Severe respiratory distress (Refer A1.4)
+
+[53.86, 357.46] 
+ [76.54, 357.46] Signs of compensated shock
+ [427.22, 355.41] yEs
+ [501.41, 358.21] 2
+
+[53.86, 370.28] 
+ [76.54, 370.28] History of floppiness with pallor / cyanosis 
+
+[53.86, 383.10] 
+ [76.54, 383.10] History of apnoea lasting ≥ 20 seconds
+
+[53.86, 395.92] 
+ [76.54, 395.92] History of smoke inhalation
+
+[53.86, 408.74] 
+ [76.54, 408.74] Coughing fresh blood
+
+[53.86, 421.55] 
+ [76.54, 421.55] History of submersion 
+
+[195.15, 446.23] No
+
+[53.86, 470.37] 
+ [76.54, 470.37] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 483.19] 
+ [76.54, 483.19] Moderate pain (4-6/10)
+
+[53.86, 496.01] 
+ [76.54, 496.01] SaO2 92%-94% in room air
+
+[53.86, 508.83] 
+ [76.54, 508.83] PEFR 40-70% of normal value
+
+[53.86, 521.64] 
+ [76.54, 521.64] Significant respiratory history (e.g. ICU admission)
+ [427.22, 523.26] yEs
+ [501.41, 526.00] 3
+
+[53.86, 534.46] 
+ [76.54, 534.46] Moderate respiratory distress (Refer A1.4)
+
+[53.86, 547.28] 
+ [76.54, 547.28] History of inhalation / ingestion of foreign body
+
+[53.86, 560.10] 
+ [76.54, 560.10] History of haemoptysis
+
+[53.86, 572.92] 
+ [76.54, 572.92] Inhalation of sharp foreign body
+
+[195.15, 594.79] No
+
+[53.86, 621.73] 
+ [76.54, 621.73] Mild respiratory distress (Refer A1.4)
+
+[53.86, 634.55] 
+ [76.54, 634.55] Mild pain (1-3/10)
+
+[53.86, 647.37] 
+ [76.54, 647.37] SaO2 > 94% in room air
+
+[53.86, 660.19] 
+ [76.54, 660.19] PEFR >70% of normal value
+ [427.22, 655.55] yEs
+ [502.41, 658.32] 4
+
+[53.86, 673.01] 
+ [76.54, 673.01] Recent problem (< 48 hours)
+
+[53.86, 685.82] 
+ [76.54, 685.82] Cough present with minimal or no distress
+
+[195.15, 709.18] No
+
+[53.86, 734.64] 
+ [76.54, 734.64] No respiratory distress
+ [427.22, 736.47] yEs
+ [502.41, 738.37] 5
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 16
+
+[48.19, 63.17] altered Blood glucose (including patients with diabetes mellitus)
+
+[48.19, 77.58] A = Appendix 1 (Decision making aids and reference charts)
+
+[53.86, 116.38] 
+ [76.54, 116.38] Airway compromise
+
+[53.86, 129.19] 
+ [76.54, 129.19] Respiratory failure / respiratory arrest
+
+[53.86, 142.01] 
+ [76.54, 142.01] Kussmaul breathing (deep sighing respirations)
+
+[53.86, 154.83] 
+ [76.54, 154.83] Currently seizing
+ [427.22, 158.74] yEs
+ [501.41, 162.56] 1
+
+[53.86, 167.65] 
+ [76.54, 167.65] Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12
+
+[53.86, 180.47] 
+ [76.54, 180.47] Signs of cerebral oedema: headache, lethargy, irritability, confusion
+
+[76.53, 193.12] ↓pulse, ↑BP
+
+[53.86, 205.94] 
+ [76.54, 205.94] Abnormal age-related vital signs (Refer A1.1) 
+
+[195.15, 230.50] No
+
+[53.86, 254.75] 
+ [76.54, 254.75] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 267.57] 
+ [76.54, 267.57] Glasgow Coma Scale Score (GCS) 13-14
+
+[53.86, 280.39] 
+ [76.54, 280.39] Hypoglycaemia (blood sugar ≤ 2.7mmol/L)
+
+[53.86, 293.21] 
+ [76.54, 293.21] Blood glucose > 11 mmol/L with blood ketones  >1mmol/L
+ [427.22, 297.89] yEs
+ [501.41, 300.69] 2
+
+[53.86, 306.03] 
+ [76.54, 306.03] Signs of compensated shock
+
+[53.86, 318.84] 
+ [76.54, 318.84] ≥ 10% dehydration. Severe dehydration (Refer A1.2)
+
+[53.86, 331.66] 
+ [76.54, 331.66] Lethargy / listless / irritability / floppy
+
+[53.86, 344.48] 
+ [76.54, 344.48] History of both seizure and diabetes mellitus
+
+[195.15, 369.02] No
+
+[53.86, 393.30] 
+ [76.54, 393.30] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 406.12] 
+ [76.54, 406.12] Blood sugar 2.8 – 3.4 mmol/L in an asymptomatic child
+
+[53.86, 418.93] 
+ [76.54, 418.93] Hyperglycaemia with blood ketones < 1 mmol/L
+ [427.22, 418.99] yEs
+ [501.41, 421.73] 3
+
+[53.86, 431.75] 
+ [76.54, 431.75] Vomiting / diarrhoea in patient with a history of diabetes
+
+[53.86, 444.57] 
+ [76.54, 444.57] Diabetic patient required to be fasting
+
+[195.15, 469.76] No
+
+[53.86, 493.39] 
+ [76.54, 493.39] History of diabetes presenting with other (non-acute) problem
+
+[53.86, 506.21] 
+ [76.54, 506.21] Illness with normal blood sugar level
+ [427.22, 500.77] yEs
+ [502.41, 503.54] 4
+
+[53.86, 566.21] These patients should never be triaged less than Category 4
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 17
+
+[48.19, 63.17] Back Pain / isolated Neck and / or Back injury
+
+[48.19, 77.58] A = Appendix 1 (Decision making aids and reference charts)
+
+[53.86, 116.38] 
+ [76.54, 116.38] Airway compromise
+
+[53.86, 129.19] 
+ [76.54, 129.19] Respiratory failure / respiratory arrest
+
+[53.86, 142.01] 
+ [76.54, 142.01] Hypotension
+
+[427.22, 148.28] yEs
+
+[53.86, 154.83] 
+ [76.54, 154.83] Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12
+ [501.41, 152.10] 1
+
+[53.86, 167.65] 
+ [76.54, 167.65] Abnormal age-related vital signs (Refer A1.1)
+
+[195.15, 192.85] No
+
+[53.86, 216.47] 
+ [76.54, 216.47] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 229.28] 
+ [76.54, 229.28] Glasgow Coma Scale Score (GCS)  13-14
+
+[53.86, 242.10] 
+ [76.54, 242.10] Severe pain (7-10/10)
+
+[53.86, 254.92] 
+ [76.54, 254.92] Patient on spinal precautions
+ [427.22, 254.58] yEs
+ [501.41, 257.37] 2
+
+[53.86, 267.74] 
+ [76.54, 267.74] Significant history / mechanism of injury (Refer A1.3) 
+
+[53.86, 280.56] 
+ [76.54, 280.56] Signs of compensated shock
+
+[53.86, 293.37] 
+ [76.54, 293.37] Back pain with altered peripheral neurological status
+
+[195.15, 318.00] No
+
+[53.86, 342.19] 
+ [76.54, 342.19] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 355.01] 
+ [76.54, 355.01] Moderate pain (4-6/10)
+
+[53.86, 367.83] 
+ [76.54, 367.83] History inconsistent with injury
+
+[53.86, 380.65] 
+ [76.54, 380.65] Back trauma < 24 hours
+ [427.22, 375.80] yEs
+ [501.41, 378.54] 3
+
+[53.86, 393.46] 
+ [76.54, 393.46] Difficulty walking
+
+[53.86, 406.28] 
+ [76.54, 406.28] History of bleeding disorder
+
+[195.15, 430.08] No
+
+[53.86, 455.10] 
+ [76.54, 455.10] Mild pain (1-3/10)
+
+[53.86, 467.92] 
+ [76.54, 467.92] No focal neurological signs
+
+[53.86, 480.74] 
+ [76.54, 480.74] No limb deficits
+ [427.22, 477.76] yEs
+ [502.41, 480.53] 4
+
+[53.86, 493.55] 
+ [76.54, 493.55] Recent problem (< 48 hours)
+
+[195.15, 518.64] No
+
+[53.86, 542.37] 
+ [76.54, 542.37] Problem > 48 hours with no acute symptoms
+
+[53.86, 555.19] 
+ [76.54, 555.19] No pain / discomfort at present
+ [427.22, 549.38] yEs
+ [502.41, 551.28] 5
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 18
+
+[48.19, 63.17] Burns / scalds
+
+[48.19, 77.58] A = Appendix 1 (Decision making aids and reference charts)
+
+[53.86, 116.38] 
+ [76.54, 116.38] Airway compromise
+
+[53.86, 129.19] 
+ [76.54, 129.19] Respiratory failure / respiratory arrest
+
+[53.86, 142.01] 
+ [76.54, 142.01] SaO2 ≤ 90% in room air
+
+[427.22, 148.28] yEs
+
+[53.86, 154.83] 
+ [76.54, 154.83] Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12
+ [501.41, 152.10] 1
+
+[53.86, 167.65] 
+ [76.54, 167.65] Abnormal age-related vital signs (Refer A1.1) 
+
+[195.15, 192.85] No
+
+[53.86, 216.47] 
+ [76.54, 216.47] Abnormal age-related vital signs (Refer A1.1) 
+
+[53.86, 229.28] 
+ [76.54, 229.28] Glasgow Coma Scale Score (GCS) 13-14
+
+[53.86, 242.10] 
+ [76.54, 242.10] SaO2 < 94% in room air
+
+[53.86, 254.92] 
+ [76.54, 254.92] Temperature ≥ 40.0°C or ≤ 35.5°C
+
+[53.86, 267.74] 
+ [76.54, 267.74] Severe pain (7-10/10)
+
+[53.86, 280.56] 
+ [76.54, 280.56] Flame burn with face/neck involvement / facial oedema
+
+[53.86, 293.37] 
+ [76.54, 293.37] Signs of compensated shock
+ [427.22, 296.85] yEs
+ [501.41, 299.64] 2
+
+[53.86, 306.19] 
+ [76.54, 306.19] Significant history / mechanism of injury (Refer A1.3)
+
+[53.86, 319.01] 
+ [76.54, 319.01] Other injuries
+
+[53.86, 331.83] 
+ [76.54, 331.83] Burn ≥ 10% body surface area (BSA) or involving face, neck or perineum
+
+[53.86, 344.65] 
+ [76.54, 344.65] Circumferential hand, foot or chest involvement
+
+[53.86, 357.46] 
+ [76.54, 357.46] Chemical or electrical burn
+
+[53.86, 370.28] 
+ [76.54, 370.28] History of smoke inhalation/ smoke, dirt around nostrils/mouth
+
+[195.15, 393.94] No
+
+[53.86, 419.10] 
+ [76.54, 419.10] Abnormal age-related vital signs (Refer A1.1) 
+
+[53.86, 431.92] 
+ [76.54, 431.92] Moderate pain (4-6/10)
+
+[53.86, 444.74] 
+ [76.54, 444.74] History inconsistent with injury
+
+[53.86, 457.55] 
+ [76.54, 457.55] Delayed presentation
+ [427.22, 457.37] yEs
+ [501.41, 460.11] 3
+
+[53.86, 470.37] 
+ [76.54, 470.37] Burn, partial thickness < 10% BSA
+
+[53.86, 483.19] 
+ [76.54, 483.19] Burn, full thickness < 5% BSA
+
+[53.86, 496.01] 
+ [76.54, 496.01] Localised cold injury
+
+[195.15, 521.28] No
+
+[53.86, 544.83] 
+ [76.54, 544.83] Mild pain (1-3/10)
+
+[53.86, 557.64] 
+ [76.54, 557.64] Local tenderness
+
+[53.86, 570.46] 
+ [76.54, 570.46] Redness / inflammation
+ [427.22, 572.93] yEs
+ [502.41, 575.70] 4
+
+[53.86, 583.28] 
+ [76.54, 583.28] Local infection
+
+[53.86, 596.10] 
+ [76.54, 596.10] Minor burn
+
+[195.15, 620.08] No
+
+[53.86, 644.92] 
+ [76.54, 644.92] Planned Review (not fasting)
+ [427.22, 647.74] yEs
+ [502.41, 649.64] 5
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 19
+
+[48.19, 63.17] chest Pain / isolated chest injury
+
+[48.19, 77.58] A = Appendix 1 (Decision making aids and reference charts)
+
+[53.86, 116.38] 
+ [76.54, 116.38] Airway compromise
+
+[53.86, 129.19] 
+ [76.54, 129.19] Respiratory failure / respiratory arrest
+
+[53.86, 142.01] 
+ [76.54, 142.01] Severe trauma with respiratory distress
+
+[53.86, 154.83] 
+ [76.54, 154.83] Exsanguinating haemorrhage
+
+[53.86, 167.65] 
+ [76.54, 167.65] SaO2 ≤ 90% in room air
+ [427.22, 171.29] yEs
+ [501.41, 175.11] 1
+
+[53.86, 180.47] 
+ [76.54, 180.47] Cardiac arrhythmias 
+
+[53.86, 193.28] 
+ [76.54, 193.28] Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12
+
+[53.86, 206.10] 
+ [76.54, 206.10] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 218.92] 
+ [76.54, 218.92] Penetrating / blunt chest / abdominal trauma with signs of shock
+
+[195.15, 242.99] No
+
+[53.86, 267.74] 
+ [76.54, 267.74] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 280.56] 
+ [76.54, 280.56] Glasgow Coma Scale Score (GCS) 13-14
+
+[53.86, 293.37] 
+ [76.54, 293.37] SaO2 < 92% in room air
+
+[53.86, 306.19] 
+ [76.54, 306.19] Temperature ≥ 40.0°C or ≤ 35.5°C
+
+[53.86, 319.01] 
+ [76.54, 319.01] Severe pain (7-10/10)
+ [427.22, 324.04] yEs
+
+[53.86, 331.83] 
+ [76.54, 331.83] Signs of compensated shock
+ [501.41, 326.83] 2
+
+[53.86, 344.65] 
+ [76.54, 344.65] Significant history/mechanism of injury (Refer A1.3)
+
+[53.86, 357.46] 
+ [76.54, 357.46] Significant bruising to chest or abdomen
+
+[53.86, 370.28] 
+ [76.54, 370.28] Any penetrating / blunt chest / abdominal trauma
+
+[195.15, 393.94] No
+
+[53.86, 419.10] 
+ [76.54, 419.10] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 431.92] 
+ [76.54, 431.92] Moderate pain (4-6/10)
+
+[53.86, 444.74] 
+ [76.54, 444.74] History inconsistent with injury
+
+[53.86, 457.55] 
+ [76.54, 457.55] Pleuritic pain
+ [427.22, 461.55] yEs
+ [501.41, 464.29] 3
+
+[53.86, 470.37] 
+ [76.54, 470.37] Minor haemorrhage
+
+[53.86, 483.19] 
+ [76.54, 483.19] History of haemoptysis
+
+[53.86, 496.01] 
+ [76.54, 496.01] Minor chest injury with no respiratory distress
+
+[53.86, 508.83] 
+ [76.54, 508.83] Significant medical or surgical history
+
+[195.15, 533.43] No
+
+[53.86, 557.64] 
+ [76.54, 557.64] Mild pain (1-3/10)
+
+[53.86, 570.46] 
+ [76.54, 570.46] Local inflammation
+
+[53.86, 583.28] 
+ [76.54, 583.28] Recent problem (< 48 hours)
+ [427.22, 580.25] yEs
+ [502.41, 583.02] 4
+
+[53.86, 596.10] 
+ [76.54, 596.10] Local infection
+
+[195.15, 620.08] No
+
+[53.86, 644.92] 
+ [76.54, 644.92] Problem > 48 hours with no acute symptoms
+
+[427.22, 651.43] yEs
+
+[53.86, 657.73] 
+ [76.54, 657.73] No pain / discomfort at present
+ [502.41, 653.33] 5
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 20
+
+[48.19, 63.17] dental Problem
+
+[48.19, 77.58] A = Appendix 1 (Decision making aids and reference charts)
+
+[53.86, 116.38] 
+ [76.54, 116.38] Airway compromise
+
+[53.86, 129.19] 
+ [76.54, 129.19] Respiratory failure / respiratory arrest
+
+[53.86, 142.01] 
+ [76.54, 142.01] Uncontrollable major haemorrhage
+
+[427.22, 148.28] yEs
+
+[53.86, 154.83] 
+ [76.54, 154.83] Marked stridor with severe respiratory distress
+ [501.41, 152.10] 1
+
+[53.86, 167.65] 
+ [76.54, 167.65] Cyanosis
+
+[53.86, 180.47] 
+ [76.54, 180.47] Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12
+
+[53.86, 193.28] 
+ [76.54, 193.28] Abnormal age-related vital signs (Refer A1.1)
+
+[195.15, 215.95] No
+
+[53.86, 242.10] 
+ [76.54, 242.10] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 254.92] 
+ [76.54, 254.92] Glasgow Coma Scale Score (GCS) 13-14
+
+[53.86, 267.74] 
+ [76.54, 267.74] Temperature ≥ 40.0°C or ≤ 35.5°C
+
+[53.86, 280.56] 
+ [76.54, 280.56] Severe pain (7-10/10)
+
+[53.86, 293.37] 
+ [76.54, 293.37] Central capillary refill time (CRT) > 2 seconds
+
+[53.86, 306.19] 
+ [76.54, 306.19] Difficulty swallowing
+ [427.22, 307.31] yEs
+ [501.41, 310.10] 2
+
+[53.86, 319.01] 
+ [76.54, 319.01] Significant history / mechanism of injury (A1.3)
+
+[53.86, 331.83] 
+ [76.54, 331.83] Actively bleeding with history of bleeding disorder / ITP
+
+[53.86, 344.65] 
+ [76.54, 344.65] Signs of compensated shock
+
+[53.86, 357.46] 
+ [76.54, 357.46] Acutely avulsed permanent tooth
+
+[195.15, 381.39] No
+
+[53.86, 406.28] 
+ [76.54, 406.28] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 419.10] 
+ [76.54, 419.10] Moderate pain (4-6/10)
+
+[53.86, 431.92] 
+ [76.54, 431.92] History inconsistent with injury
+
+[53.86, 444.74] 
+ [76.54, 444.74] Uncontrollable minor haemorrhage
+ [427.22, 438.55] yEs
+ [501.41, 441.29] 3
+
+[53.86, 457.55] 
+ [76.54, 457.55] History of bleeding disorder - not actively bleeding at present
+
+[53.86, 470.37] 
+ [76.54, 470.37] Significant facial redness and swelling
+
+[195.15, 493.75] No
+
+[53.86, 519.19] 
+ [76.54, 519.19] Mild pain (1-3/10)
+
+[53.86, 532.01] 
+ [76.54, 532.01] Facial swelling
+
+[53.86, 544.83] 
+ [76.54, 544.83] Recent problem (< 48 hours)
+ [427.22, 540.51] yEs
+ [502.41, 543.28] 4
+
+[53.86, 557.64] 
+ [76.54, 557.64] Oral laceration with no dental involvement
+
+[195.15, 582.43] No
+
+[53.86, 606.46] 
+ [76.54, 606.46] Problem > 48 hours with no acute symptoms
+
+[53.86, 619.28] 
+ [76.54, 619.28] Loss of deciduous teeth
+ [427.22, 623.08] yEs
+ [502.41, 624.98] 5
+
+[53.86, 632.10] 
+ [76.54, 632.10] No pain / discomfort at present
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 21
+
+[48.19, 63.17] Ear / Nose Problem
+
+[48.19, 77.58] A = Appendix 1 (Decision making aids and reference charts)
+
+[53.86, 116.38] 
+ [76.54, 116.38] Airway compromise
+
+[53.86, 129.19] 
+ [76.54, 129.19] Respiratory failure / respiratory arrest
+
+[53.86, 142.01] 
+ [76.54, 142.01] Uncontrollable major haemorrhage
+
+[53.86, 154.83] 
+ [76.54, 154.83] Marked stridor with severe respiratory distress
+ [427.22, 158.74] yEs
+ [501.41, 162.56] 1
+
+[53.86, 167.65] 
+ [76.54, 167.65] Cyanosis
+
+[53.86, 180.47] 
+ [76.54, 180.47] Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12
+
+[53.86, 193.28] 
+ [76.54, 193.28] Abnormal age-related vital signs (Refer A1.1)
+
+[195.15, 216.90] No
+
+[53.86, 242.10] 
+ [76.54, 242.10] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 254.92] 
+ [76.54, 254.92] Glasgow Coma Scale Score (GCS) 13-14
+
+[53.86, 267.74] 
+ [76.54, 267.74] Temperature ≥ 40.0°C or ≤ 35.5°C
+
+[53.86, 280.56] 
+ [76.54, 280.56] Severe pain (7-10/10)
+
+[53.86, 293.37] 
+ [76.54, 293.37] Central capillary refill time (CRT) > 2 seconds
+
+[53.86, 306.19] 
+ [76.54, 306.19] Difficulty swallowing
+ [427.22, 307.31] yEs
+ [501.41, 310.10] 2
+
+[53.86, 319.01] 
+ [76.54, 319.01] Significant history / mechanism of injury (Refer A1.3)
+
+[53.86, 331.83] 
+ [76.54, 331.83] Actively bleeding with history of bleeding disorder / ITP
+
+[53.86, 344.65] 
+ [76.54, 344.65] Signs of compensated shock
+
+[53.86, 357.46] 
+ [76.54, 357.46] Bruising or swelling behind the ear over the mastoid process
+
+[53.86, 370.28] 
+ [76.54, 370.28] Clear fluid leaking from nose or ear with history of trauma
+
+[195.15, 393.94] No
+
+[53.86, 419.10] 
+ [76.54, 419.10] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 431.92] 
+ [76.54, 431.92] Moderate pain (4-6/10)
+
+[53.86, 444.74] 
+ [76.54, 444.74] History inconsistent with injury
+
+[53.86, 457.55] 
+ [76.54, 457.55] Foreign body in nose
+ [427.22, 462.60] yEs
+ [501.41, 465.34] 3
+
+[53.86, 470.37] 
+ [76.54, 470.37] Uncontrollable minor haemorrhage
+
+[53.86, 483.19] 
+ [76.54, 483.19] History of bleeding disorder - not actively bleeding at present
+
+[53.86, 496.01] 
+ [76.54, 496.01] Any swelling behind the ear
+
+[53.86, 508.83] 
+ [76.54, 508.83] History of recent head injury
+
+[195.15, 533.43] No
+
+[53.86, 557.64] 
+ [76.54, 557.64] Mild pain (1-3/10)
+
+[53.86, 570.46] 
+ [76.54, 570.46] Swelling / deformity / auricular haematoma
+
+[53.86, 583.28] 
+ [76.54, 583.28] Discharge from ear / nose
+ [427.22, 577.73] yEs
+ [502.41, 580.50] 4
+
+[53.86, 596.10] 
+ [76.54, 596.10] Recent problem (< 48 hours)
+
+[195.15, 619.03] No
+
+[53.86, 644.92] 
+ [76.54, 644.92] Problem > 48 hours with no acute symptoms
+
+[53.86, 657.73] 
+ [76.54, 657.73] Foreign body in ear
+ [427.22, 657.10] yEs
+ [502.41, 659.00] 5
+
+[53.86, 670.55] 
+ [76.54, 670.55] No pain / discomfort at present
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 22
+
+[48.19, 63.17] Eye injury / Problem
+
+[48.19, 77.58] A = Appendix 1 (Decision making aids and reference charts)
+
+[53.86, 116.38] 
+ [76.54, 116.38] Penetrating eye trauma
+
+[53.86, 129.19] 
+ [76.54, 129.19] Sudden loss of vision
+
+[53.86, 142.01] 
+ [76.54, 142.01] Chemical eye injury
+ [427.22, 138.87] yEs
+ [501.41, 142.69] 1
+
+[53.86, 154.83] 
+ [76.54, 154.83] Abnormal age-related vital signs (Refer A1.1)
+
+[195.15, 179.25] No
+
+[53.86, 203.65] 
+ [76.54, 203.65] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 216.47] 
+ [76.54, 216.47] Severe pain (7-10/10)
+
+[53.86, 229.28] 
+ [76.54, 229.28] Significant eye / head trauma
+
+[53.86, 242.10] 
+ [76.54, 242.10] Hyphaema
+ [427.22, 237.57] yEs
+ [501.41, 240.36] 2
+
+[53.86, 254.92] 
+ [76.54, 254.92] Abnormal pupil following trauma
+
+[53.86, 267.74] 
+ [76.54, 267.74] Orbital cellulitis  
+
+[195.15, 291.45] No
+
+[53.86, 316.56] 
+ [76.54, 316.56] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 329.37] 
+ [76.54, 329.37] Moderate pain (4-6/10)
+
+[53.86, 342.19] 
+ [76.54, 342.19] History inconsistent with injury
+
+[53.86, 355.01] 
+ [76.54, 355.01] Significant history
+ [427.22, 356.63] yEs
+ [501.41, 359.37] 3
+
+[53.86, 367.83] 
+ [76.54, 367.83] Foreign body
+
+[53.86, 380.65] 
+ [76.54, 380.65] Peri-orbital swelling / cellulitis
+
+[53.86, 393.46] 
+ [76.54, 393.46] Acute reduced visual acuity
+
+[195.15, 416.70] No
+
+[53.86, 442.28] 
+ [76.54, 442.28] Mild pain (1-3/10)
+
+[53.86, 455.10] 
+ [76.54, 455.10] Sticky eye
+
+[53.86, 467.92] 
+ [76.54, 467.92] Red eye
+ [427.22, 469.39] yEs
+ [502.41, 472.16] 4
+
+[53.86, 480.74] 
+ [76.54, 480.74] Recent problem (< 48 hours)
+
+[53.86, 493.55] 
+ [76.54, 493.55] Discharge from eye
+
+[195.15, 517.59] No
+
+[53.86, 542.37] 
+ [76.54, 542.37] Problem > 48 hours with no acute symptoms
+ [427.22, 547.34] yEs
+
+[90.15, 555.19] pain / discomfort at present
+ [502.41, 549.24] 5
+
+[53.86, 555.19] 
+ [76.54, 555.19] No 
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 23
+
+[48.19, 63.17] Foreign Body - not inhaled (for inhaled foreign body use airway/Breathing algorithm)
+
+[48.19, 77.58] A = Appendix 1 (Decision making aids and reference charts)
+
+[53.86, 116.38] 
+ [76.54, 116.38] Airway compromise
+
+[53.86, 129.19] 
+ [76.54, 129.19] Respiratory failure / respiratory arrest
+
+[53.86, 142.01] 
+ [76.54, 142.01] Exsanguinating haemorrhage
+
+[427.22, 148.28] yEs
+
+[53.86, 154.83] 
+ [76.54, 154.83] Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12
+ [501.41, 152.10] 1
+
+[53.86, 167.65] 
+ [76.54, 167.65] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 180.47] 
+ [76.54, 180.47] Penetrating eye trauma
+
+[195.15, 203.31] No
+
+[53.86, 229.28] 
+ [76.54, 229.28] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 242.10] 
+ [76.54, 242.10] Glasgow Coma Scale Score (GCS)  13-14
+
+[53.86, 254.92] 
+ [76.54, 254.92] Temperature ≥ 40.0°C or ≤ 35.5°C
+
+[53.86, 267.74] 
+ [76.54, 267.74] Severe pain (7-10/10)
+
+[53.86, 280.56] 
+ [76.54, 280.56] Significant history / mechanism of injury (Refer A1.3)
+
+[53.86, 293.37] 
+ [76.54, 293.37] Substance of high toxicity (check Toxbase©)
+ [427.22, 287.44] yEs
+ [501.41, 290.23] 2
+
+[53.86, 306.19] 
+ [76.54, 306.19] Central capillary refill time (CRT) > 2 seconds
+
+[53.86, 319.01] 
+ [76.54, 319.01] Difficulty swallowing
+
+[53.86, 331.83] 
+ [76.54, 331.83] Signs of compensated shock
+
+[53.86, 344.65] 
+ [76.54, 344.65] History of cyanosis
+
+[195.15, 369.02] No
+
+[53.86, 393.46] 
+ [76.54, 393.46] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 406.28] 
+ [76.54, 406.28] Moderate pain (4-6/10)
+
+[53.86, 419.10] 
+ [76.54, 419.10] History inconsistent with injury
+
+[53.86, 431.92] 
+ [76.54, 431.92] Uncontrollable minor haemorrhage
+ [427.22, 436.00] yEs
+ [501.41, 438.74] 3
+
+[53.86, 444.74] 
+ [76.54, 444.74] Substance of moderate toxicity (check Toxbase©)
+
+[53.86, 457.55] 
+ [76.54, 457.55] Foreign body in nose / history of swallowing sharp object
+
+[53.86, 470.37] 
+ [76.54, 470.37] History of bleeding disorder - not actively bleeding at present
+
+[195.15, 493.04] No
+
+[53.86, 519.19] 
+ [76.54, 519.19] Mild pain (1-3/10)
+
+[53.86, 532.01] 
+ [76.54, 532.01] Local inflammation
+
+[53.86, 544.83] 
+ [76.54, 544.83] Local infection
+
+[53.86, 557.64] 
+ [76.54, 557.64] Red eye 
+
+[53.86, 570.46] 
+ [76.54, 570.46] Substance of low toxicity (check Toxbase©)
+ [427.22, 572.93] yEs
+ [502.41, 575.70] 4
+
+[53.86, 583.28] 
+ [76.54, 583.28] Swelling / deformity
+
+[53.86, 596.10] 
+ [76.54, 596.10] Purulent discharge from affected area
+
+[53.86, 608.92] 
+ [76.54, 608.92] Recent hearing loss
+
+[53.86, 621.73] 
+ [76.54, 621.73] Recent problem (< 48 hours)
+
+[195.15, 645.51] No
+
+[53.86, 670.55] 
+ [76.54, 670.55] Problem > 48 hours with no acute symptoms
+
+[427.22, 677.02] yEs
+
+[53.86, 683.37] 
+ [76.54, 683.37] No pain / discomfort at present
+ [502.41, 678.92] 5
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 24
+
+[48.19, 63.17] genitourinary Problem
+
+[48.19, 77.58] A = Appendix 1 (Decision making aids and reference charts)
+
+[53.86, 116.38] 
+ [76.54, 116.38] Airway compromise
+
+[53.86, 129.19] 
+ [76.54, 129.19] Respiratory failure / respiratory arrest
+
+[53.86, 142.01] 
+ [76.54, 142.01] Uncontrollable major haemorrhage
+
+[427.22, 148.28] yEs
+
+[53.86, 154.83] 
+ [76.54, 154.83] Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12
+ [501.41, 152.10] 1
+
+[53.86, 167.65] 
+ [76.54, 167.65] Currently seizing
+
+[53.86, 180.47] 
+ [76.54, 180.47] Abnormal age-related vital signs (Refer A1.1)
+
+[195.15, 203.31] No
+
+[53.86, 229.28] 
+ [76.54, 229.28] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 242.10] 
+ [76.54, 242.10] Severe hypertension (A1.1)
+
+[53.86, 254.92] 
+ [76.54, 254.92] Glasgow Coma Scale Score (GCS) 13-14
+
+[53.86, 267.74] 
+ [76.54, 267.74] Temperature ≥ 40.0°C or ≤ 35.5°C
+
+[53.86, 280.56] 
+ [76.54, 280.56] Severe pain (7-10/10)
+
+[53.86, 293.37] 
+ [76.54, 293.37] History of injury
+
+[427.22, 299.93] yEs
+
+[53.86, 306.19] 
+ [76.54, 306.19] Priapism (especially with Sickle Cell Disease)
+ [501.41, 302.73] 2
+
+[53.86, 319.01] 
+ [76.54, 319.01] Testicular pain or swelling < 48 hours 
+
+[53.86, 331.83] 
+ [76.54, 331.83] Scrotal trauma
+
+[53.86, 344.65] 
+ [76.54, 344.65] Signs of compensated shock
+
+[53.86, 357.46] 
+ [76.54, 357.46] Frank haematuria
+
+[53.86, 370.28] 
+ [76.54, 370.28] History of renal transplant/currently on dialysis 
+
+[195.15, 392.89] No
+
+[53.86, 419.10] 
+ [76.54, 419.10] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 431.92] 
+ [76.54, 431.92] Significant renal history with significant hypertension (A1.1)
+
+[53.86, 444.74] 
+ [76.54, 444.74] Moderate pain (4-6/10)
+
+[53.86, 457.55] 
+ [76.54, 457.55] Urinary retention
+ [427.22, 454.23] yEs
+ [501.41, 456.97] 3
+
+[53.86, 470.37] 
+ [76.54, 470.37] History inconsistent with injury/illness
+
+[53.86, 483.19] 
+ [76.54, 483.19] Inguinal swelling with pain
+
+[195.15, 506.64] No
+
+[53.86, 532.01] 
+ [76.54, 532.01] Mild pain (1-3/10)
+
+[53.86, 544.83] 
+ [76.54, 544.83] Discharge
+
+[53.86, 557.64] 
+ [76.54, 557.64] Paraphimosis
+
+[53.86, 570.46] 
+ [76.54, 570.46] Previous renal problem
+ [427.22, 568.75] yEs
+ [502.41, 571.51] 4
+
+[53.86, 583.28] 
+ [76.54, 583.28] History of vaginal bleed
+
+[53.86, 596.10] 
+ [76.54, 596.10] Recent problem (< 48 hours)
+
+[195.15, 619.03] No
+
+[53.86, 644.92] 
+ [76.54, 644.92] Problem > 48 hours with no acute symptoms
+
+[53.86, 657.73] 
+ [76.54, 657.73] No pain / discomfort at present
+ [427.22, 652.97] yEs
+ [502.41, 654.87] 5
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 25
+
+[48.19, 63.17] head injury / headache / VP shunt
+
+[48.19, 77.58] A = Appendix 1 (Decision making aids and reference charts)
+
+[53.86, 116.38] 
+ [76.54, 116.38] Airway compromise
+
+[53.86, 129.19] 
+ [76.54, 129.19] Respiratory failure / respiratory arrest
+
+[53.86, 142.01] 
+ [76.54, 142.01] Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12 
+
+[427.22, 148.28] yEs
+
+[53.86, 154.83] 
+ [76.54, 154.83] Currently seizing
+ [501.41, 152.10] 1
+
+[53.86, 167.65] 
+ [76.54, 167.65] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 180.47] 
+ [76.54, 180.47] Penetrating Injury 
+
+[195.15, 203.31] No
+
+[53.86, 229.28] 
+ [76.54, 229.28] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 242.10] 
+ [76.54, 242.10] Glasgow Coma Scale Score (GCS) 13-14
+
+[53.86, 254.92] 
+ [76.54, 254.92] Severe pain (7-10/10)
+
+[53.86, 267.74] 
+ [76.54, 267.74] Mechanism of injury (Refer A1.3)
+
+[53.86, 280.56] 
+ [76.54, 280.56] History of bleeding disorder
+
+[53.86, 293.37] 
+ [76.54, 293.37] Significant medical or surgical history
+
+[53.86, 306.19] 
+ [76.54, 306.19] Ventriculo-peritoneal shunt 
+
+[53.86, 319.01] 
+ [76.54, 319.01] Persistent vomiting
+
+[53.86, 331.83] 
+ [76.54, 331.83] New neurological symptoms(*see footnote) yEs
+ [501.41, 329.97] 2
+
+[53.86, 344.65] 
+ [76.54, 344.65] History of loss of consciousness ≥ 30 seconds
+
+[53.86, 357.46] 
+ [76.54, 357.46] Blood or serous fluid in nose or ear(s)
+
+[53.86, 370.28] 
+ [76.54, 370.28] Bruising around the eyes or behind ears
+
+[53.86, 383.10] 
+ [76.54, 383.10] History of blurred vision or seizure
+
+[53.86, 395.92] 
+ [76.54, 395.92] Patient on spinal precautions 
+
+[53.86, 408.74] 
+ [76.54, 408.74] Large scalp laceration with pulsatile bleeding
+
+[53.86, 421.55] 
+ [76.54, 421.55] Boggy temporal, parietal or occipital swelling 
+
+[195.15, 442.72] No
+
+[53.86, 470.37] 
+ [76.54, 470.37] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 483.19] 
+ [76.54, 483.19] Moderate pain (4-6/10)
+
+[53.86, 496.01] 
+ [76.54, 496.01] Inconsistent history 
+
+[53.86, 508.83] 
+ [76.54, 508.83] History of loss of consciousness < 30 seconds
+ [427.22, 504.03] yEs
+ [501.41, 506.77] 3
+
+[53.86, 521.64] 
+ [76.54, 521.64] Amnesia
+
+[53.86, 534.46] 
+ [76.54, 534.46] Infant < 1 year 
+
+[195.15, 558.93] No
+
+[53.86, 583.28] 
+ [76.54, 583.28] Mild pain (1-4/10)
+
+[53.86, 596.10] 
+ [76.54, 596.10] No loss of consciousness / no amnesia
+ [427.22, 591.75] yEs
+ [502.41, 594.52] 4
+
+[195.15, 619.03] No
+
+[53.86, 644.92] 
+ [76.54, 644.92] Problem > 24 hours with no acute symptoms
+
+[53.86, 657.73] 
+ [76.54, 657.73] No vomiting
+ [427.22, 653.43] yEs
+ [502.41, 655.33] 5
+
+[53.86, 705.73] * New neurological symptoms = sudden onset of confusion, weakness /
+
+[53.86, 717.73] irritability or drowsiness. symptoms may also include altered level of
+
+[53.86, 729.73] consciousness, loss of sensation, weakness of the limbs or alterations
+
+[53.86, 741.73] in bladder or bowel function
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 26
+
+[48.19, 63.17] limb Problem / limb injury
+
+[48.19, 77.58] A = Appendix 1 (Decision making aids and reference charts)
+
+[53.86, 116.38] 
+ [76.54, 116.38] Airway compromise
+
+[53.86, 129.19] 
+ [76.54, 129.19] Respiratory failure / respiratory arrest
+
+[53.86, 142.01] 
+ [76.54, 142.01] Exsanguinating haemorrhage
+
+[427.22, 148.28] yEs
+
+[53.86, 154.83] 
+ [76.54, 154.83] Unresponsive Glasgow Coma Scale Score (GCS) ≤ 12
+ [501.41, 152.10] 1
+
+[53.86, 167.65] 
+ [76.54, 167.65] Abnormal age-related vital signs (Refer A1.1)
+
+[195.15, 191.97] No
+
+[53.86, 216.47] 
+ [76.54, 216.47] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 229.28] 
+ [76.54, 229.28] Glasgow Coma Scale Score (GCS) 13-14
+
+[53.86, 242.10] 
+ [76.54, 242.10] Temperature ≥ 40.0°C or ≤ 35.5°C
+
+[53.86, 254.92] 
+ [76.54, 254.92] Severe pain (7-10/10)
+
+[53.86, 267.74] 
+ [76.54, 267.74] Deformity ± compound fracture ± significant swelling
+
+[53.86, 280.56] 
+ [76.54, 280.56] Neurovascular compromise
+
+[53.86, 293.37] 
+ [76.54, 293.37] Central capillary refill time (CRT) > 2 seconds
+
+[53.86, 306.19] 
+ [76.54, 306.19] Signs of compensated shock
+ [427.22, 301.03] yEs
+ [501.41, 303.82] 2
+
+[53.86, 319.01] 
+ [76.54, 319.01] Critical skin over fracture site
+
+[53.86, 331.83] 
+ [76.54, 331.83] Traumatic amputation, > 50% partial / degloving injury
+
+[53.86, 344.65] 
+ [76.54, 344.65] Penetrating trauma
+
+[53.86, 357.46] 
+ [76.54, 357.46] History of sickle cell disease
+
+[53.86, 370.28] 
+ [76.54, 370.28] History of bleeding disorder with swelling present
+
+[195.15, 393.94] No
+
+[53.86, 419.10] 
+ [76.54, 419.10] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 431.92] 
+ [76.54, 431.92] Moderate pain (4-6/10)
+
+[53.86, 444.74] 
+ [76.54, 444.74] History inconsistent with injury / significant delayed presentation
+
+[76.53, 456.74] post injury
+
+[53.86, 469.55] 
+ [76.54, 469.55] Tight cast with possible neurovascular compromise
+ [427.22, 464.34] yEs
+ [501.41, 467.08] 3
+
+[53.86, 482.37] 
+ [76.54, 482.37] Limp / joint pain with fever/hot joint
+
+[53.86, 495.19] 
+ [76.54, 495.19] Unable to weight-bear with history of trauma
+
+[53.86, 508.01] 
+ [76.54, 508.01] History of bleeding disorder
+
+[195.15, 530.69] No
+
+[53.86, 556.83] 
+ [76.54, 556.83] Mild pain (1-3/10)
+
+[53.86, 569.64] 
+ [76.54, 569.64] Recent problem (< 48 hours)
+
+[53.86, 582.46] 
+ [76.54, 582.46] Pain over joint
+
+[53.86, 595.28] 
+ [76.54, 595.28] Reduced weight-bearing
+
+[53.86, 608.10] 
+ [76.54, 608.10] Swelling present
+ [427.22, 610.58] yEs
+ [502.41, 613.35] 4
+
+[53.86, 620.92] 
+ [76.54, 620.92] History of pyrexia
+
+[53.86, 633.73] 
+ [76.54, 633.73] Inflammation
+
+[53.86, 646.55] 
+ [76.54, 646.55] Non-weight bearing with no history trauma / injury
+
+[53.86, 659.37] 
+ [76.54, 659.37] History minor penetrating wound
+
+[195.15, 682.83] No
+
+[53.86, 708.19] 
+ [76.54, 708.19] Review (not fasting) to other specialities
+
+[53.86, 721.01] 
+ [76.54, 721.01] Problem > 48 hours with no acute symptoms
+
+[53.86, 733.82] 
+ [76.54, 733.82] Minor lacerations, abrasions, contusions
+ [427.22, 729.32] yEs
+ [502.41, 731.21] 5
+
+[53.86, 746.64] 
+ [76.54, 746.64] Damaged/wet/broken cast
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 27
+
+[48.19, 63.17] major trauma
+
+[48.19, 77.58] A = Appendix 1 (Decision making aids and reference charts)
+
+[53.86, 116.38] 
+ [76.54, 116.38] Airway compromise
+
+[53.86, 129.19] 
+ [76.54, 129.19] Respiratory failure / respiratory arrest
+
+[53.86, 142.01] 
+ [76.54, 142.01] Exsanguinating haemorrhage
+
+[53.86, 154.83] 
+ [76.54, 154.83] Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12
+
+[53.86, 167.65] 
+ [76.54, 167.65] Currently seizing
+ [427.22, 165.01] yEs
+ [501.41, 168.83] 1
+
+[53.86, 180.47] 
+ [76.54, 180.47] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 193.28] 
+ [76.54, 193.28] Penetrating trauma to head / chest / abdomen / pelvis with signs of
+
+[76.54, 205.28] shock
+
+[195.15, 228.40] No
+
+[53.86, 254.10] 
+ [76.54, 254.10] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 266.92] 
+ [76.54, 266.92] Glasgow Coma Scale Score (GCS) 13-14
+
+[53.86, 279.74] 
+ [76.54, 279.74] Temperature ≤ 35.5°C
+
+[53.86, 292.56] 
+ [76.54, 292.56] Severe pain (7-10/10)
+
+[53.86, 305.37] 
+ [76.54, 305.37] Significant history/mechanism of injury (Refer A1.3)
+
+[53.86, 318.19] 
+ [76.54, 318.19] Altered respiratory pattern
+
+[53.86, 331.01] 
+ [76.54, 331.01] Signs of compensated shock
+
+[53.86, 343.83] 
+ [76.54, 343.83] History of bleeding disorder
+
+[53.86, 356.65] 
+ [76.54, 356.65] Severe deformity
+
+[53.86, 369.46] 
+ [76.54, 369.46] Neurovascular compromise
+ [427.22, 370.06] yEs
+ [501.41, 372.85] 2
+
+[53.86, 382.28] 
+ [76.54, 382.28] Patient on spinal precautions
+
+[53.86, 395.10] 
+ [76.54, 395.10] History of loss of consciousness ≥ 30 seconds
+
+[53.86, 407.92] 
+ [76.54, 407.92] Persistent vomiting
+
+[53.86, 420.74] 
+ [76.54, 420.74] Blood or serous fluid in nose or ear(s)
+
+[53.86, 433.55] 
+ [76.54, 433.55] Bruising around the eyes or behind ears
+
+[53.86, 446.37] 
+ [76.54, 446.37] Penetrating trauma
+
+[53.86, 459.19] 
+ [76.54, 459.19] Frank haematuria/blood in perineum
+
+[195.15, 482.41] No
+
+[53.86, 508.01] 
+ [76.54, 508.01] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 520.83] 
+ [76.54, 520.83] Moderate pain (4-6/10)
+
+[53.86, 533.64] 
+ [76.54, 533.64] History of loss of consciousness < 30 seconds
+
+[53.86, 546.46] 
+ [76.54, 546.46] Amnesia
+ [427.22, 548.36] yEs
+ [501.41, 551.10] 3
+
+[53.86, 559.28] 
+ [76.54, 559.28] Limb deformity
+
+[53.86, 572.10] 
+ [76.54, 572.10] Open wound
+
+[53.86, 584.92] 
+ [76.54, 584.92] Minor haemorrhage
+
+[53.86, 632.92] These patients should never be triaged less than Category 3
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 28
+
+[48.19, 63.17] overdose and Poisoning 
+
+[48.19, 77.58] A = Appendix 1 (Decision making aids and reference charts)
+
+[53.86, 116.38] 
+ [76.54, 116.38] Airway compromise
+
+[53.86, 129.19] 
+ [76.54, 129.19] Respiratory failure / respiratory arrest
+
+[53.86, 142.01] 
+ [76.54, 142.01] Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12
+
+[427.22, 148.28] yEs
+
+[53.86, 154.83] 
+ [76.54, 154.83] Currently seizing
+ [501.41, 152.10] 1
+
+[53.86, 167.65] 
+ [76.54, 167.65] Abnormal age-related vital signs (Refer A1.1)
+
+[195.15, 191.97] No
+
+[53.86, 216.47] 
+ [76.54, 216.47] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 229.28] 
+ [76.54, 229.28] Glasgow Coma Scale Score (GCS) 13-14
+
+[53.86, 242.10] 
+ [76.54, 242.10] Severe pain (7-10/10)
+
+[53.86, 254.92] 
+ [76.54, 254.92] Substance of high toxicity (check Toxbase©)
+
+[53.86, 267.74] 
+ [76.54, 267.74] Ingestion of unknown substance/quantity
+
+[53.86, 280.56] 
+ [76.54, 280.56] Intentional self-harm / high risk of further self-harm
+ [427.22, 284.30] yEs
+ [501.41, 287.09] 2
+
+[53.86, 293.37] 
+ [76.54, 293.37] Increased / decreased work of breathing
+
+[53.86, 306.19] 
+ [76.54, 306.19] Signs of compensated shock
+
+[53.86, 319.01] 
+ [76.54, 319.01] Cardiac arrhythmias
+
+[53.86, 331.83] 
+ [76.54, 331.83] Hypoglycaemia (blood sugar ≤ 2.7 mmol/L)
+
+[53.86, 344.65] 
+ [76.54, 344.65] Hypotension / hypertension (Refer A1.1)
+
+[195.15, 367.71] No
+
+[53.86, 393.46] 
+ [76.54, 393.46] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 406.28] 
+ [76.54, 406.28] Moderate pain (4-6/10)
+
+[53.86, 419.10] 
+ [76.54, 419.10] Substance of moderate toxicity (check Toxbase©)
+
+[53.86, 431.92] 
+ [76.54, 431.92] Blood sugar 2.8-3.4 mmol/L
+ [427.22, 430.33] yEs
+ [501.41, 433.07] 3
+
+[53.86, 444.74] 
+ [76.54, 444.74] Persistent vomiting
+
+[53.86, 457.55] 
+ [76.54, 457.55] Inconsistent history
+
+[195.15, 481.10] No
+
+[53.86, 506.37] 
+ [76.54, 506.37] Substance of low toxicity (check Toxbase©)
+
+[53.86, 519.19] 
+ [76.54, 519.19] Mild pain (1-3/10)
+ [427.22, 514.36] yEs
+ [502.41, 517.13] 4
+
+[195.15, 543.46] No
+
+[53.86, 568.01] 
+ [76.54, 568.01] Ingestion time > 48 hrs with no toxicity (check Toxbase©)
+
+[427.22, 574.53] yEs
+ [502.41, 576.43] 5
+
+[53.86, 616.01] If patient exhibits a psychosocial problem, refer to
+
+[53.86, 628.01] “Psychosocial Problem (including self-harm)”
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 29
+
+[48.19, 63.17] Psychosocial Problem (including self-harm)
+
+[48.19, 77.58] A = Appendix 1 (Decision making aids and reference charts)
+
+[53.86, 116.38] 
+ [76.54, 116.38] Airway compromise
+
+[53.86, 129.19] 
+ [76.54, 129.19] Respiratory failure / respiratory arrest
+
+[53.86, 142.01] 
+ [76.54, 142.01] Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12
+
+[53.86, 154.83] 
+ [76.54, 154.83] Currently seizing
+
+[53.86, 167.65] 
+ [76.54, 167.65] Abnormal age-related vital signs (Refer A1.1)
+ [427.22, 163.87] yEs
+ [501.41, 167.69] 1
+
+[53.86, 180.47] 
+ [76.54, 180.47] Violent behaviour / Immediate risk of harm to self and others
+
+[53.86, 193.28] 
+ [76.54, 193.28] Violent behaviour / possession of a weapon
+
+[53.86, 206.10] 
+ [76.54, 206.10] Self-destructive behaviour in the ED / requires restraint
+
+[195.15, 228.40] No
+
+[53.86, 254.92] 
+ [76.54, 254.92] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 267.74] 
+ [76.54, 267.74] Glasgow Coma Scale Score (GCS) 13-14
+
+[53.86, 280.56] 
+ [76.54, 280.56] Signs of compensated shock
+
+[53.86, 293.37] 
+ [76.54, 293.37] Probable risk of harm to self or others
+
+[53.86, 306.19] 
+ [76.54, 306.19] Extreme agitation / physically / verbally aggressive
+
+[53.86, 319.01] 
+ [76.54, 319.01] Confused/unable to co-operate
+
+[53.86, 331.83] 
+ [76.54, 331.83] High risk of absconding
+ [427.22, 331.36] yEs
+ [501.41, 334.15] 2
+
+[53.86, 344.65] 
+ [76.54, 344.65] Auditory / visual hallucinations
+
+[53.86, 357.46] 
+ [76.54, 357.46] Attempted threat of self-harm
+
+[53.86, 370.28] 
+ [76.54, 370.28] Threat of harm to self / others
+
+[53.86, 383.10] 
+ [76.54, 383.10] Acts of deliberate self-harm
+
+[53.86, 395.92] 
+ [76.54, 395.92] Expressing suicidal intent/ideation
+
+[195.15, 418.74] No
+
+[53.86, 444.74] 
+ [76.54, 444.74] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 457.55] 
+ [76.54, 457.55] Disclosure of abuse
+
+[53.86, 470.37] 
+ [76.54, 470.37] Significant behaviour change
+
+[53.86, 483.19] 
+ [76.54, 483.19] Recent assault
+
+[53.86, 496.01] 
+ [76.54, 496.01] Agitation / restlessness / intrusive behaviour
+
+[53.86, 508.83] 
+ [76.54, 508.83] Bizarre, disorganised behaviour
+ [427.22, 513.84] yEs
+ [501.41, 516.59] 3
+
+[53.86, 521.64] 
+ [76.54, 521.64] Withdrawn and uncommunicative
+
+[53.86, 534.46] 
+ [76.54, 534.46] Ambivalent about treatment
+
+[53.86, 547.28] 
+ [76.54, 547.28] Moderate risk of absconding
+
+[53.86, 560.10] 
+ [76.54, 560.10] Suicidal ideation
+
+[53.86, 572.92] 
+ [76.54, 572.92] Presence of psychotic symptoms of affective disorder (depressed or
+
+[76.54, 584.92] elated)
+
+[195.15, 607.13] No
+
+[53.86, 633.73] 
+ [76.54, 633.73] Vague social problem
+
+[53.86, 646.55] 
+ [76.54, 646.55] Eating disorder with normal vital signs
+ [427.22, 640.91] yEs
+ [502.41, 643.67] 4
+
+[53.86, 694.55] These patients should never be triaged less than Category 4
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 30
+
+[48.19, 63.17] rashes (Blanching/Non-Blanching)
+
+[48.19, 77.58] A = Appendix 1 (Decision making aids and reference charts)
+
+[53.86, 116.38] 
+ [76.54, 116.38] Airway compromise
+
+[53.86, 129.19] 
+ [76.54, 129.19] Respiratory failure / respiratory arrest
+
+[53.86, 142.01] 
+ [76.54, 142.01] Marked stridor with severe respiratory distress
+
+[53.86, 154.83] 
+ [76.54, 154.83] SaO2 ≤ 90% in room air
+ [427.22, 158.74] yEs
+ [501.41, 162.56] 1
+
+[53.86, 167.65] 
+ [76.54, 167.65] Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12
+
+[53.86, 180.47] 
+ [76.54, 180.47] Currently seizing
+
+[53.86, 193.28] 
+ [76.54, 193.28] Abnormal age-related vital signs (Refer A1.1)
+
+[195.15, 214.64] No
+
+[53.86, 242.10] 
+ [76.54, 242.10] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 254.92] 
+ [76.54, 254.92] Glasgow Coma Scale Score (GCS) 13-14
+
+[53.86, 267.74] 
+ [76.54, 267.74] SaO2 < 92% in room air
+
+[53.86, 280.56] 
+ [76.54, 280.56] Temperature ≥ 40.0°C or ≤ 35.5°C
+
+[53.86, 293.37] 
+ [76.54, 293.37] Severe pain / itch (7-10/10) 
+
+[427.22, 299.93] yEs
+
+[53.86, 306.19] 
+ [76.54, 306.19] Severe respiratory distress (Refer A1.4)
+ [501.41, 302.73] 2
+
+[53.86, 319.01] 
+ [76.54, 319.01] Oedema of the tongue
+
+[53.86, 331.83] 
+ [76.54, 331.83] Non-blanching rash / purpura / petechiae
+
+[53.86, 344.65] 
+ [76.54, 344.65] Signs of compensated shock
+
+[53.86, 357.46] 
+ [76.54, 357.46] Signs & symptoms of severe anaphylaxis
+
+[195.15, 380.36] No
+
+[53.86, 406.28] 
+ [76.54, 406.28] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 419.10] 
+ [76.54, 419.10] Moderate pain / itch (4-6/10)
+
+[53.86, 431.92] 
+ [76.54, 431.92] Moderate respiratory distress (Refer A1.4)
+
+[53.86, 444.74] 
+ [76.54, 444.74] Widespread discharge or blistering
+ [427.22, 447.34] yEs
+ [501.41, 450.08] 3
+
+[53.86, 457.55] 
+ [76.54, 457.55] History of haematological problems
+
+[53.86, 470.37] 
+ [76.54, 470.37] History inconsistent with injury
+
+[53.86, 483.19] 
+ [76.54, 483.19] Unexplained bruising       
+
+[195.15, 505.09] No
+
+[53.86, 532.01] 
+ [76.54, 532.01] Mild respiratory distress (Refer A1.4)
+
+[53.86, 544.83] 
+ [76.54, 544.83] Localised signs of allergic reaction
+
+[53.86, 557.64] 
+ [76.54, 557.64] Mild pain / itch (1-3/10)
+ [427.22, 558.29] yEs
+ [502.41, 561.05] 4
+
+[53.86, 570.46] 
+ [76.54, 570.46] Blanching rash
+
+[53.86, 583.28] 
+ [76.54, 583.28] Recent problem (< 48 hours)         
+
+[195.15, 607.53] No
+
+[53.86, 632.10] 
+ [76.54, 632.10] Problem > 48 hours with no acute symptoms 
+
+[53.86, 644.92] 
+ [76.54, 644.92] No pain / discomfort at present
+ [427.22, 640.09] yEs
+ [502.41, 641.99] 5
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 31
+
+[48.19, 63.17] seizure / absent Episode / collapse
+
+[48.19, 77.58] A = Appendix 1 (Decision making aids and reference charts)
+
+[53.86, 116.38] 
+ [76.54, 116.38] Airway compromise
+
+[53.86, 129.19] 
+ [76.54, 129.19] Respiratory failure / respiratory arrest
+
+[53.86, 142.01] 
+ [76.54, 142.01] Imminent respiratory failure / respiratory arrest
+
+[53.86, 154.83] 
+ [76.54, 154.83] Cyanosis
+ [427.22, 158.74] yEs
+ [501.41, 162.56] 1
+
+[53.86, 167.65] 
+ [76.54, 167.65] Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12
+
+[53.86, 180.47] 
+ [76.54, 180.47] Currently seizing
+
+[53.86, 193.28] 
+ [76.54, 193.28] Abnormal age-related vital signs (Refer A1.1)
+
+[195.15, 216.90] No
+
+[53.86, 242.10] 
+ [76.54, 242.10] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 254.92] 
+ [76.54, 254.92] Glasgow Coma Scale Score (GCS) 13-14
+
+[53.86, 267.74] 
+ [76.54, 267.74] Temperature ≥ 40.0°C or ≤ 35.5°C
+
+[53.86, 280.56] 
+ [76.54, 280.56] Severe pain (7-10/10)
+
+[53.86, 293.37] 
+ [76.54, 293.37] Signs of compensated shock 
+
+[53.86, 306.19] 
+ [76.54, 306.19] Hypoglycaemia (blood sugar ≤ 2.7mmol/L)
+ [427.22, 307.31] yEs
+ [501.41, 310.10] 2
+
+[53.86, 319.01] 
+ [76.54, 319.01] Significant medical conditions 
+
+[53.86, 331.83] 
+ [76.54, 331.83] Signs of meningism
+
+[53.86, 344.65] 
+ [76.54, 344.65] New neurological symptoms (see footnote)
+
+[53.86, 357.46] 
+ [76.54, 357.46] History of both seizure and Diabetes Mellitus
+
+[53.86, 370.28] 
+ [76.54, 370.28] History or suspicion of ingestion 
+
+[195.15, 393.94] No
+
+[53.86, 419.10] 
+ [76.54, 419.10] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 431.92] 
+ [76.54, 431.92] History of seizures - well now
+
+[53.86, 444.74] 
+ [76.54, 444.74] Blood sugar 2.8 – 3.4 mmol/L
+ [427.22, 440.64] yEs
+ [501.41, 443.38] 3
+
+[53.86, 457.55] 
+ [76.54, 457.55] Moderate pain (4-6/10)
+
+[195.15, 482.41] No
+
+[53.86, 506.37] 
+ [76.54, 506.37] Mild Pain 1 – 3/10 
+
+[53.86, 519.19] 
+ [76.54, 519.19] No neurological symptoms yEs
+ [502.41, 520.27] 4
+
+[53.86, 567.19] * New neurological symptoms = sudden onset of confusion, weakness /
+
+[53.86, 579.19] irritability or drowsiness. symptoms may also include altered level of
+
+[53.86, 591.19] consciousness, loss of sensation, weakness of the limbs or alterations
+
+[53.86, 603.19] in bladder or bowel function
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 32
+
+[48.19, 63.17] testicular Pain
+
+[48.19, 77.58] A = Appendix 1 (Decision making aids and reference charts)
+
+[53.86, 116.38] 
+ [76.54, 116.38] Airway compromise
+
+[53.86, 129.19] 
+ [76.54, 129.19] Respiratory failure / respiratory arrest
+
+[53.86, 142.01] 
+ [76.54, 142.01] Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12
+ [427.22, 138.87] yEs
+ [501.41, 142.69] 1
+
+[53.86, 154.83] 
+ [76.54, 154.83] Abnormal age-related vital signs (Refer A1.1)
+
+[195.15, 179.25] No
+
+[53.86, 203.65] 
+ [76.54, 203.65] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 216.47] 
+ [76.54, 216.47] Temperature ≥ 40.0°C or ≤ 35.5°C
+
+[53.86, 229.28] 
+ [76.54, 229.28] Severe pain (7-10/10)
+
+[53.86, 242.10] 
+ [76.54, 242.10] Significant skin colour change to scrotum
+ [427.22, 236.19] yEs
+ [501.41, 238.98] 2
+
+[53.86, 254.92] 
+ [76.54, 254.92] Frank haematuria
+
+[53.86, 267.74] 
+ [76.54, 267.74] History of testicular pain or swelling <48 hours
+
+[195.15, 291.45] No
+
+[53.86, 316.56] 
+ [76.54, 316.56] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 329.37] 
+ [76.54, 329.37] Moderate pain (4-6/10)
+
+[53.86, 342.19] 
+ [76.54, 342.19] Scrotal swelling
+ [427.22, 338.15] yEs
+ [501.41, 340.89] 3
+
+[53.86, 355.01] 
+ [76.54, 355.01] Vomiting
+
+[195.15, 378.00] No
+
+[53.86, 403.83] 
+ [76.54, 403.83] Mild pain (1-3/10)
+
+[53.86, 416.65] 
+ [76.54, 416.65] Dysuria
+ [427.22, 417.10] yEs
+ [502.41, 419.87] 4
+
+[53.86, 429.46] 
+ [76.54, 429.46] Penile discharge
+
+[195.15, 452.75] No
+
+[53.86, 478.28] 
+ [76.54, 478.28] Chronic problem
+ [427.22, 478.46] yEs
+ [502.41, 480.35] 5
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 33
+
+[48.19, 63.17] throat Problem
+
+[48.19, 77.58] A = Appendix 1 (Decision making aids and reference charts)
+
+[53.86, 116.38] 
+ [76.54, 116.38] Airway compromise
+
+[53.86, 129.19] 
+ [76.54, 129.19] Drooling
+
+[53.86, 142.01] 
+ [76.54, 142.01] ‘Tripod’ positioning
+
+[53.86, 154.83] 
+ [76.54, 154.83] Stridor with severe increase in work of breathing
+
+[53.86, 167.65] 
+ [76.54, 167.65] Respiratory failure / respiratory arrest
+
+[53.86, 180.47] 
+ [76.54, 180.47] Hoarseness – sudden onset
+ [427.22, 179.66] yEs
+ [501.41, 183.47] 1
+
+[53.86, 193.28] 
+ [76.54, 193.28] Cyanosis
+
+[53.86, 206.10] 
+ [76.54, 206.10] Trauma (A1.3)
+
+[53.86, 218.92] 
+ [76.54, 218.92] Uncontrollable bleeding post-tonsillectomy
+
+[53.86, 231.74] 
+ [76.54, 231.74] Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12
+
+[53.86, 244.56] 
+ [76.54, 244.56] Abnormal age-related vital signs (Refer A1.1)
+
+[195.15, 266.98] No
+
+[53.86, 293.37] 
+ [76.54, 293.37] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 306.19] 
+ [76.54, 306.19] Glasgow Coma Scale Score (GCS) 13-14
+
+[53.86, 319.01] 
+ [76.54, 319.01] Temperature ≥ 40.0°C or ≤ 35.5°C
+
+[53.86, 331.83] 
+ [76.54, 331.83] Severe pain (7-10/10)
+
+[53.86, 344.65] 
+ [76.54, 344.65] Stridor at rest ± foreign body inhalation / ingestion
+
+[427.22, 350.96] yEs
+
+[53.86, 357.46] 
+ [76.54, 357.46] Central capillary refill time > 2 seconds
+ [501.41, 353.75] 2
+
+[53.86, 370.28] 
+ [76.54, 370.28] Difficulty swallowing
+
+[53.86, 383.10] 
+ [76.54, 383.10] Bleeding post-tonsillectomy
+
+[53.86, 395.92] 
+ [76.54, 395.92] Signs of compensated shock
+
+[195.15, 418.74] No
+
+[53.86, 444.74] 
+ [76.54, 444.74] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 457.55] 
+ [76.54, 457.55] Moderate pain (4-6/10)
+
+[53.86, 470.37] 
+ [76.54, 470.37] History of bleed post-tonsillectomy but not actively bleeding at
+ [427.22, 464.34] yEs
+ [501.41, 467.08] 3
+
+[76.54, 482.37] present
+
+[195.15, 505.09] No
+
+[53.86, 531.19] 
+ [76.54, 531.19] Mild pain (1-3/10)
+
+[53.86, 544.01] 
+ [76.54, 544.01] Tolerating oral fluids
+ [427.22, 545.74] yEs
+ [502.41, 548.51] 4
+
+[53.86, 556.83] 
+ [76.54, 556.83] Recent problem (< 48 hours)
+
+[195.15, 580.34] No
+
+[53.86, 605.64] 
+ [76.54, 605.64] Planned review (not fasting)
+
+[53.86, 618.46] 
+ [76.54, 618.46] Problem > 48 hours with no acute symptoms
+ [427.22, 618.46] yEs
+ [502.41, 620.36] 5
+
+[53.86, 631.28] 
+ [76.54, 631.28] No pain / discomfort at present
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 34
+
+[48.19, 63.17] Unwell child (over 1 year) (including Pyrexia)
+
+[48.19, 77.58] A = Appendix 1 (Decision making aids and reference charts)
+
+[53.86, 116.38] 
+ [76.54, 116.38] Airway compromise
+
+[53.86, 129.19] 
+ [76.54, 129.19] Respiratory failure / respiratory arrest
+
+[53.86, 142.01] 
+ [76.54, 142.01] Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12
+
+[53.86, 154.83] 
+ [76.54, 154.83] Hypoglycaemia with altered neurological status
+ [427.22, 155.60] yEs
+ [501.41, 159.42] 1
+
+[53.86, 167.65] 
+ [76.54, 167.65] Currently seizing
+
+[53.86, 180.47] 
+ [76.54, 180.47] SaO2 ≤ 90% in room air SaO2 ≤ 90% in room air
+
+[53.86, 193.28] 
+ [76.54, 193.28] Abnormal age-related vital signs (Refer A1.1)
+
+[195.15, 216.90] No
+
+[53.86, 242.10] 
+ [76.54, 242.10] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 254.92] 
+ [76.54, 254.92] Glasgow Coma Scale Score (GCS) 13-14
+
+[53.86, 267.74] 
+ [76.54, 267.74] Temperature ≥ 40.0°C or ≤ 35.5°C
+
+[53.86, 280.56] 
+ [76.54, 280.56] Hypoglycaemia (blood sugar ≤  2.7mmol/L)
+
+[53.86, 293.37] 
+ [76.54, 293.37] Lethargy / listless / irritability / floppy
+
+[53.86, 306.19] 
+ [76.54, 306.19] Central capillary refill > 2 seconds
+
+[53.86, 319.01] 
+ [76.54, 319.01] Not responding to parents
+
+[53.86, 331.83] 
+ [76.54, 331.83] New neurological symptoms (see glossary)
+ [427.22, 332.41] yEs
+ [501.41, 335.20] 2
+
+[53.86, 344.65] 
+ [76.54, 344.65] Severe pain (7-10/10) / distress
+
+[53.86, 357.46] 
+ [76.54, 357.46] Signs of compensated shock
+
+[53.86, 370.28] 
+ [76.54, 370.28] Purpura / Petechiae
+
+[53.86, 383.10] 
+ [76.54, 383.10] SaO2 ≤ 92% in room air
+
+[53.86, 395.92] 
+ [76.54, 395.92] Signs and symptoms of meningism
+
+[195.15, 420.05] No
+
+[53.86, 444.74] 
+ [76.54, 444.74] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 457.55] 
+ [76.54, 457.55] Moderate pain (4-6/10)
+
+[53.86, 470.37] 
+ [76.54, 470.37] Blood sugar 2.8 – 3.4 mmol/L
+
+[53.86, 483.19] 
+ [76.54, 483.19] History of seizure/ syncope episode / rigors / hallucinations
+
+[53.86, 496.01] 
+ [76.54, 496.01] Oliguria
+
+[53.86, 508.83] 
+ [76.54, 508.83] PEG tube problem / nasogastric tube problem
+
+[427.22, 515.37] yEs
+
+[53.86, 521.64] 
+ [76.54, 521.64] Jaundice
+ [501.41, 518.11] 3
+
+[53.86, 534.46] 
+ [76.54, 534.46] Reduced feeding with clinical signs of dehydration (Refer A1.2)
+
+[53.86, 547.28] 
+ [76.54, 547.28] Moderate increase in work of breathing
+
+[53.86, 560.10] 
+ [76.54, 560.10] History inconsistent with illness/injury
+
+[53.86, 572.92] 
+ [76.54, 572.92] Significant medical or surgical history
+
+[195.15, 596.58] No
+
+[53.86, 621.73] 
+ [76.54, 621.73] Mild pain (1-3/10)
+
+[53.86, 634.55] 
+ [76.54, 634.55] Off form
+
+[53.86, 647.37] 
+ [76.54, 647.37] Facial weakness
+ [427.22, 644.05] yEs
+ [502.41, 646.81] 4
+
+[53.86, 660.19] 
+ [76.54, 660.19] Recent problem (< 48 hours)
+
+[195.15, 683.87] No
+
+[53.86, 709.01] 
+ [76.54, 709.01] No signs of dehydration
+
+[53.86, 721.82] 
+ [76.54, 721.82] Problem > 48 hours with no acute symptoms yEs
+ [502.41, 723.89] 5
+
+[53.86, 734.64] 
+ [76.54, 734.64] No pain / discomfort at present
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 35
+
+[48.19, 63.17] Unwell infant (less than 1 year) (including Pyrexia)
+
+[48.19, 77.58] A = Appendix 1 (Decision making aids and reference charts)
+
+[53.86, 116.38] 
+ [76.54, 116.38] Airway compromise
+
+[53.86, 128.38] 
+ [76.54, 128.38] Respiratory failure / respiratory arrest
+
+[53.86, 140.38] 
+ [76.54, 140.38] Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12
+
+[53.86, 152.38] 
+ [76.54, 152.38] Hypoglycaemia with altered neurological status
+
+[53.86, 164.38] 
+ [76.54, 164.38] Currently seizing
+ [427.22, 158.20] yEs
+ [501.41, 162.02] 1
+
+[53.86, 176.38] 
+ [76.54, 176.38] SaO2 ≤ 90% in room air
+
+[53.86, 188.38] 
+ [76.54, 188.38] Abnormal age-related vital signs (Refer A1.1)
+
+[195.15, 210.28] No
+
+[53.86, 236.38] 
+ [76.54, 236.38] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 248.38] 
+ [76.54, 248.38] Glasgow Coma Scale Score (GCS) 13-14
+
+[53.86, 260.38] 
+ [76.54, 260.38] Central capillary refill time (CRT) > 2 seconds
+
+[53.86, 272.38] 
+ [76.54, 272.38] Abnormal cry
+
+[53.86, 284.38] 
+ [76.54, 284.38] Not responding to parents
+
+[53.86, 296.38] 
+ [76.54, 296.38] Severe pain (7-10/10)
+
+[53.86, 308.38] 
+ [76.54, 308.38] Temperature ≥ 40.0°C or ≤ 35.5°C
+
+[53.86, 320.38] 
+ [76.54, 320.38] Mottled / cold infant
+
+[53.86, 332.38] 
+ [76.54, 332.38] Purpura / Petechiae
+
+[53.86, 344.38] 
+ [76.54, 344.38] Signs and symptoms of  meningism
+ [427.22, 343.91] yEs
+ [501.41, 346.70] 2
+
+[53.86, 356.38] 
+ [76.54, 356.38] New neurological symptoms (see glossary)
+
+[53.86, 368.38] 
+ [76.54, 368.38] Signs of compensated shock
+
+[53.86, 380.38] 
+ [76.54, 380.38] SaO2 ≤ 92% in room air
+
+[53.86, 392.38] 
+ [76.54, 392.38] Lethargy / listless / irritability / floppy
+
+[53.86, 404.38] 
+ [76.54, 404.38] History of floppiness with pallor / cyanosis 
+
+[53.86, 416.38] 
+ [76.54, 416.38] History of apnoea lasting ≥ 20 seconds
+
+[53.86, 428.38] 
+ [76.54, 428.38] Bulging fontanelle / sunken fontanelle
+
+[53.86, 440.38] 
+ [76.54, 440.38] Hypoglycaemia (blood sugar ≤  2.7mmol/L)
+
+[195.15, 462.96] No
+
+[53.86, 488.38] 
+ [76.54, 488.38] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 500.38] 
+ [76.54, 500.38] Atypical behaviour
+
+[53.86, 512.38] 
+ [76.54, 512.38] Moderate pain (4-6/10) / distress
+
+[53.86, 524.38] 
+ [76.54, 524.38] Blood sugar 2.8 – 3.4 mmol/L
+
+[53.86, 536.38] 
+ [76.54, 536.38] Reduced feeding / projectile vomiting
+
+[53.86, 548.38] 
+ [76.54, 548.38] PEG tube problem / nasogastric tube problem
+
+[53.86, 560.38] 
+ [76.54, 560.38] Jaundice
+
+[53.86, 572.38] 
+ [76.54, 572.38] Reduced urinary output / dry nappies
+ [427.22, 570.32] yEs
+ [501.41, 573.06] 3
+
+[53.86, 584.38] 
+ [76.54, 584.38] Prolonged crying
+
+[53.86, 596.38] 
+ [76.54, 596.38] Inconsolable by parents
+
+[53.86, 608.38] 
+ [76.54, 608.38] History inconsistent with injury / illness
+
+[53.86, 620.38] 
+ [76.54, 620.38] History of seizure / jittery episode
+
+[53.86, 632.38] 
+ [76.54, 632.38] Drawing up legs
+
+[53.86, 644.38] 
+ [76.54, 644.38] Infant < 3 months
+
+[195.15, 668.19] No
+
+[53.86, 692.38] 
+ [76.54, 692.38] Consolable infant
+
+[53.86, 704.38] 
+ [76.54, 704.38] Mild pain (1-3/10)
+ [427.22, 702.45] yEs
+ [502.41, 705.22] 4
+
+[195.15, 728.12] No
+
+[53.86, 752.38] 
+ [76.54, 752.38] Problem > 48 hours with no acute symptoms
+ [427.22, 756.51] yEs
+ [502.41, 758.40] 5
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 36
+
+[48.19, 63.17] Vomiting ± diarrhoea
+
+[48.19, 77.58] A = Appendix 1 (Decision making aids and reference charts)
+
+[53.86, 116.38] 
+ [76.54, 116.38] Airway compromise
+
+[53.86, 129.19] 
+ [76.54, 129.19] Respiratory failure / respiratory arrest
+
+[53.86, 142.01] 
+ [76.54, 142.01] Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12
+
+[427.22, 148.28] yEs
+
+[53.86, 154.83] 
+ [76.54, 154.83] Currently seizing
+ [501.41, 152.10] 1
+
+[53.86, 167.65] 
+ [76.54, 167.65] Abnormal age-related vital signs (Refer A1.1)
+
+[195.15, 191.97] No
+
+[53.86, 216.47] 
+ [76.54, 216.47] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 229.28] 
+ [76.54, 229.28] Glasgow Coma Scale Score (GCS) 13-14
+
+[53.86, 242.10] 
+ [76.54, 242.10] Central capillary refill time (CRT) > 2 seconds
+
+[53.86, 254.92] 
+ [76.54, 254.92] Temperature ≥ 40.0°C or ≤ 35.5°C
+
+[53.86, 267.74] 
+ [76.54, 267.74] Hypoglycaemia (blood sugar ≤2.7mmol/L)
+
+[53.86, 280.56] 
+ [76.54, 280.56] Severe pain (7-10/10)
+
+[53.86, 293.37] 
+ [76.54, 293.37] Acute haematemesis / melaena / red currant stools
+
+[53.86, 306.19] 
+ [76.54, 306.19] Signs of compensated shock
+
+[53.86, 319.01] 
+ [76.54, 319.01] Abnormal cry
+
+[53.86, 331.83] 
+ [76.54, 331.83] Not responding to parents
+ [427.22, 335.54] yEs
+ [501.41, 338.34] 2
+
+[53.86, 344.65] 
+ [76.54, 344.65] Purpura / Petechiae
+
+[53.86, 357.46] 
+ [76.54, 357.46] Signs and symptoms of meningism
+
+[53.86, 370.28] 
+ [76.54, 370.28] Severe dehydration (Refer A1.2)
+
+[53.86, 383.10] 
+ [76.54, 383.10] Lethargy / listless / irritability / floppy
+
+[53.86, 395.92] 
+ [76.54, 395.92] Bulging fontanelle / sunken fontanelle
+
+[53.86, 408.74] 
+ [76.54, 408.74] Sunken eyes
+
+[53.86, 421.55] 
+ [76.54, 421.55] Anuria
+
+[53.86, 434.37] 
+ [76.54, 434.37] Metabolic illness
+
+[195.15, 455.64] No
+
+[53.86, 483.19] 
+ [76.54, 483.19] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 496.01] 
+ [76.54, 496.01] Moderate pain (4-6/10)
+
+[53.86, 508.83] 
+ [76.54, 508.83] Significant medical or surgical history
+
+[53.86, 521.64] 
+ [76.54, 521.64] Persistent vomiting
+
+[53.86, 534.46] 
+ [76.54, 534.46] Persistent diarrhoea with abdominal pain
+
+[53.86, 547.28] 
+ [76.54, 547.28] Moderate dehydration (Refer A1.2) yEs
+ [501.41, 546.45] 3
+
+[53.86, 560.10] 
+ [76.54, 560.10] Blood sugar 2.8 – 3.4 mmol/L in an asymptomatic child
+
+[53.86, 572.92] 
+ [76.54, 572.92] Reduced feeding with clinical signs of dehydration (Refer A1.2)
+
+[53.86, 585.73] 
+ [76.54, 585.73] Reduced skin turgor
+
+[53.86, 598.55] 
+ [76.54, 598.55] Oliguria
+
+[195.15, 621.68] No
+
+[53.86, 647.37] 
+ [76.54, 647.37] Mild pain (1-3/10)
+
+[53.86, 660.19] 
+ [76.54, 660.19] Recent problem (< 48 hours)
+ [427.22, 666.01] yEs
+
+[53.86, 673.01] 
+ [76.54, 673.01] Mild Dehydration (Refer A1.2)
+ [502.41, 668.77] 4
+
+[53.86, 685.82] 
+ [76.54, 685.82] Decreased oral intake
+
+[195.15, 709.18] No
+
+[53.86, 734.64] 
+ [76.54, 734.64] No signs of dehydration
+
+[53.86, 747.46] 
+ [76.54, 747.46] Problem > 48 hours with no acute symptoms
+ [427.22, 746.05] yEs
+ [502.41, 747.94] 5
+
+[53.86, 760.28] 
+ [76.54, 760.28] No pain / discomfort  at present
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 37
+
+[48.19, 63.17] Wounds/signs of local inflammation
+
+[48.19, 77.58] A = Appendix 1 (Decision making aids and reference charts)
+
+[53.86, 116.38] 
+ [76.54, 116.38] Airway compromise
+
+[53.86, 129.19] 
+ [76.54, 129.19] Respiratory failure / respiratory arrest
+
+[53.86, 142.01] 
+ [76.54, 142.01] Exsanguinating haemorrhage
+
+[427.22, 148.28] yEs
+
+[53.86, 154.83] 
+ [76.54, 154.83] Unresponsive / Glasgow Coma Scale Score (GCS) ≤ 12
+ [501.41, 152.10] 1
+
+[53.86, 167.65] 
+ [76.54, 167.65] Abnormal age-related vital signs (Refer A1.1)
+
+[195.15, 190.76] No
+
+[53.86, 216.47] 
+ [76.54, 216.47] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 229.28] 
+ [76.54, 229.28] Glasgow Coma Scale Score (GCS) 13-14
+
+[53.86, 242.10] 
+ [76.54, 242.10] Severe pain (7-10/10)
+
+[53.86, 254.92] 
+ [76.54, 254.92] Signs of compensated shock
+ [427.22, 249.79] yEs
+ [501.41, 252.58] 2
+
+[53.86, 267.74] 
+ [76.54, 267.74] Significant history / mechanism of injury (Refer A1.3)
+
+[53.86, 280.56] 
+ [76.54, 280.56] Traumatic amputation  >50% partial/degloving injury
+
+[195.15, 304.00] No
+
+[53.86, 329.37] 
+ [76.54, 329.37] Abnormal age-related vital signs (Refer A1.1)
+
+[53.86, 342.19] 
+ [76.54, 342.19] Moderate pain (4-6/10)
+
+[53.86, 355.01] 
+ [76.54, 355.01] History inconsistent with injury
+
+[53.86, 367.83] 
+ [76.54, 367.83] Delayed presentation
+ [427.22, 373.64] yEs
+
+[53.86, 380.65] 
+ [76.54, 380.65] Moderate haemorrhage
+ [501.41, 376.38] 3
+
+[53.86, 393.46] 
+ [76.54, 393.46] Inflammation with tracking
+
+[53.86, 406.28] 
+ [76.54, 406.28] Infant under 3 months
+
+[53.86, 419.10] 
+ [76.54, 419.10] Needle-stick injury with known blood borne infection
+
+[195.15, 441.80] No
+
+[53.86, 467.92] 
+ [76.54, 467.92] Mild pain (1-3/10)
+
+[53.86, 480.74] 
+ [76.54, 480.74] Mild haemorrhage
+
+[53.86, 493.55] 
+ [76.54, 493.55] Foreign body
+
+[53.86, 506.37] 
+ [76.54, 506.37] Local infection and inflammation
+ [427.22, 501.81] yEs
+ [502.41, 504.58] 4
+
+[53.86, 519.19] 
+ [76.54, 519.19] Needle-stick injury
+
+[53.86, 532.01] 
+ [76.54, 532.01] Recent problem (< 48 hours)
+
+[195.15, 556.28] No
+
+[53.86, 580.83] 
+ [76.54, 580.83] Superficial wound
+
+[53.86, 593.64] 
+ [76.54, 593.64] Suspicion of bite or injury
+
+[53.86, 606.46] 
+ [76.54, 606.46] Chronic problem (> 48 hours)
+ [427.22, 608.00] yEs
+ [502.41, 609.90] 5
+
+[53.86, 619.28] 
+ [76.54, 619.28] Change of dressing / removal of sutures
+
+[53.86, 632.10] 
+ [76.54, 632.10] No pain / discomfort at present
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 38
+
+[48.19, 63.17] 8. Educational requirements for Performing icts
+
+[48.19, 103.56] There is no consensus in relation to the minimum clinical experience a nurse needs prior to undertaking triage. Some systems
+
+[48.19, 115.56] recommend that the nurse must be an ‘experienced’ nurse without quantifying what defines a nurse as ‘experienced’ (Beveridge
+
+[48.19, 127.56] et al 1998, O’Neill & Molczan 2003, ACEM 2005, Gilboy et al 2005). Morgan & Whelan (2000) recommended that the nurse
+
+[48.19, 139.56] should have at least 18 months of emergency nursing experience. However, Wulp et al (2008) have not found any association
+
+[48.19, 151.56] between work experience and interrater reliability at triage. Gilboy et al (2005) recommend a 2-4 hour mandatory educational
+
+[48.19, 163.56] programme for staff whilst Maldona & Avner (2004) recommend 6 hours of formalised triage training. 
+
+[48.19, 187.56] Crellin & Johnson (2003) previously suggested that nurses not specifically trained in paediatrics may find triaging paediatric
+
+[48.19, 199.56] patients challenging due to lack of expertise in the physiological and cognitive differences in children. This potentially leads to
+
+[48.19, 211.56] children being allocated a lower priority triage category (category 5) less often.
+
+[48.19, 235.56] While it is acknowledged that some ED experience is essential to assist the nurse in identifying a critically ill patient, the ICTS
+
+[48.19, 247.56] Project Subgroup consider that education of staff in the use of the tool is essential prior to undertaking unsupervised triage.
+
+[48.19, 259.56] Education of staff involves formal teaching sessions, supervised triage episodes and completion of a competency sign off booklet.
+
+[48.19, 271.56] However, if there are concerns in relation to a nurse’s performance in relation to appropriate/accurate triage decisions, he/she
+
+[48.19, 283.56] may undertake the triage workbook again to ensure further support/evaluation is provided. It is recommended that ongoing
+
+[48.19, 295.56] concerns regarding triage performance should be managed through local nursing practice development structures.
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 39
+
+[48.19, 63.17] 9. Pilot Phase
+
+[48.19, 103.56] ICTS was piloted in six sites from March 2013 – February 2014. In preparation for the pilot phase of ICTS, permission was sought
+
+[48.19, 115.56] from the Directors of Nursing of each participating hospital. No data protection or patient confidentiality risks were identified.
+
+[48.19, 139.56] All pilot sites identified local champions who would lead on training in their own ED. Formal teaching sessions, which comprised
+
+[48.19, 151.56] an eight-hour study day were organised for each participating pilot site. This education was provided by the Clinical Nurse
+
+[48.19, 163.56] Managers (CNM3) from the three paediatric EDs who had been pivotal in developing the ICTS tool. 
+
+[48.19, 187.56] The champions train-the-trainer approach ensured that training of all staff was standardised across the six sites. Clinical training
+
+[48.19, 199.56] and instruction of nurses has been previously identified as assisting in optimising the usage and interpretation of triage systems
+
+[48.19, 211.56] (Veen & Moll 2009). The pilot phase was managed by the ICTS project subgroup who addressed operational issues and provided
+
+[48.19, 223.56] support to each site. Prior to and during the pilot phase the project subgroup carried out audits, staff questionnaires and inter-
+
+[48.19, 235.56] rater reliability studies, to support on-going evaluation and validation of the tool. 
+
+[48.19, 259.56] The pilot phase was planned to take place over a 3-month period, however, the tool was found to be so beneficial that all six EDs
+
+[48.19, 271.56] opted to continue to use the ICTS after the end of the pilot period. As a result, audit data was gathered from the participating
+
+[48.19, 283.56] hospitals for the period March 2013 - February 2014. The additional audit period allowed the project subgroup to ensure that the
+
+[48.19, 295.56] results of audit were not influenced by seasonal variation. Data was gathered from the six EDs for the year preceding the
+
+[48.19, 307.56] introduction of ICTS (i.e. March 2012 - February 2013). This allowed the allocation of triage categories to be compared pre and
+
+[48.19, 319.56] post introduction of ICTS.
+
+[48.19, 355.56] 9.1 audit 
+
+[48.19, 379.56] The information contained in Figures 1a, 1b, 2a and 2b represents data from hospitals coded 1, 2 and 3 which are EDs that see
+
+[48.19, 391.56] both adult and paediatric patients. Hospitals coded 4, 5 and 6 represent the three paediatric (only) EDs in Dublin.
+
+[48.19, 415.56] data collection
+
+[48.19, 439.56] Data collected by the Clinical Nurse Managers in the pilot sites included:
+
+[48.19, 452.38] 
+ [70.87, 452.38] Daily reviews/monthly reports of attendance rate of each triage category (Figures 1a & 1b);
+
+[48.19, 465.19] 
+ [70.87, 465.19] Daily reviews/monthly reports of admission rates of each triage category (Figures 2a & 2b);
+
+[82.14, 527.54] Attendance per triage category across the 6 pilot sites
+
+[87.68, 535.70] Hospitals 1-2 (March-May 2012), Hospital 3 (June 2012-Feb 2013)
+
+[117.37, 542.90] Hospital 4-6 (March 2012-February 2013)
+
+[271.19, 579.96] Category 1
+
+[271.19, 592.21] Category 2
+
+[271.19, 604.58] Category 3
+
+[271.19, 616.71] Category 4
+
+[271.19, 629.46] Category 5
+
+[77.61, 664.06] Hospital 1
+ [109.19, 664.06] Hospital 2
+ [141.40, 664.06] Hospital 3
+ [172.99, 664.06] Hospital 4
+ [204.69, 664.06] Hospital 5
+ [235.64, 664.06] Hospital 6
+
+[48.19, 693.19] Figure 1a attendance per triage category march 2012-February 2013
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 40
+
+[84.16, 93.17] Attendance per triage category across the 6 pilot sites
+
+[89.86, 101.33] Hospitals 1 (March-August 2013), Hospital 2 (Mar 2013-Jan 2014)
+
+[119.39, 108.53] Hospital 3-6 (March 2013-February 2014)
+
+[286.78, 142.12] Category 1
+
+[286.78, 155.32] Category 2
+
+[286.78, 168.50] Category 3
+
+[286.78, 181.25] Category 4
+
+[286.78, 194.46] Category 5
+
+[79.62, 236.01] Hospital 1
+ [113.42, 236.01] Hospital 2
+ [149.11, 236.01] Hospital 3
+ [181.32, 236.01] Hospital 4
+ [215.55, 236.01] Hospital 5
+ [248.63, 236.01] Hospital 6
+
+[48.19, 258.56] Figure 1b attendance per triage category march 2013-February 2014
+
+[72.53, 313.50] Admissions per triage category as an overall % of admissions
+
+[90.62, 321.66] Hospitals 1-2 (March-May 2012), Hospital 3 (June 2012-Feb 2013)
+
+[120.31, 328.86] Hospital 4-6 (March 2012-February 2013)
+
+[269.77, 356.30] Category 1
+
+[269.77, 369.50] Category 2
+
+[269.77, 382.68] Category 3
+
+[269.77, 395.44] Category 4
+
+[269.77, 408.64] Category 5
+
+[75.49, 457.93] Hospital 1
+ [107.07, 457.93] Hospital 2
+ [141.50, 457.93] Hospital 3
+ [171.82, 457.93] Hospital 4
+ [204.98, 457.93] Hospital 5
+ [235.65, 457.93] Hospital 6
+
+[48.19, 486.56] Figure 2a  admission % per triage category march 2012-February 2013
+
+[70.83, 543.36] Admissions per triage category as an overall % of admissions
+
+[89.08, 551.52] Hospitals 1 (March-August 2013), Hospital 2 (Mar 2013-Jan 2014)
+
+[118.60, 558.72] Hospital 3-6 (March 2013-February 2014)
+
+[270.21, 590.89] Category 1
+
+[270.21, 604.09] Category 2
+
+[270.21, 617.27] Category 3
+
+[270.21, 630.03] Category 4
+
+[270.21, 643.24] Category 5
+
+[73.78, 687.47] Hospital 1
+ [105.37, 687.47] Hospital 2
+ [139.79, 687.47] Hospital 3
+ [170.11, 687.47] Hospital 4
+ [203.27, 687.47] Hospital 5
+ [233.94, 687.47] Hospital 6
+
+[48.19, 714.56] Figure 2b admission % per triage category march 2013-February 2014
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 41
+
+[48.19, 103.56] In addition to the data collected by all six hospitals the three paediatric EDs were able to review the triage categories of children
+
+[48.19, 115.56] who required admission to Paediatric Intensive Care (PICU) for the year before and year after the introduction of the ICTS (Tables
+
+[48.19, 127.56] 3a & 3b).
+
+[63.58, 168.74] Triage categories of patients admitted to PICU
+ [298.56, 168.74] Triage categories of patients requiring admission to PICU
+
+[78.96, 178.34] March 2012-February 2013 (n=230)
+ [331.59, 178.34] March 2013-February 2014 (n=293)
+
+[454.34, 212.65] Category 1
+
+[203.44, 217.91] Category 1
+
+[454.34, 222.65] Category 2
+
+[203.44, 227.91] Category 2
+
+[454.34, 232.68] Category 3
+
+[203.44, 237.93] Category 3
+
+[454.34, 242.68] Category 4
+
+[203.44, 247.93] Category 4
+
+[454.34, 252.65] Category 5
+
+[203.44, 257.90] Category 5
+
+[48.19, 307.56] Fig 3a admission to PicU per triage category  Fig 3b admission to PicU per triage 
+
+[48.19, 319.56] march 2012-Feb 2013                                 category march 2013-Feb 2014
+
+[48.19, 367.56] observations on data results
+
+[48.19, 391.56] Nurses who do not have paediatric training may find the triaging of paediatric patients challenging (Crellin & Johnson 2003). In
+
+[48.19, 403.56] addition, nurses who do not work exclusively with paediatrics may be hesitant to use lower acuity categories (Figures 1a and
+
+[48.19, 415.56] 1b). However, following the ICTS training in the pilot sites there was a notable change in the use of triage category 4 in Hospital
+
+[48.19, 427.56] 1. Hospital 2 shows a small increase in the use of the lower triage categories with little change in Hospital 3. 
+
+[48.19, 451.56] In relation to the three paediatric hospitals (Hospitals 4-6), there was a significant difference in the allocation of triage categories
+
+[48.19, 463.56] between Hospitals 4 and 6 and Hospital 5 but following the introduction of ICTS, the three paediatric EDs showed very similar
+
+[48.19, 475.56] patterns of attendance by triage category. 
+
+[48.19, 499.56] Although a triage tool is not designed to determine whether a child would subsequently require admission to hospital, the ICTS
+
+[48.19, 511.56] project subgroup attempted to establish a correlation between the higher acuity triage categories and admission rates (Figures
+
+[48.19, 523.56] 2a & 2b). Hospital 1 had a reduction in the overall % of lower triage categories 4. Hospitals 2, 4 and 5 had a significant increase
+
+[48.19, 535.56] in the percentage of higher triage category 2 being admitted (admission rate as an overall percentage of admissions). However
+
+[48.19, 547.56] there was little change noted in Hospitals 3 and 6. 
+
+[48.19, 571.56] The admission rate per triage category as an overall proportion of admissions was much more consistent.  Yet again, after the
+
+[48.19, 583.56] introduction of ICTS the three paediatric EDs were very similar in admissions per triage category as an overall percentage of
+
+[48.19, 595.56] admissions.
+
+[48.19, 619.56] The three paediatric EDs were in a position to collect data on children admitted to PICU. Gravel et al (2009) reports that 90% of
+
+[48.19, 631.56] patients admitted to intensive care were categorised as category 1 or 2 (using the Canadian Paediatric Triage and Acuity Scale).
+
+[48.20, 643.56] Prior to the introduction of the ICTS, the 3 paediatric EDs reported a similar categorisation pattern for children admitted to ICU.
+
+[48.19, 655.56] However, at that time, 8% of those admissions to PICU had received a triage category 3 and 2% had received a triage category
+
+[48.18, 667.56] 4 (Figure 3a). Following the introduction of the ICTS, 94% of admissions to PICU were either a triage category 1 or 2 and no
+
+[48.18, 679.56] patient received a triage category 4 or 5 (Figure 3b). The findings in relation to initial acuity assessment and the need for PICU
+
+[48.17, 691.56] beds would suggest that the ICTS tool can identify acutely ill children and ensure that these children receive immediate and
+
+[48.14, 703.56] urgent medical attention. 
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 42
+
+[48.19, 63.17] 10. limitations of irish children’s triage system
+
+[48.19, 103.56] Triage systems are designed to appreciate the value of human life and health with fairness and the efficient use of resources
+
+[48.19, 115.56] (Fitzgerald et al 2009). Triage should only be used if there is a delay in patients receiving medical attention, thereby reducing
+
+[48.19, 127.56] clinical risk.  Consequently, if there are no patients waiting for medical review, there should be no delay in the patient receiving
+
+[48.19, 139.56] medical attention and the patient should receive a nursing and medical assessment simultaneously. 
+
+[48.19, 163.56] The triage process tends to incur delays, especially in the younger age group of attendees. Therefore, it is recommended that
+
+[48.19, 175.56] consideration should be given to develop a local contingency plan when there are delays for triage to ensure that all patients are
+
+[48.19, 187.56] seen by a nurse or doctor in a timely fashion.
+
+[48.19, 211.56] Triage is sometimes used by hospital managers and service planners as a marker of acuity and complexity of care within EDs,
+
+[48.19, 223.56] hospitals and networks of care. This has led to considerations that patients in ‘lower’ triage categories (triage categories 3-5)
+
+[48.19, 235.56] could be easily and safely managed in alternative healthcare settings. This misuse of triage data is potentially dangerous because
+
+[48.19, 247.56] triage is essentially a tool to facilitate ‘clinical justice’ identifying which patients need to be seen sooner; it is not a marker of how
+
+[48.19, 259.56] complex or qualified that medical care is. 
+
+[48.19, 283.56] One of the major limitations of any triage tool is difficulty in its validation. A number of audits of ICTS have been undertaken to
+
+[48.19, 295.56] ensure that it is a robust and comprehensive tool (outlined in the previous section). Further audit and evaluation is planned as
+
+[48.19, 307.56] EDs throughout Ireland commence implementation of ICTS. The recommendation from the National Emergency Medicine
+
+[48.19, 319.56] Programme and ICTS project subgroup is that continuous audit should be carried out at local level and all variations analysed
+
+[48.19, 331.56] locally and discussed within ED multidisciplinary teams. Learning from local audits should be shared with the National Emergency
+
+[48.19, 343.56] Medicine Programme and used to inform further refinement of the tool. 
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 43
+
+[48.19, 63.17] 11. conclusion
+
+[48.19, 103.56] The National Emergency Medicine Programme consistently strives to improve the care that is delivered to patients, their families
+
+[48.19, 115.56] and carers who attend EDs throughout the country. The triage system outlined in this document aims to assist in ensuring that
+
+[48.19, 127.56] children who attend Irish EDs receive the best possible effective and timely care. 
+
+[48.19, 151.56] Overall feedback on the pilot phase of the project was very positive from staff in all participating EDs. Emergency nurses found
+
+[48.19, 163.56] that ICTS was a safe and user friendly tool which guided them to quickly recognise sick children presenting to their department. 
+
+[48.19, 187.56] In conclusion the recommendation of the National Emergency Medicine Programme is that the Irish Children's Triage System
+
+[48.19, 199.56] should be adopted as the national standard of triage for children and should be implemented in all EDs in Ireland with paediatric
+
+[48.19, 211.56] attendances.
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 44
+
+[48.19, 63.17] 12. glossary of terms
+
+[48.19, 103.56] term
+ [232.44, 103.56] Explanation
+
+[48.19, 124.06] acutely avulsed permanent tooth
+ [232.44, 124.06] A permanent tooth that has been forcibly and traumatically displaced from its
+
+[232.44, 136.06] normal position, completely forced from its alveolar socket within the last 24
+
+[232.44, 148.06] hours
+
+[48.19, 168.57] allergic reaction
+ [232.44, 168.57] Symptoms and signs of an allergic reaction include any, some, or many  of the
+
+[232.44, 180.57] following:
+
+[232.44, 198.24] •
+ [249.45, 198.24] Skin: irritation, redness, itching, swelling, blistering, weeping, crusting, rash,
+
+[249.45, 210.24] eruptions or hives (itchy bumps or welts)
+
+[232.44, 223.65] •
+ [249.45, 223.65] Lungs: wheezing, tightness, cough, shortness of breath
+
+[232.44, 237.07] •
+ [249.45, 237.07] Head: swelling or bumps on the face and neck, eyelids, lips, tongue, or throat,
+
+[249.45, 249.07] hoarseness of voice, headache
+
+[232.44, 262.49] •
+ [249.45, 262.49] Nose: stuffy nose, runny nose (clear, thin discharge), sneezing
+
+[232.44, 275.90] •
+ [249.45, 275.90] Eyes: red (bloodshot), itchy, swollen, or watery or swelling of the area around
+
+[249.45, 287.90] the face and eyes
+
+[232.44, 301.32] •
+ [249.45, 301.32] Abdomen: abdominal pain, nausea, vomiting and/or diarrhoea,  
+
+[232.44, 314.74] •
+ [249.45, 314.74] Other: fatigue, sore throat
+
+[48.19, 335.24] anaphylaxis
+ [232.44, 335.24] A potentially life-threatening, rapidly developing allergic reaction that affects a
+
+[232.44, 347.24] number of different body systems at one time. Anaphylaxis is a medical
+
+[232.44, 359.24] emergency, and requires immediate treatment
+
+[48.19, 379.75] Bsa
+ [232.44, 379.75] Body Surface Area
+
+[48.19, 400.25] Burns
+ [74.02, 400.25] (Thermal injury)
+ [232.44, 400.25] Burn: An injury to flesh or skin caused by heat, chemicals, chemicals, radiation
+
+[232.44, 412.25] or radiation
+
+[232.44, 429.92] circumferential burn: The burn encircles an entire body part. May cause
+
+[232.44, 441.92] neurovascular compromise to the body part
+
+[232.44, 459.59] chemical burn:
+ [296.89, 459.59] A burn caused by a chemical substances
+
+[232.44, 477.26] Electrical injuries:
+ [314.33, 477.26] Relatively uncommon. Children with electrical burns are
+
+[232.44, 489.26] predominantly injured in the household setting. The spectrum of electrical injury
+
+[232.44, 501.26] is broad, ranging from minimal injury to severe multi-organ involvement to death
+
+[232.44, 518.93] Flame burn: A burn caused by heat or flame also called a thermal burn
+
+[232.44, 536.60] scald: Caused by hot liquids or steam
+
+[232.44, 554.27] Full thickness:
+ [293.40, 554.27] Third degree burn occurs with destruction of the entire epidermis
+
+[232.44, 566.27] and dermis, leaving no residual epidermal cells to repopulate
+
+[232.44, 583.94] Partial thickness: This burn destroys the epidermal layer and portions of the
+
+[232.44, 595.94] dermis. Since it does not extend through both layers, it is termed a partial
+
+[232.44, 607.94] thickness burn 
+
+[232.44, 625.60] minor burn:
+ [282.53, 625.60] A minor burn is confined exclusively to the outer surface and is not
+
+[232.43, 637.60] considered a significant burn. No barrier functions are altered
+
+[48.18, 658.11] central capillary refill time
+ [232.43, 658.11] Capillary time is the rate at which blood returns to the capillary bed after cutaneous
+
+[232.42, 670.11] pressure on the sternum for 5 seconds (normal ≤ 2 seconds). It should never be
+
+[232.42, 682.11] measured in isolation and should be considered along with other clinical signs
+
+[48.17, 702.61] compensated shock
+ [232.42, 702.61] Blood flow to vital organs i.e. heart and brain is spared at the expense of non-
+
+[232.40, 714.61] essential organs. A child in this phase is typically mildly agitated or confused,
+
+[232.43, 726.61] tachycardic and has cool, pale skin with decreased capillary refill time
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 45
+
+[48.19, 103.56] Expressing suicidal intent/ideation
+ [232.44, 103.56] Suicidal Intent
+
+[232.44, 121.23] •
+ [249.45, 121.23] Subjective expectation and desire for a self-destructive act to end in death.
+
+[232.44, 134.64] Suicidal Ideation
+
+[232.44, 152.31] •
+ [249.45, 152.31] Thoughts of serving as the agent of one’s own death.  May vary in seriousness
+
+[249.45, 164.31] depending on the specific detailing of suicide plans and the degree of suicidal
+
+[249.45, 176.31] intent
+
+[48.19, 196.82] New neurological symptoms
+ [232.44, 196.82] Sudden onset of confusion, weakness / irritability or drowsiness. Symptoms may
+
+[232.44, 208.82] also include altered level of consciousness, loss of sensation, weakness of the
+
+[232.44, 220.82] limbs  or alterations in bladder or bowel function
+
+[48.19, 241.32] Pain
+ [232.44, 241.32] An unpleasant sensation ranging from mild discomfort to agonised distress
+
+[232.44, 258.99] severe: Pain that is unbearable, often described as the worst ever; 7-10 (out of
+
+[232.44, 270.99] 10) on a validated pain score tool (e.g. Wong Baker pain scale/Pain ruler/FLACC
+
+[232.44, 282.99] Pain Scale/Alder Hey pain score tools)
+
+[232.44, 300.66] moderate: Pain is bearable but intense; 4-6/10 on a validated pain score tool (e.g.
+
+[232.44, 312.66] Wong Baker pain scale/Pain ruler/FLACC Scale/Alder Hey pain score tools)
+
+[232.44, 330.33] mild: Mild stinging causes few problems, can do most things; 1-3/10 on a
+
+[232.44, 342.33] validated pain score tool (e.g. Wong Baker pain score/Pain ruler/FLACC
+
+[232.44, 354.33] Scale/Alder Hey pain score tools)
+
+[48.19, 374.83] Petechiae
+ [232.44, 374.83] Pinpoint, flat round red spots under the skin surface caused by intradermal
+
+[232.44, 386.83] haemorrhage. They do not blanch when pressure is applied. This rash should be
+
+[232.44, 398.83] considered as an emergency in triage and should never receive less than a triage
+
+[232.44, 410.83] category 2 
+
+[48.19, 431.34] rigors
+ [232.44, 431.34] An attack of shivering that occurs when the heat-regulating centre malfunctions.
+
+[232.44, 443.34] There is a rapid increase in body temperature which remains elevated until profuse
+
+[232.44, 455.34] sweating takes place
+
+[48.19, 475.84] sudden loss of vision
+ [232.44, 475.84] Sudden visual loss is a common complaint with variable presentations among
+
+[232.44, 487.84] patients of different ages. Some patients describe their symptoms as a gradually
+
+[232.44, 499.84] descending gray-black curtain or as blurring, fogging, or dimming of vision.
+
+[232.44, 511.84] Symptoms usually last a few minutes but can persist for hours. Variation in
+
+[232.44, 523.84] frequency ranges from a single episode to many episodes per day; recurrences
+
+[232.44, 535.84] may continue for years but more frequently occur over seconds to hours
+
+[48.19, 556.34] tripod Positioning
+ [232.44, 556.34] A position that may be assumed during respiratory distress to facilitate the use
+
+[232.44, 568.34] of respiratory accessory muscles. The patient sits leaning forward, with hands
+
+[232.44, 580.34] placed on the bed or a table with arms braced.
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 46
+
+[48.19, 63.17] 13. references
+
+[48.19, 103.56] Australasian College for Emergency Medicine (ACEM) (2013) Guidelines for Implementation of the Australasian Triage Scale in
+
+[48.19, 115.56] Emergency Departments, Melbourne: Australasian College for Emergency Medicine. Available from
+
+[48.19, 127.56] http://www.acem.org.au/media/policies
+ [204.74, 127.56] (Accessed 15 July 2013).
+
+[48.19, 151.56] Australasian College for Emergency Medicine (ACEM) (2013) Policy on the Australasian Triage Scale :Version 4.Melbourne,
+
+[48.19, 163.56] Australasian College for Emergency Medicine. Available from http://www.acem.org.au/media/policies
+ [444.83, 163.56] (Accessed 15 June 2013).
+
+[48.19, 187.56] Beveridge R., Clarke B., Janes L., Savage N., Thompson J., Dodd G., Murray M., Warren C., Jordan D. & Vadeboncoeur A. (1999)
+
+[48.19, 199.56] Implementation Guidelines for The Canadian Emergency Department Triage and Acuity Scale (CTAS). Clinical Journal of Emergency
+
+[48.19, 211.56] Medicine, 1, (3 supplement), S2-28.
+
+[48.19, 235.56] Bible D. (2006) Pain assessment at nurse triage: a literature review. Emergency Nurse, 14, 3, 26-29.
+
+[48.19, 259.56] College of Emergency Nursing (2012) Position Statement - Triage and Australian Triage Scale, Available from
+
+[48.19, 271.56] http://www.cena.org.au
+ [142.54, 271.56] (Accessed 15 July 2014).
+
+[48.19, 295.56] College of Emergency Nurses Australasia (2007) Position Statement: Triage and Educational Preparation of Triage Nurses. Victoria
+
+[48.19, 307.56] (Cited in Emergency Triage Education Kit. Canberra, Australia.  Case-mix Development Projects Section, Australian Commonwealth
+
+[48.19, 319.56] Department of Health and Ageing).
+
+[48.19, 343.56] Comhairle na nOspideal (2002) Report of the Committee on Accident & Emergency Services.
+
+[48.19, 367.56] Cooper, R., Flaherty, H., Lin, E. & Hubbell, K. (2002) Effect of vital signs on triage decisions. Annals of Emergency Medicine, 39,
+
+[48.19, 379.56] 223-232.
+
+[48.19, 403.56] Crellin D. & Johnston, L. (2003) Poor agreement in application of the Australasian Triage Scale to paediatric emergency department
+
+[48.19, 415.56] presentations, Contemporary Nurse, 15(1-2), 48-60.
+
+[48.19, 439.56] Dallaire C., Poitras J., Aubin K., Lavoie A., Moore L., Audet G. (2010) Interrater agreement of Canadian Emergency Department
+
+[48.19, 451.56] Triage and Acuity Scale scores assigned by base hospital and emergency department nurses. Canadian Journal of Emergency
+
+[48.19, 463.56] Medicine, 12, (1) 45-49.
+
+[48.19, 487.56] FitzGerald G., Jelinek G., Scott D. & Gerdtz MF. (2009) Emergency department triage revisited, Emergency Medical Journal,
+
+[48.19, 499.56] doi:10.1136/emj.2009.077081
+
+[48.19, 523.56] Fortes Lähdet E. (2009) Analysis of triage worldwide. Emergency Nurse, 17, 4, 16-20. 
+
+[48.19, 547.56] Gerdtz M., Considine J., Sands N., Stewart C., Crellin D., Pollock W., Tchernomoroff R., Knight K. & Charles A. (2007) Emergency
+
+[48.19, 559.56] Triage Education Kit. Canberra, Australia., Case-mix, Development Projects Section, Australian Commonwealth Department of
+
+[48.19, 571.56] Health and Ageing, Australia.
+
+[48.19, 595.56] Gilboy N., Tanabe P., Travers D., Rosenau A. & Eitel D. (2005) Emergency Severity Index, Version 4: Implementation Handbook.
+
+[48.18, 607.56] AHRQ Publication No. 05-0046-2. Rockville, MD: Agency for Healthcare Research and Quality. 
+
+[48.18, 631.56] Gravel J., Manzeno S. & Arsenault M. (2009) Validity of the Canadian Paediatric Triage and Acuity Scale in a tertiary care hospital.
+
+[48.19, 643.56] Canadian Journal of Emergency Medicine 11, 1, 23-28.
+
+[48.19, 667.56] Holdgate A., Ching N. & Angonese L. (2006) Variability in agreement between physicians and nurses when measuring the Glasgow
+
+[48.21, 679.56] Coma Scale in the emergency department limits its clinical usefulness. Emergency Medicine Australasia, 18, 379–384.
+
+[48.21, 703.56] Larsen D. (2000) An investigation into the assessment and management of pain by triage nurses in Greater London A&E
+
+[48.21, 715.56] departments. Emergency Nurse, 8, 2, 18-24.
+
+[48.21, 739.56] Loveridge N. (2000) Ethical implications of achieving pain management. Emergency Nurse. 8, 3, 16-21.
+
+[48.21, 763.56] Mackway-Jones K., Marsden J., Windle J. (1997) Emergency Triage: Manchester Triage Group. BMJ Publishing Group, UK.
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 47
+
+[48.19, 103.56] Mackway-Jones K., Marsden J., Windle J. (2006) Emergency Triage: Manchester Triage Group. 2nd edn. Blackwell Publishing,
+
+[48.19, 115.56] UK.
+
+[48.19, 139.56] Mackway-Jones K.,Marsden J., Windle J. (2014) Emergency Triage : Manchester Triage Group. 3rd edn. Wiley. UK.
+
+[48.19, 163.56] Maldonado T. & Avner J. (2004) Triage of the pediatric patient in the Emergency Department: are we all in agreement? Pediatrics,
+
+[48.19, 175.56] 114, 2, 356-361.
+
+[48.19, 199.56] Malviya S., Voepel-Lewis T., Burke C., Merkel S. & Tait A. (2006) The revised FLACC observational pain tool: improved reliability
+
+[48.19, 211.56] and validity for pain assessment in children with cognitive impairment. Paediatric Anaesthesia 16, 3, 258-265.
+
+[48.19, 235.56] McDaniel Hohenhaus S., Travers D., Mecham N. (2008) Pediatric triage: a review of emergency education literature. Journal of
+
+[48.19, 247.56] Emergency Nursing 34, 4, 308-313.
+
+[48.19, 271.56] Merkel S., Voepel-Lewis T., Shayevitz J. & Malyiya S. (1997) The FLACC: a behavioural scale for scoring postoperative pain in
+
+[48.19, 283.56] young children. Paediatric Nursing, 23, 3, 293-297.
+
+[48.19, 307.56] Moor R. (2001) Pain Assessment in a Children’s A&E: A Critical Analysis, Paediatric Nursing. 13, 2, 20-24.
+
+[48.19, 331.56] Morgan J. & Whelan L. (2000) Triage: a retrospective evaluation, Emergency Nurse, 8, 5, 22-29.
+
+[48.19, 355.56] Murray M., Bullard M. & Grafstein E. (2004) Revisions to the Canadian Emergency Department Triage and Acuity Scale
+
+[48.19, 367.56] Implementation guidelines. Canadian Journal of Emergency Medicine
+ [322.55, 367.56] 6, 6, 421-427.
+
+[48.19, 391.56] National Institute for Health & Clinical Excellence (2007) Feverish illness in children assessment and initial management in
+
+[48.19, 403.56] children younger than 5 years, Available from: www.nice.org.uk
+ [300.06, 403.56] (Accessed 7 July 2010).
+
+[48.19, 427.56] National Institute for Health & Clinical Excellence (2007) Head injury,
+ [318.68, 427.56] Available from: www.nice.org.uk
+ [447.76, 427.56] (Accessed 10 July 2010).
+
+[48.19, 451.56] Olofsson P., Gellerstedt M. & Carlstro E. (2008) Manchester Triage in Sweden – Interrater reliability and accuracy. International
+
+[48.19, 463.56] Emergency Nursing, 17, 143-148.
+
+[48.19, 487.56] O’Neill K. & Molczan K. (2003) Pediatric Triage: A 2-Tier, 5-Level System in the United States. Pediatric Emergency Care, 19, 4,
+
+[48.19, 499.56] 285-290.
+
+[48.19, 523.56] PricewaterhouseCoopers and the Health Administration Corporation (2011) Australian Triage, process review, on behalf of the
+
+[48.19, 535.56] Health Policy Priorities Principle Committee and New South Wales Department of Health, Australia. 
+
+[48.19, 559.56] Royal College of Nursing (2009) The recognition and assessment of acute pain in children. Available from www.rcn.org.uk
+
+[48.19, 571.56] (accessed 14 June 2010) internet.
+
+[48.19, 595.56] Storm-Versloot M., Ubbink D., Chin a Choi V. & Luitse J. (2009) Observer agreement of the Manchester Triage System and the
+
+[48.19, 607.56] Emergency Severity Index: a simulation study. Emergency Medical Journal, 26, 556–560. doi:10.1136/emj.2008.059378.
+
+[48.19, 631.56] Storm-Versloot M., Ubbink D., Kappelhof J., Chin a Choi V. & Luitse J. (2011) Comparison of an Informally Structured Triage
+
+[48.20, 643.56] System, the Emergency Severity Index and the Manchester Triage System to Distinguish Patient Priority in the Emergency
+
+[48.24, 655.56] Department. Academic Emergency Medicine, 18, (8), 822-829.
+
+[48.24, 679.56] Teasdale G. & Jennett B. (1974) Assessment of coma and impaired consciousness, a practical scale. The Lancet, 2, 81-84.
+
+[48.24, 703.56] Travers, D. (1999). Triage: How long does it take? How long should it take? Journal of Emergency Nursing, 25, 3, 238-240.
+
+[48.24, 727.56] Travers D., Waller A., Bowling J., Flowers D. & Tintinalli J. (2002). Five-level triage system more effective than three-level in
+
+[48.20, 739.56] tertiary emergency department. Journal of Emergency Nursing
+ [296.62, 739.56] 28:395–400.
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 48
+
+[48.19, 103.56] Twomey M, Wallis L, Myers J. (2007) Limitations in validating emergency department triage scales. Emergency Medical Journal
+
+[48.19, 115.56] 24, 477-479.
+
+[48.19, 139.56] Van Veen M. & Moll H. (2009) Reliability and validity of triage systems in paediatric emergency care. Scandinavian Journal of
+
+[48.19, 151.56] Trauma, Resuscitation and Emergency Medicine, 17: 38, doi: 10.1186/1757-7241.
+
+[48.19, 175.56] Van Veen M,  Steyerberg E., Ruige M.,  Meurs A, Roukema J.,  Lei J. & Moll H. (2008) Manchester triage system in paediatric
+
+[48.19, 187.56] emergency care: prospective observational study. British Medical Journal
+ [338.24, 187.56] 337:a1501, doi:10.1136/bmj.a1501.
+
+[48.19, 211.56] Voepel-Lewis T., Merkel S., Tait A., Trzcinka A. & Malviya S. (2002)The reliability and validity of the Face, Legs, Activity, Cry,
+
+[48.19, 223.56] Consolability observational tool as a measure of pain in children with cognitive impairment. Anaesthesia & Analgesia 95, 5, 1224-
+
+[48.19, 235.56] 1229.
+
+[48.19, 259.56] Voepel-Lewis T.,  Zanotti J., Dammeyer J. & Merkel S. (2010) Reliability and validity of the face, legs, activity, cry, consolability
+
+[48.19, 271.56] behavioral tool in assessing acute pain in critically ill patients. American Journal of Critical Care, 19, 1, 55-61.
+
+[48.19, 295.56] Warren D., Jarvis A., Leblanc L. and the National Triage Force Members. (2001) Canadian Paediatric Triage and Acuity Scale:
+
+[48.19, 307.56] implementation guidelines for Emergency departments. Canadian Journal of Emergency Medicine 3, 4, (supplement):S1-S27.
+
+[48.19, 331.56] Warren D., Jarvis A., LeBlanc L., Gravel J. and the CTAS National Working Group. (2008) Revisions to the Canadian Triage and
+
+[48.19, 343.56] Acuity Scale Paediatric Guidelines (PaedCTAS). Canadian Journal of Emergency Medicine
+ [401.14, 343.56] 10, 3, 224-232.
+
+[48.19, 367.56] Wilson A., Hewitt G., Matthews R., Richards S. and Shepperd S. (2006). ‘Development and testing of a Questionnaire to Measure
+
+[48.19, 379.56] Patient Satisfaction with Intermediate Care’. Quality &. Safety in Health Care, 15, 5, 314-319.
+
+[48.19, 403.56] Wulp I., Baar M. &Schrijvers A. (2008) Reliability and validity of the Manchester Triage System in a general emergency department
+
+[48.19, 415.56] patient population in the Netherlands: results of a simulation study. Emergency Medical Journal, 25, 431–434. 
+
+[48.19, 439.56] Zimmer K., Walker A. & Minkovitz C. (2005) Epidemiology of pediatric emergency department use at an urban medical center.
+
+[48.19, 451.56] Pediatric Emergency Care, 2, 1, 84-9.
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 49
+
+[263.68, 124.16] appendix 1 
+
+[196.40, 160.16] 1.1 Vital signs reference grid(s)
+
+[219.11, 178.16] 1.2 levels of dehydration
+
+[208.40, 196.16] 1.3 major trauma guidelines
+
+[193.78, 214.16] 1.4 levels of respiratory distress
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 50
+
+[48.19, 63.17] 1.1 Vital signs reference grids (adapted from Warren et al 2008)
+
+[48.19, 103.00] respiratory rate Values 
+
+[48.19, 115.00] table 1.
+
+[53.86, 151.00] age
+ [167.95, 151.00] ≤ - 2 sd
+ [228.44, 151.00] - 1 sd
+ [282.64, 151.00] Normal
+ [341.00, 151.00] + 1 sd
+ [397.69, 151.00] + 2 sd
+ [450.63, 151.00] > + 2 sd
+
+[53.86, 165.83] 0 – 3 months
+ [175.50, 165.83] < 20
+ [225.94, 165.83] 21 – 30
+ [283.47, 165.83] 30 - 60
+ [339.33, 165.83] 60 – 70
+ [396.02, 165.83] 70 – 80
+ [458.97, 165.83] > 80
+
+[53.86, 180.67] 4 – 6 months
+ [175.50, 180.67] < 20
+ [225.94, 180.67] 20 – 30
+ [282.64, 180.67] 30 – 60
+ [339.33, 180.67] 60 – 70
+ [396.02, 180.67] 70 – 80
+ [458.97, 180.67] > 80
+
+[53.86, 195.50] 7 -12 months
+ [175.50, 195.50] < 17
+ [225.94, 195.50] 17 – 25
+ [282.64, 195.50] 25 – 45
+ [339.33, 195.50] 45 – 55
+ [396.02, 195.50] 55 – 60
+ [458.97, 195.50] > 60
+
+[53.86, 210.34] 1 – 3 years
+ [175.50, 210.34] < 15
+ [225.94, 210.34] 15 – 20
+ [282.64, 210.34] 20 – 30
+ [339.33, 210.34] 30 – 35
+ [396.02, 210.34] 35 – 40
+ [458.97, 210.34] > 40
+
+[53.86, 225.17] 4 – 6 years
+ [175.50, 225.17] < 12
+ [225.94, 225.17] 12 – 16
+ [282.64, 225.17] 16 – 24
+ [339.33, 225.17] 24 – 28
+ [396.02, 225.17] 28 – 32
+ [458.97, 225.17] > 32
+
+[53.86, 240.01] > 7 years
+ [175.50, 240.01] < 10
+ [225.94, 240.01] 10 – 14
+ [282.64, 240.01] 14 – 20
+ [339.33, 240.01] 20 – 24
+ [396.02, 240.01] 24 – 26
+ [458.97, 240.01] > 26
+
+[48.19, 261.84] SD: standard deviation
+
+[48.19, 281.84] heart rate Values 
+
+[48.19, 293.84] table 2.
+
+[53.86, 326.84] age
+ [167.95, 326.84] ≤ - 2 sd
+ [228.44, 326.84] - 1 sd
+ [282.64, 326.84] Normal
+ [341.00, 326.84] + 1 sd
+ [397.69, 326.84] + 2 sd
+ [450.63, 326.84] > + 2 sd
+
+[53.86, 341.68] 0 – 3 months
+ [175.50, 341.68] < 65
+ [225.94, 341.68] 65 – 90
+ [280.14, 341.68] 90 – 180
+ [334.33, 341.68] 180 – 205
+ [391.02, 341.68] 205 – 230
+ [456.47, 341.68] > 230
+
+[53.86, 356.51] 4 – 6 months
+ [175.50, 356.51] < 63
+ [225.94, 356.51] 63 – 80
+ [280.14, 356.51] 80 – 160
+ [334.33, 356.51] 160 – 180
+ [391.02, 356.51] 180 – 210
+ [456.47, 356.51] > 210
+
+[53.86, 371.34] 7 -12 months
+ [175.50, 371.34] < 60
+ [225.95, 371.34] 60 – 80
+ [280.14, 371.34] 80 – 140
+ [334.33, 371.34] 140 – 160
+ [391.02, 371.34] 160 – 180
+ [456.47, 371.34] > 180
+
+[53.86, 386.18] 1 – 3 years
+ [175.50, 386.18] < 58
+ [225.95, 386.18] 58 – 75
+ [280.14, 386.18] 75 – 130
+ [334.33, 386.18] 130 – 145
+ [391.02, 386.18] 145 – 165
+ [456.47, 386.18] > 165
+
+[53.86, 401.01] 4 – 6 years
+ [175.50, 401.01] < 55
+ [225.95, 401.01] 55 – 70
+ [280.14, 401.01] 70 – 110
+ [334.33, 401.01] 110 – 125
+ [391.02, 401.01] 125 – 140
+ [456.47, 401.01] > 140
+
+[53.86, 415.85] > 7 years
+ [175.50, 415.85] < 45
+ [225.95, 415.85] 45 – 60
+ [282.64, 415.85] 60 – 90
+ [336.83, 415.85] 90 – 105
+ [391.02, 415.85] 105 – 120
+ [456.47, 415.85] > 120
+
+[48.19, 437.68] SD: standard deviation
+
+[53.86, 472.35] colour
+ [211.81, 472.35] triage category
+
+[53.86, 490.02] red
+ [211.81, 490.02] triage category 1
+
+[53.86, 508.69] orange
+ [211.81, 508.69] triage category 2
+
+[53.86, 527.36] yellow
+ [211.81, 527.36] triage category 3
+
+[53.86, 546.03] White
+ [211.81, 546.03] triage category not determined by pulse or respiration rate
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 51
+
+[48.19, 106.00] classification of hypertension by age group 
+
+[48.19, 130.00] table 3.
+
+[53.86, 166.00] age group
+ [216.32, 166.00] significant hypertension
+ [369.51, 166.00] severe hypertension
+
+[248.27, 178.00] (mm hg)
+ [393.95, 178.00] (mm hg)
+
+[53.86, 202.00] Neonate (< 7 days)
+ [233.73, 202.00] Systolic BP ≥ 96
+ [376.91, 202.00] Systolic BP ≥ 106
+
+[53.86, 226.00] Neonate (8 – 30 days)
+ [231.23, 226.00] Systolic BP ≥ 104
+ [376.91, 226.00] Systolic BP ≥ 110
+
+[53.86, 250.00] Infant (< 2 years)
+ [231.23, 250.00] Systolic BP ≥ 112
+ [376.91, 250.00] Systolic BP ≥ 118
+
+[232.34, 262.00] Diastolic BP ≥ 74
+ [378.03, 262.00] Diastolic BP ≥ 82
+
+[53.86, 286.00] Children (3 – 5 years)
+ [231.23, 286.00] Systolic BP ≥ 116
+ [376.91, 286.00] Systolic BP ≥ 124
+
+[232.34, 298.00] Diastolic BP ≥ 76
+ [378.03, 298.00] Diastolic BP ≥ 84
+
+[53.86, 322.00] Children (6 – 9 years)
+ [231.23, 322.00] Systolic BP ≥ 122
+ [376.91, 322.00] Systolic BP ≥ 130
+
+[232.34, 334.00] Diastolic BP ≥ 78
+ [378.03, 334.00] Diastolic BP ≥ 86
+
+[53.86, 358.00] Children (10 – 12 years)
+ [231.23, 358.00] Systolic BP ≥ 126
+ [376.91, 358.00] Systolic BP ≥ 134
+
+[232.34, 370.00] Diastolic BP ≥ 82
+ [378.03, 370.00] Diastolic BP ≥ 90
+
+[53.86, 394.00] Adolescents (13 – 15 years)
+ [231.23, 394.00] Systolic BP ≥ 136
+ [376.91, 394.00] Systolic BP ≥ 144
+
+[232.34, 406.00] Diastolic BP ≥ 86
+ [378.03, 406.00] Diastolic BP ≥ 92
+
+[53.86, 430.00] Adolescents (16 – 18 years)
+ [231.23, 430.00] Systolic BP ≥ 142
+ [376.91, 430.00] Systolic BP ≥ 150
+
+[232.34, 442.00] Diastolic BP ≥ 92
+ [378.03, 442.00] Diastolic BP ≥ 98
+
+[53.86, 490.00] colour
+ [212.60, 490.00] triage category
+
+[53.86, 525.34] orange
+ [212.60, 525.34] triage category 2
+
+[53.86, 543.01] yellow
+ [212.60, 543.01] triage category 3
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 52
+
+[48.19, 103.56] Notes
+
+[48.19, 128.38] 
+ [70.87, 128.38] sd = standard deviation
+
+[48.19, 153.19] 
+ [70.87, 153.19] children with a heart or respiratory rate less than or equal to minus two standard deviations (≤ - 2 s/d) from the normal
+
+[70.87, 165.19] range should never be triaged less than category 1 (red)
+ [306.58, 165.19] even in the absence of any other clinical indicator.
+
+[48.19, 190.01] 
+ [70.87, 190.01] children with a heart or respiratory rate greater than plus two standard deviations (> + 2 s/d) from the normal range
+
+[70.87, 202.01] should never be triaged less than category 2 (orange)
+ [294.08, 202.01] even in the absence of any other clinical indicator.
+
+[48.19, 226.83] 
+ [70.87, 226.83] children less than one year with a heart rate of minus one standard deviation (- 1 s/d) from the normal range should
+
+[70.87, 238.83] never be triaged less than category 1 (red)
+ [251.03, 238.83] even in the absence of any other clinical indicator. 
+
+[48.19, 263.65] 
+ [70.87, 263.65] children greater than 1 year with a heart rate of minus one standard deviation (- 1 s/d) from the normal range should
+
+[70.87, 275.65] never be triaged less than category 2 (orange)
+ [264.36, 275.65] even in the absence of any other clinical indicator.
+
+[48.19, 300.47] 
+ [70.87, 300.47] children with a respiratory rate of minus one standard deviation (- 1 s/d) from the normal range should never be
+
+[70.87, 312.47] triaged less than category 3 (yellow)
+ [224.39, 312.47] even in the absence of any other clinical indicator.  
+
+[48.19, 337.28] 
+ [70.87, 337.28] children with a heart or respiratory rate plus two standard deviations (+ 2 s/d) from the normal range should never be
+
+[70.87, 349.28] triaged less than category 3 (yellow)
+ [224.39, 349.28] even in the absence of any other clinical indicator.
+
+[48.19, 374.10] 
+ [70.87, 374.10] in children with renal conditions, severe hypertension should never be triaged less than category 2 (orange) even in
+
+[70.87, 386.10] the absence of any other clinical indicator.
+
+[48.19, 410.92] 
+ [70.87, 410.92] in children with renal conditions, significant hypertension should never be triaged less than category 3 (yellow)
+ [527.65, 410.92] even
+
+[70.87, 422.92] in the absence of any other clinical indicator.
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 53
+
+[48.19, 63.17] 1.2 levels of dehydration
+
+[48.19, 103.56] severe dehydration
+
+[48.19, 128.38] 
+ [70.87, 128.38] >10% loss of body weight
+
+[48.19, 141.19] 
+ [70.87, 141.19] Poor peripheral perfusion with prolonged capillary refill time
+
+[48.19, 154.01] 
+ [70.87, 154.01] Cool peripheries
+
+[48.19, 166.83] 
+ [70.87, 166.83] Low blood pressure
+
+[48.19, 179.65] 
+ [70.87, 179.65] Anuria
+
+[48.19, 192.47] 
+ [70.87, 192.47] Lethargic to comatose
+
+[48.19, 228.47] moderate dehydration
+
+[48.19, 253.28] 
+ [70.87, 253.28] > 5% loss of body weight
+
+[48.19, 266.10] 
+ [70.87, 266.10] Tachycardia (Appendix 1.1)
+
+[48.19, 278.92] 
+ [70.87, 278.92] Poor tear production
+
+[48.19, 291.74] 
+ [70.87, 291.74] Decreased skin turgor
+
+[48.19, 304.56] 
+ [70.87, 304.56] Sunken eyes
+
+[48.19, 317.37] 
+ [70.87, 317.37] Sunken/bulging fontanelle
+
+[48.19, 330.19] 
+ [70.87, 330.19] Oliguria
+
+[48.19, 343.01] 
+ [70.87, 343.01] Restless to lethargic
+
+[48.19, 379.01] mild dehydration
+
+[48.19, 403.83] 
+ [70.87, 403.83] 5% loss of body weight
+
+[48.19, 416.65] 
+ [70.87, 416.65] Slightly dry mucous membranes
+
+[48.19, 429.46] 
+ [70.87, 429.46] Slightly decreased urine output
+
+[48.19, 442.28] 
+ [70.87, 442.28] Increased thirst
+
+[48.19, 455.10] 
+ [70.87, 455.10] Irritable
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 54
+
+[48.19, 63.17] 1.3 major trauma guidelines
+
+[48.19, 103.56] the conscious patient with any of the following:
+
+[48.19, 128.38] 
+ [70.87, 128.38] A mechanism of injury that may indicate high risk: 
+
+[70.87, 141.19] 
+ [93.54, 141.19] Pedestrian / cyclist hit > 30km/hr.
+
+[70.87, 154.01] 
+ [93.54, 154.01] Passenger - collision > 60km/hr.
+
+[70.87, 166.83] 
+ [93.54, 166.83] Fall from significant height
+
+[70.87, 179.65] 
+ [93.54, 179.65] More than twice the child’s height and / or fall onto an unyielding surface
+
+[70.87, 192.47] 
+ [93.54, 192.47] Kick/fall from a horse
+
+[70.87, 205.28] 
+ [93.54, 205.28] Rolled over by a car
+
+[70.87, 218.10] 
+ [93.54, 218.10] Ejected from vehicle
+
+[70.87, 230.92] 
+ [93.54, 230.92] Thrown over handlebars of bike
+
+[70.87, 243.74] 
+ [93.54, 243.74] Fall down flight of stairs
+
+[48.19, 256.56] 
+ [70.87, 256.56] Death of other victim(s) of the incident
+
+[48.19, 269.37] 
+ [70.87, 269.37] Unrestrained passenger
+
+[48.19, 282.19] 
+ [70.87, 282.19] History of submersion
+
+[48.19, 295.01] 
+ [70.87, 295.01] Multiple trauma 
+
+[48.19, 307.83] 
+ [70.87, 307.83] Significant injury above clavicles 
+
+[48.19, 320.65] 
+ [70.87, 320.65] Trauma & unexplained hypotension 
+
+[48.19, 333.46] 
+ [70.87, 333.46] History of neck trauma / spinal cord trauma 
+
+[48.19, 346.28] 
+ [70.87, 346.28] Neurological deficit 
+
+[48.19, 359.10] 
+ [70.87, 359.10] Other major injuries (e.g. fractured limbs in 2 or more body regions, abdominal injury, pelvic injury, back, femur)
+
+[48.19, 371.92] 
+ [70.87, 371.92] Penetrating injury to chest, head, neck, abdomen, groin or back
+
+[48.19, 384.74] 
+ [70.87, 384.74] Burns > 10% body surface 
+
+[48.19, 397.55] 
+ [70.87, 397.55] Clear fluid leak from ear or nose
+
+[48.19, 410.37] 
+ [70.87, 410.37] New neurological symptoms 
+
+[70.87, 423.19] 
+ [93.54, 423.19] Sudden onset of confusion, weakness / irritability or drowsiness
+
+[48.19, 459.19] Physical findings:
+
+[48.19, 484.01] 
+ [70.87, 484.01] Airway obstruction
+
+[48.19, 496.83] 
+ [70.87, 496.83] Shallow breathing
+
+[48.19, 509.64] 
+ [70.87, 509.64] Cyanosis
+
+[48.19, 522.46] 
+ [70.87, 522.46] Signs of significant shock
+
+[48.19, 535.28] 
+ [70.87, 535.28] Altered Glasgow Coma Scale
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 55
+
+[48.19, 63.17] 1.4 levels of respiratory distress
+
+[48.19, 103.56] severe respiratory distress
+
+[48.19, 128.38] 
+ [70.87, 128.38] Stridor at rest 
+
+[48.19, 141.19] 
+ [70.87, 141.19] Severe increase in work of breathing
+
+[48.19, 154.01] 
+ [70.87, 154.01] Sighing / grunting respirations
+
+[48.19, 166.83] 
+ [70.87, 166.83] Nasal flaring
+
+[48.19, 179.65] 
+ [70.87, 179.65] Unable to talk in sentences / single words only 
+
+[48.19, 192.47] 
+ [70.87, 192.47] Marked limitation of ability to talk
+
+[48.19, 205.28] 
+ [70.87, 205.28] Agitated / Distressed 
+
+[48.19, 218.10] 
+ [70.87, 218.10] Minimal respiratory effort
+
+[48.19, 230.92] 
+ [70.87, 230.92] Moderate – marked accessory muscle use / recession
+
+[48.19, 243.74] 
+ [70.87, 243.74] Tachycardia
+
+[48.19, 256.56] 
+ [70.87, 256.56] Head bobbing in the infant
+
+[48.19, 269.37] 
+ [70.87, 269.37] O2 saturation < 92% 
+
+[48.19, 282.19] 
+ [70.87, 282.19] PEFR < 40%
+
+[48.19, 318.19] moderate respiratory distress 
+
+[48.19, 343.01] 
+ [70.87, 343.01] Tracheal tug, intercostal / subcostal recession, nasal flaring, chest pain
+
+[48.19, 355.83] 
+ [70.87, 355.83] Mild stridor
+
+[48.19, 368.65] 
+ [70.87, 368.65] Constant cough – appears distressed
+
+[48.19, 381.46] 
+ [70.87, 381.46] Normal mental state
+
+[48.19, 394.28] 
+ [70.87, 394.28] Some accessory muscle use / recession
+
+[48.19, 407.10] 
+ [70.87, 407.10] O2 saturation 92-94% in air
+
+[48.19, 419.92] 
+ [70.87, 419.92] Tachycardia
+
+[48.19, 432.74] 
+ [70.87, 432.74] Some limitation of ability to talk
+
+[48.19, 445.55] 
+ [70.87, 445.55] PEFR 40-70%
+
+[48.19, 481.55] mild respiratory distress 
+
+[48.19, 506.37] 
+ [70.87, 506.37] Normal mental state
+
+[48.19, 519.19] 
+ [70.87, 519.19] Subtle or no accessory muscle use / recession
+
+[48.19, 532.01] 
+ [70.87, 532.01] O2 saturation > 94% (may be normal even in severe asthma)
+
+[48.19, 544.83] 
+ [70.87, 544.83] Able to talk normally
+
+[48.19, 557.64] 
+ [70.87, 557.64] PEFR > 70%
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 56
+
+[263.68, 124.16] appendix 2
+
+[192.88, 160.16] icts Validation sample audit tool
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 57
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 58
+
+[263.68, 124.16] appendix 3
+
+[242.22, 160.16] acknowledgments
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 59
+
+[48.19, 63.17] acknowledgements
+
+[48.19, 103.56] The National Emergency Medicine Programme (EMP) acknowledges the assistance of the EMP Working Group, Emergency
+
+[48.19, 115.56] Nursing Interest Group (ENIG), the ICTS Project Subgroup and the ICTS Steering Group in the development of this tool and
+
+[48.19, 127.56] would like to thank especially the Emergency Department (ED) teams in the six hospitals who participated in the pilot phase of
+
+[48.19, 139.56] the project. 
+
+[48.19, 175.56] icts Project subgroup (2011)
+
+[48.19, 199.56] Ms Mary Forde, Clinical Nurse Manager 2 / Acting Assistant Director of Nursing, Cork University Hospital 
+
+[48.19, 214.39] Ms Bridget Conway, Clinical Nurse Manager 3, ED, Our Lady’s Children’s Hospital, Crumlin 
+
+[48.19, 229.23] Ms Annemarie Dowling, Clinical Nurse Manager 3, ED, Temple St Children’s University Hospital 
+
+[48.19, 244.06] Ms Charlotte O’Dwyer, Clinical Nurse Manager 3, ED, National Children’s Hospital, Tallaght 
+
+[48.19, 258.90] Ms Helen Hanrahan, Assistant Director of Nursing, Galway University Hospital
+
+[48.19, 273.73] Ms Ciara Finnerty, Assistant Director of Nursing, Our Lady of Lourdes Hospital, Drogheda 
+
+[48.19, 288.57] Prof Ronan O’Sullivan, Consultant in Paediatric Emergency Medicine, Cork University Hospital 
+
+[48.19, 303.40] Dr Carol Blackburn, Consultant in Paediatric Emergency Medicine, Our Lady’s Children’s Hospital, Crumlin
+
+[48.19, 351.40] icts steering group (2013) 
+
+[48.19, 375.40] In January 2013, at the request of Dr Una Geary, Clinical Lead EMP, a steering group was convened comprising the members of
+
+[48.19, 387.40] the ICTS project subgroup, additional experts and key stakeholders to further assist and develop the work already undertaken by
+
+[48.19, 399.40] the project subgroup. The following members are acknowledged for their contribution,
+
+[48.19, 423.40] Ms Geraldine Shaw, Director of Nursing EMP / Office of Nursing & Midwifery Service Directorate (outgoing chair) 
+
+[48.19, 438.23] Ms Valerie Small, Advanced Nurse Practitioner, Advisor EMP Working Group (incoming chair) 
+
+[48.19, 453.07] Ms Ita Larkin, Clinical Nurse Manager / Acting Assistant Director of Nursing, Wexford General Hospital
+
+[48.19, 467.90] Dr Ciara Martin, Consultant in Paediatric Emergency Medicine, National Children’s Hospital, Tallaght 
+
+[48.19, 482.74] Dr Róisín McNamara, Consultant in Paediatric Emergency Medicine, Temple Street Children’s University Hospital 
+
+[48.19, 497.57] Dr Sean Walsh, Consultant in Paediatric Emergency Medicine, Our Lady’s Children’s Hospital, Crumlin 
+
+[48.19, 512.41] Ms Suzanne Dempsey, Director of Nursing, Temple Street Children’s University Hospital 
+
+[48.19, 527.24] Mr James Binchy, Consultant in Emergency Medicine, Galway & Roscommon Group
+
+[48.19, 542.08] Ms Sinead O Connor, Programme Manager, National Emergency Medicine Programme
+
+[48.19, 590.08] the following people are also acknowledged for their contribution to the final icts document.
+
+[48.19, 614.08] Ms Fiona Mc Daid, Nurse Lead, National Emergency Medicine Programme
+
+[48.19, 628.91] Ms Ruth Devers, Clinical Nurse Manager 2, Temple Street Children's University Hospital
+
+[48.19, 643.75] Ms Mary Tumelty, Clinical Nurse Manager 3, National Children's Hospital, Tallaght
+
+[48.19, 658.58] Mr Fergal Hickey, Consultant in Emergency Medicine, Sligo University Hospital
+
+[48.19, 673.42] Ms Breda Naddy, Programme Manager, National Emergency Medicine Programme 
+
+[48.19, 688.25] Ms Sinead Reilly, National Emergency Medicine Programme Administrator
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 60
+
+[263.68, 124.16] appendix 4
+
+[194.50, 160.16] Key stakeholder consultation list
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 61
+
+[48.19, 63.17] Key stakeholder consultation list (2013-2014)
+
+[48.19, 103.56] Clinical Directors
+
+[48.19, 124.06] Clinical Strategy and Programmes Division
+
+[48.19, 144.57] Directors of nursing/midwifery strategic reference group (clinical care programmes)
+
+[48.19, 165.07] Faculty of Paediatrics Royal College of Physicians of Ireland
+
+[48.19, 185.57] Health Information and Quality Authority
+
+[48.19, 206.08] Hospital management teams 
+
+[48.19, 226.58] HSE Acute Hospitals Office
+
+[48.19, 247.09] Irish Association of Directors of Nursing and Midwifery (IADNM)
+
+[48.19, 267.59] Irish Association for Emergency Medicine
+
+[48.19, 288.09] National Ambulance Service
+
+[48.19, 308.60] National Emergency Medicine Programme / Emergency Nursing Interest Group
+
+[48.19, 329.10] National Paediatric Clinical Care Programme
+
+[48.19, 349.61] Nursing & Midwifery Board of Ireland
+
+[48.19, 370.11] Nursing and Midwifery Planning and Development Units , HSE
+
+[48.19, 390.61] Office of Nursing and Midwifery Services Director, HSE
+
+[48.19, 411.12] Patient representatives / HSE Advocacy Unit
+
+[48.19, 431.62] Quality and Patient Safety Directorate
+
+[48.19, 452.12] Regional development officer programme Implementation Leads
+
+[48.19, 472.63] State Claims Agency
+
+[154.20, 800.16] V1  |  Irish Children’s Triage System  |  National Emergency Medicine Programme  |  2016©
+
+[293.14, 812.97] 62
+
+[240.31, 796.26] Printed by hsE Print (01) 626 3447
+
