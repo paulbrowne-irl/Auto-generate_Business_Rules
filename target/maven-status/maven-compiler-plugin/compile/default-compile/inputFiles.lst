@@ -1,6 +1,10 @@
-C:\Users\paulf\Projects\Book_v2_Chap_8_9_sdd\src\main\java\com\triage\Main.java
-C:\Users\paulf\Projects\Book_v2_Chap_8_9_sdd\src\main\java\com\triage\model\Patient.java
-C:\Users\paulf\Projects\Book_v2_Chap_8_9_sdd\src\main\java\com\triage\model\Symptom.java
-C:\Users\paulf\Projects\Book_v2_Chap_8_9_sdd\src\main\java\com\triage\model\TriageResult.java
 C:\Users\paulf\Projects\Book_v2_Chap_8_9_sdd\src\main\java\com\triage\rules\TriageEngine.java
+C:\Users\paulf\Projects\Book_v2_Chap_8_9_sdd\src\main\java\com\triage\model\TriageResult.java
+C:\Users\paulf\Projects\Book_v2_Chap_8_9_sdd\src\main\java\com\triage\TriageApplication.java
+C:\Users\paulf\Projects\Book_v2_Chap_8_9_sdd\src\main\java\com\triage\model\Symptom.java
+C:\Users\paulf\Projects\Book_v2_Chap_8_9_sdd\src\main\java\com\triage\service\RuleGenerationService.java
+C:\Users\paulf\Projects\Book_v2_Chap_8_9_sdd\src\main\java\com\triage\model\Patient.java
 C:\Users\paulf\Projects\Book_v2_Chap_8_9_sdd\src\main\java\com\triage\rules\TriageRuleGenerator.java
+C:\Users\paulf\Projects\Book_v2_Chap_8_9_sdd\src\main\java\com\triage\service\TriageService.java
+C:\Users\paulf\Projects\Book_v2_Chap_8_9_sdd\src\main\java\com\triage\cli\ConsoleRunner.java
+C:\Users\paulf\Projects\Book_v2_Chap_8_9_sdd\src\main\java\com\triage\controller\TriageController.java

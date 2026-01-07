@@ -1,8 +1,12 @@
 com\triage\rules\TriageRuleGenerator$TriageRule.class
-com\triage\Main.class
+com\triage\service\TriageService.class
 com\triage\rules\TriageRuleGenerator.class
 com\triage\model\Patient.class
 com\triage\rules\TriageRuleGenerator$1.class
+com\triage\TriageApplication.class
+com\triage\cli\ConsoleRunner.class
 com\triage\model\Symptom.class
 com\triage\model\TriageResult.class
+com\triage\service\RuleGenerationService.class
 com\triage\rules\TriageEngine.class
+com\triage\controller\TriageController.class

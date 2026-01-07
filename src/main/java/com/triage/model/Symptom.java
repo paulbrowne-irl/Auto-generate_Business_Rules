@@ -5,6 +5,9 @@ public class Symptom {
     private String stringValue;
     private Double numericValue;
 
+    public Symptom() {
+    }
+
     public Symptom(String name) {
         this.name = name;
     }
@@ -19,14 +22,36 @@ public class Symptom {
         this.numericValue = numericValue;
     }
 
-    public String getName() { return name; }
-    public String getStringValue() { return stringValue; }
-    public Double getNumericValue() { return numericValue; }
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getStringValue() {
+        return stringValue;
+    }
+
+    public void setStringValue(String stringValue) {
+        this.stringValue = stringValue;
+    }
+
+    public Double getNumericValue() {
+        return numericValue;
+    }
+
+    public void setNumericValue(Double numericValue) {
+        this.numericValue = numericValue;
+    }
 
     @Override
     public String toString() {
-        if (numericValue != null) return name + ": " + numericValue;
-        if (stringValue != null) return name + ": " + stringValue;
+        if (numericValue != null)
+            return name + ": " + numericValue;
+        if (stringValue != null)
+            return name + ": " + stringValue;
         return name;
     }
 }

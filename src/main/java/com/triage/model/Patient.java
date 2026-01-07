@@ -5,8 +5,12 @@ import java.util.List;
 
 public class Patient {
     private String id;
-    private int age; // in years, or months? Let's assume years for simplicity, or handle both.
+    private int age;
     private List<Symptom> symptoms;
+
+    public Patient() {
+        this.symptoms = new ArrayList<>();
+    }
 
     public Patient(String id, int age) {
         this.id = id;
@@ -22,10 +26,23 @@ public class Patient {
         return symptoms;
     }
 
+    public void setSymptoms(List<Symptom> symptoms) {
+        this.symptoms = symptoms;
+    }
+
     public int getAge() {
         return age;
     }
 
-    // Getters and setters
-    public String getId() { return id; }
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
 }

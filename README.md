@@ -17,50 +17,50 @@ This project is a Java-based application that digitizes the **National Emergency
 
 ## Getting Started
 
-### 1. Build the Project
-Compile the code and copy dependencies:
+### 1. Build the Application
 ```bash
-mvn clean compile dependency:copy-dependencies
+mvn clean package
 ```
 
 ### 2. Run the Application
-A helper script `run.bat` is provided for convenience.
-
-**Generate Rules**
-First, you must parse the PDF to generate the `.drl` file:
+You can run the application as a standard Java JAR. This starts both the **Console Interface** and the **REST API** (on port 8080).
 ```bash
-run.bat generate
-```
-*Output: `generated_rules/triage.drl`*
-
-**Interactive Mode**
-Run the triage system to evaluate a patient:
-```bash
-run.bat
+java -jar target/triage-system-1.0-SNAPSHOT.jar
 ```
 
-### Usage Example
+### 3. Usage
 
-```text
-> run.bat
-...
---- Triage System Interactive Mode ---
+#### Console Interface
+Follow the on-screen menu to:
+1.  **Triage Patient**: Input age and symptoms interactively.
+2.  **Generate Rules**: Parse the PDF to create/update the `.drl` file.
+3.  **List Symptoms**: View all available symptoms from the rules.
 
-Enter Patient Age (or 'exit'): 10
-Enter symptoms (type 'done' to finish):
-> Airway compromise
-> done
-
->>> Result: Triage Result: Red (Priority 1)
+#### REST API
+**Endpoint:** `POST /api/triage`
+**Body:**
+```json
+{
+  "age": 10,
+  "symptoms": [
+    { "name": "Airway compromise" }
+  ]
+}
 ```
+
+**Endpoint:** `GET /api/symptoms`
+- Returns a list of all valid symptoms found in the rules.
 
 ## Project Structure
 
-*   `src/main/java/com/triage/model`: Domain models (`Patient`, `Symptom`, `TriageResult`).
-*   `src/main/java/com/triage/rules`:
-    *   `TriageRuleGenerator.java`: Logic to parse the PDF and write the DRL file.
-    *   `TriageEngine.java`: Wrapper around the KIE session to execute rules.
-*   `src/main/java/com/triage/Main.java`: CLI entry point.
+*   `src/main/java/com/triage`:
+    *   `TriageApplication.java`: Spring Boot entry point.
+    *   `controller/TriageController.java`: REST API endpoints.
+    *   `cli/ConsoleRunner.java`: Interactive command-line logic.
+    *   `service/`:
+        *   `RuleGenerationService.java`: PDF parsing logic.
+        *   `TriageService.java`: Rules Engine wrapper.
+    *   `model/`: Domain models (`Patient`, `Symptom`, `TriageResult`).
 *   `spec/`: Contains the source PDF.
 *   `generated_rules/`: Destination for the generated Drools file.
 
