@@ -8,3 +8,7 @@ The GUI should have the following features:
 * A display area for the output
 * A button to save the output to a file
 * A button to exit the application
+
+Update all necessary source code to implement the GUI, including the pom.xml file, Readme.md, run.bat, tests in the tests folder. 
+
+Do not udpate the triage.drl file.
