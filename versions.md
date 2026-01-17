@@ -4,4 +4,4 @@ TAG1 : RC - Working version, command line
 L- Branch:GUI - attempt to add GUI to TAG1 Base
 L- ?? Branch:MCP - attempt to add MCP to TAG1 Base
 L- ?? Branch:Web - attempt to add Web to TAG1 Base
-TAG2: GUI - Working version
+TAG2: GUI - Working version using Swing 
