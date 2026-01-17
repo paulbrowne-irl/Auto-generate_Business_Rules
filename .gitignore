@@ -18,6 +18,7 @@
 *.zip
 *.tar.gz
 *.rar
+*.class
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
@@ -27,3 +28,4 @@ target/
 src/test/resources/features/triage/triage.feature
 target/triage-system-1.0-SNAPSHOT.jar
 target/triage-system-1.0-SNAPSHOT.jar.original
+target/classes/com/triage/TriageApplication.class
