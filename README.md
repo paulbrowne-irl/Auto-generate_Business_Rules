@@ -6,6 +6,9 @@ By ingesting a human-readable technical specification and a source reference (su
 
 Crucially, the system is deterministic, meaning that once built it will always generate the same output for the same input. This is important for safety and reliability in critical environments.
 
+## Video Walk through of this project
+
+[![100% accurate AI using Business Rules (Spec Driven Development)](https://img.youtube.com/vi/RdMyVLysxos/maxresdefault.jpg)](https://www.youtube.com/watch?v=RdMyVLysxos)
 
 ## Key Capabilities
 **Deterministic Business Rules**: To ensure safety and reliability in critical environments, the system extracts logic into human-readable business rules. These rules are guaranteed to execute exactly as written by the AI Business Rules engine, effectively eliminating hallucinations.
@@ -25,10 +28,6 @@ Crucially, the system is deterministic, meaning that once built it will always g
 
 ## Starting Spec
 The main branch shows the final result, after the Spec-Driven Development process is complete. If you want to see the "before" state (i.e. the 2-3 files we give the system as a starting point) , look at this branch - https://github.com/paulbrowne-irl/Auto-generate_Business_Rules/tree/Starting_spec)
-
-## Video Walk through of this project
-
-[![100% accurate AI using Business Rules (Spec Driven Development)](https://img.youtube.com/vi/RdMyVLysxos/maxresdefault.jpg)](https://www.youtube.com/watch?v=RdMyVLysxos)
 
 >
 > IMPORTANT:
